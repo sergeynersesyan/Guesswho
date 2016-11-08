@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink_cc0099">#CC0099</color>
+    <color name="pink_main">#c238eb</color>
+    <color name="pink_main_ligter">#d757f6</color>
+    <color name="purplapink_alt">#7e2199</color>
+
+    <color name="color_question_text">#c9f1fd</color>
+    <color name="gold">#fec63d</color>
+    <color name="color_opt_text">#ffff00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#222222</color>
+    <color name="gray">#606060</color>
+    <color name="purple_main">#5125ad</color>
+    <color name="white_transparent">#88FFFFFF</color>
+    <color name="blue_sky">#9ecde7</color>
+    <color name="blue_options">#3d8af7</color>
+    <color name="red">#dd0000</color>
+    <color name="color_error">#ff8a84</color>
+
+    <color name="color_right">#92d36e</color>
+    <color name="green">#00aa00</color>
+
+
+
+
+</resources>

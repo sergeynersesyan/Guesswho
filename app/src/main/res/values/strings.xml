@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Guess who</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_package_list_activity">package_list_activity</string>
+    <string name="not_sure_text">Not Sure Yet</string>
+
+
+    <!--..................................package 1......................................-->
+    <string name="package1UID">trial</string>
+    <string name="package1title">Trial</string>
+    <string name="package1description">same trial question several times</string>
+    <integer name="package1questionCount">3</integer>
+
+    <string-array name="trialQuestion1">
+        <item>Which of the following are given the title of Pharaoh?</item>
+        <item>Who is left his invasions unfinished because of the disease.</item>
+        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    </string-array>
+    <string-array name="trialAnswers1">
+        <item>Napoleon</item>
+        <item>Hannibal</item>
+        <item>Alexander the Great</item>
+        <item>Attila</item>
+    </string-array>
+    <string name="trialAnswer1">Alexander the Great</string>
+
+    <string-array name="trialQuestion2">
+        <item>Wh1ich of the following are given the title of Pharaoh?</item>
+        <item>Who1 is left his invasions unfinished because of the disease Wh1ich of the following are given the title of PharaohWh1ich of the following are given the title of PharaohWh1ich of the following are given the title of Pharaoh.</item>
+        <item>Whos1e teacher was the Greek philosopher Aristotle.</item>
+    </string-array>
+    <string-array name="trialAnswers2">
+        <item>Napol1eon</item>
+        <item>Hannib1al</item>
+        <item>Alexand1er the Great</item>
+        <item>Attila1</item>
+    </string-array>
+    <string name="trialAnswer2">Alexand1er the Great</string>
+
+    <string-array name="trialQuestion3">
+        <item>2Which of the following are given the title of Pharaoh?</item>
+        <item>W2ho is left his invasions unfinished because of the disease.</item>
+        <item>Wh2ose teacher was the Greek philosopher Aristotle.</item>
+    </string-array>
+    <string-array name="trialAnswers3">
+        <item>2Napoleon</item>
+        <item>H2annibal</item>
+        <item>Al2exander the Great</item>
+        <item>Att2ila</item>
+    </string-array>
+    <string name="trialAnswer3">Al2exander the Great</string>
+
+
+    <!--..................................package 2......................................-->
+    <string name="package2UID">king</string>
+    <string name="package2title">King Ming</string>
+    <string name="package2description">same king question several times</string>
+    <integer name="package2questionCount">3</integer>
+
+    <string-array name="kingQuestion1">
+        <item>KWhich of the following are given the title of Pharaoh?</item>
+        <item>KWho is left his invasions unfinished because of the disease.</item>
+        <item>KWhose teacher was the Greek philosopher Aristotle.</item>
+    </string-array>
+    <string-array name="kingAnswers1">
+        <item>kNapoleon</item>
+        <item>Hannibal</item>
+        <item>Alexander the Great</item>
+        <item>Attila</item>
+    </string-array>
+    <string name="kingAnswer1">Alexander the Great</string>
+
+    <string-array name="kingQuestion2">
+        <item>k2Which of the following are given the title of Pharaoh?</item>
+        <item>Who is left his invasions unfinished because of the disease.</item>
+        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    </string-array>
+    <string-array name="kingAnswers2">
+        <item>k2Napoleon</item>
+        <item>Hannibal</item>
+        <item>Alexander the Great</item>
+        <item>Attila</item>
+    </string-array>
+    <string name="kingAnswer2">Alexander the Great</string>
+
+    <string-array name="kingQuestion3">
+        <item>k3Which of the following are given the title of Pharaoh?</item>
+        <item>Who is left his invasions unfinished because of the disease.</item>
+        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    </string-array>
+    <string-array name="kingAnswers3">
+        <item>k3Napoleon</item>
+        <item>Hannibal</item>
+        <item>Alexander the Great</item>
+        <item>Attila</item>
+    </string-array>
+    <string name="kingAnswer3">Alexander the Great</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

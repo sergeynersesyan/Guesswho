@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars_720x1200"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/questions_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="160dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            tools:context="com.orig.guesswho.activity.QuestionActivity"
+            >
+
+            <LinearLayout
+                android:id="@+id/coins_linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/coins_icon_imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/coin_phone"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+                <TextView
+                    android:id="@+id/total_coins_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="0"
+                    android:textColor="@color/gold"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/plus_coins_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="+0"
+                    android:textColor="@color/color_right"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/story_title_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="Story Title"
+                android:textColor="@color/purple_main"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/part0_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="adfsdfsdcsdfcsdzcasdas"
+                android:textColor="@color/color_question_text"
+                android:textSize="@dimen/question_text_size" />
+
+            <TextView
+                android:id="@+id/part1_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textColor="@color/color_question_text"
+                android:textSize="@dimen/question_text_size"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/part2_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textColor="@color/color_question_text"
+                android:textSize="@dimen/question_text_size"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <RelativeLayout
+        android:id="@+id/answers_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white_transparent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/main_question_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:minWidth="108dp"
+            android:text="asdasdasdad"
+            android:textColor="@color/pink_main"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/answer_1"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/main_question_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/answer_options_button"
+            android:gravity="center"
+            android:maxLines="2"
+            android:minWidth="108dp"
+            android:text="answer1"
+            android:textColor="@color/color_opt_text"
+            android:textSize="@dimen/answer_text_size" />
+
+        <TextView
+            android:id="@+id/answer_2"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/main_question_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/answer_options_button"
+            android:gravity="center"
+            android:maxLines="2"
+            android:minWidth="108dp"
+            android:text="answer2"
+            android:textColor="@color/color_opt_text"
+            android:textSize="@dimen/answer_text_size" />
+
+        <TextView
+            android:id="@+id/answer_3"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/answer_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/answer_options_button"
+            android:gravity="center"
+            android:maxLines="2"
+            android:minWidth="112dp"
+            android:text="answer3"
+            android:textColor="@color/color_opt_text"
+            android:textSize="@dimen/answer_text_size" />
+
+        <TextView
+            android:id="@+id/answer_4"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/answer_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/answer_options_button"
+            android:gravity="center"
+            android:maxLines="2"
+            android:minWidth="108dp"
+            android:text="answer4"
+            android:textColor="@color/color_opt_text"
+            android:textSize="@dimen/answer_text_size" />
+
+        <TextView
+            android:id="@+id/not_sure_button_textview"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_below="@+id/answer_4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/not_sure_button"
+            android:gravity="center"
+            android:minWidth="180dp"
+            android:text="@string/not_sure_text"
+            android:textColor="@color/color_opt_text"
+            android:textSize="@dimen/question_text_size" />
+
+        <TextView
+            android:id="@+id/question_cost_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/answer_4"
+            android:layout_alignTop="@id/answer_2"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/gold"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
