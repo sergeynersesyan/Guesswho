@@ -10,6 +10,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.orig.guesswho.block.Package;
 import com.orig.guesswho.PreferenceCOntroller;
 import com.orig.guesswho.QuestionHelper;
@@ -29,6 +32,17 @@ public class PackageListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_package_list);
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-2649177375880705~1003834670");
+
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+
+        AdRequest request = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
+                .addTestDevice("B7CC1787FBBB2325F801958021030C48")  // An example device ID
+                .build();
+        mAdView.loadAd(request);
 
 
         TextView selectPackageText = (TextView) findViewById(R.id.select_package_textView);
