@@ -2,11 +2,10 @@
     <string name="app_name">Guess who</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Настройки</string>
     <string name="title_activity_package_list_activity">package_list_activity</string>
-    <string name="not_sure_text">Not Sure Yet</string>
-    <string name="language">Language</string>
-    <string name="device_id_huawei">B7CC1787FBBB2325F801958021030C48</string>
+    <string name="not_sure_text">не уверен</string>
+    <string name="language">Язык</string>
 
 
     <!--..................................package 1......................................-->
@@ -16,9 +15,9 @@
     <integer name="package1questionCount">3</integer>
 
     <string-array name="trialQuestion1">
-        <item>Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+        <item>Который из перечисленных имел титул фараона?</item>
+        <item>Кто оставил свои инвазии незавершенными из-за болезни.</item>
+        <item>Чей учитель был греческий философ Аристотель.</item>
     </string-array>
     <string-array name="trialAnswers1">
         <item>Napoleon</item>

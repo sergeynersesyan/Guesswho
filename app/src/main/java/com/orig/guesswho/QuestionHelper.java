@@ -48,7 +48,7 @@ public class QuestionHelper {
 
     public ArrayList<Package> getAllPackages(Context context) {
         ArrayList<Package> allPackages = new ArrayList<>(AppConstants.PACKAGE_COUNT);
-        PreferenceCOntroller pref = PreferenceCOntroller.getInstance(context);
+        PreferenceController pref = PreferenceController.getInstance(context.getApplicationContext());
         for (int i = 1; i <= AppConstants.PACKAGE_COUNT; i++) {
             Package p = getPackage(i, context);
             pref.loadLock(p);

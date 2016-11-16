@@ -11,20 +11,20 @@ import static android.content.Context.MODE_PRIVATE;
  * Created by Mr Nersesyan on 31/10/2016.
  */
 
-public class PreferenceCOntroller {
+public class PreferenceController {
     private SharedPreferences sPref;
     private Context context;
-    private static PreferenceCOntroller thisInstance;
+    private static PreferenceController thisInstance;
     private String[] defaultPackages = {"trial"};
 
-    private PreferenceCOntroller(Context c) {
+    private PreferenceController(Context c) {
         context = c;
         sPref = context.getSharedPreferences(AppConstants.PREF_FOLDER, MODE_PRIVATE);
     }
 
-    public static PreferenceCOntroller getInstance(Context c) {
+    public static PreferenceController getInstance(Context c) {
         if (thisInstance == null) {
-            thisInstance = new PreferenceCOntroller(c);
+            thisInstance = new PreferenceController(c);
         }
         return thisInstance;
     }
@@ -54,4 +54,13 @@ public class PreferenceCOntroller {
         SharedPreferences.Editor ed = sPref.edit();
         ed.putBoolean(packageUID + AppConstants.PREF_PACK_LOCK, value).apply();
     };
+
+    public void setLanguage(String l) {
+        SharedPreferences.Editor ed = sPref.edit();
+        ed.putString(AppConstants.PREF_LANGUAGE, l).apply();
+    }
+
+    public String getLanguage() {
+        return sPref.getString(AppConstants.PREF_LANGUAGE, "en");
+    }
 }

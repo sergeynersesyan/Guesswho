@@ -40,7 +40,7 @@
 
         <TextView
             android:id="@+id/settings_text"
-            android:text="Settings"
+            android:text="@string/action_settings"
             android:textColor="@color/pink_main"
             android:textSize="16sp"
             android:gravity="center"

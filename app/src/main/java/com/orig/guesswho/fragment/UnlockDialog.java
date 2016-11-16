@@ -11,8 +11,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.orig.guesswho.AppConstants;
+import com.orig.guesswho.activity.PackageListActivity;
 import com.orig.guesswho.block.Package;
-import com.orig.guesswho.PreferenceCOntroller;
+import com.orig.guesswho.PreferenceController;
 import com.orig.guesswho.R;
 
 public class UnlockDialog extends DialogFragment {
@@ -56,7 +57,7 @@ public class UnlockDialog extends DialogFragment {
         Bundle args = getArguments();
 
         aPackage = (Package) args.getSerializable(AppConstants.PACKAGE_EXTRA);
-        final PreferenceCOntroller prefController = PreferenceCOntroller.getInstance(getContext());
+        final PreferenceController prefController = PreferenceController.getInstance(getContext());
         final int totalCoins = prefController.getTotalCoins();
 
         yesButton.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +68,7 @@ public class UnlockDialog extends DialogFragment {
                     prefController.setLock(aPackage.packageUID, false);
                     prefController.setTotalCoins(totalCoins - aPackage.price);
                     getActivity().getSupportFragmentManager().beginTransaction().remove(UnlockDialog.this).commit();
-                    getActivity().onConfigurationChanged(null);
+                    ((PackageListActivity)getActivity()).update();
                 } else {
                     Toast.makeText(getContext(), "You have no enough coins", Toast.LENGTH_SHORT).show();
                 }

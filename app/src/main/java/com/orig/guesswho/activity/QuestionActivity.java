@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.orig.guesswho.AppConstants;
 import com.orig.guesswho.block.Package;
-import com.orig.guesswho.PreferenceCOntroller;
+import com.orig.guesswho.PreferenceController;
 import com.orig.guesswho.block.Question;
 import com.orig.guesswho.R;
 
@@ -224,7 +224,7 @@ public class QuestionActivity extends AppCompatActivity {
     void loadState() {
         sPref = getSharedPreferences(AppConstants.PREF_FOLDER,MODE_PRIVATE);
         int codedInt = sPref.getInt(currentPackage.packageUID + AppConstants.PREF_PACK_INTS, 0);
-        totalCoinsValue = PreferenceCOntroller.getInstance(getApplicationContext()).getTotalCoins();
+        totalCoinsValue = PreferenceController.getInstance(getApplicationContext()).getTotalCoins();
         if (codedInt <= 0) {
             currentCost = AppConstants.QUESTION_COST;
             currentPartNo = currentPackage.currentQuestionNo = 0;
