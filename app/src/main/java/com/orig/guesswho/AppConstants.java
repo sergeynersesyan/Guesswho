@@ -5,7 +5,7 @@ package com.orig.guesswho;
  */
 
 public class AppConstants {
-    public static final int PACKAGE_COUNT = 2;
+    public static final int PACKAGE_COUNT = 3;
     public static final int QUESTION_COST = 6;
     public static final int NOT_SURE_COST = 2;
     public static final int ERROR_COST = 4;
@@ -21,6 +21,7 @@ public class AppConstants {
     public static final String PREF_PACK_INTS = "currentQCP";
     public static final String PREF_PACK_LOCK = "isLocked";
     public static final String PREF_LANGUAGE = "language";
+    public static final String PREF_ANSWERED_INDEXES = "ansIndexes";
 
     //codes
     public static final int REQ_CODE_LANGUAGE = 651;

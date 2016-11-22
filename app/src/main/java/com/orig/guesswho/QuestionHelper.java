@@ -100,6 +100,20 @@ public class QuestionHelper {
         questionStringIDs.put("kingQuestion3", R.array.kingQuestion3);
         questionStringIDs.put("kingAnswers3", R.array.kingAnswers3);
         questionStringIDs.put("kingAnswer3", R.string.kingAnswer3);
+
+        packageResourceIDs.put("package3UID", R.string.package3UID);
+        packageResourceIDs.put("package3title", R.string.package3title);
+        packageResourceIDs.put("package3description", R.string.package3description);
+        packageResourceIDs.put("package3questionCount", R.integer.package3questionCount);
+        questionStringIDs.put("thirdQuestion1", R.array.thirdQuestion1);
+        questionStringIDs.put("thirdAnswers1", R.array.thirdAnswers1);
+        questionStringIDs.put("thirdAnswer1", R.string.thirdAnswer1);
+        questionStringIDs.put("thirdQuestion2", R.array.thirdQuestion2);
+        questionStringIDs.put("thirdAnswers2", R.array.thirdAnswers2);
+        questionStringIDs.put("thirdAnswer2", R.string.thirdAnswer2);
+        questionStringIDs.put("thirdQuestion3", R.array.thirdQuestion3);
+        questionStringIDs.put("thirdAnswers3", R.array.thirdAnswers3);
+        questionStringIDs.put("thirdAnswer3", R.string.thirdAnswer3);
     }
 }
 

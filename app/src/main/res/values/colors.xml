@@ -16,7 +16,7 @@
     <color name="blue_sky">#9ecde7</color>
     <color name="blue_options">#3d8af7</color>
     <color name="red">#dd0000</color>
-    <color name="color_error">#ff8a84</color>
+    <color name="color_wrong">#ff8a84</color>
 
     <color name="color_right">#92d36e</color>
     <color name="green">#00aa00</color>

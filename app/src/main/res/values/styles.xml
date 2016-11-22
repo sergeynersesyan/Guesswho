@@ -7,8 +7,8 @@
     </style>
 
     <style name="MyRadioButton" parent="Theme.AppCompat.Light">
-        <item name="colorControlNormal">@android:color/holo_green_light</item>
-        <item name="colorControlActivated">@color/color_error</item>
+        <item name="colorControlNormal">@color/pink_main_ligter</item>
+        <item name="colorControlActivated">@color/pink_cc0099</item>
     </style>
 
 </resources>

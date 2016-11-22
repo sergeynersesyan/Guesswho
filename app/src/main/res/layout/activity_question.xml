@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/stars_720x1200"
-    >
+    android:background="@drawable/stars_720x1200">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:id="@+id/questions_linearLayout"
             android:layout_width="match_parent"
@@ -18,8 +18,7 @@
             android:paddingBottom="160dp"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            tools:context="com.orig.guesswho.activity.QuestionActivity"
-            >
+            tools:context="com.orig.guesswho.activity.QuestionActivity">
 
             <LinearLayout
                 android:id="@+id/coins_linearLayout"
@@ -32,10 +31,10 @@
                     android:id="@+id/coins_icon_imageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/coin_phone"
                     android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
                     android:layout_marginTop="@dimen/activity_vertical_margin"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+                    android:src="@drawable/coin_phone" />
 
                 <TextView
                     android:id="@+id/total_coins_textView"
@@ -53,14 +52,14 @@
                     android:id="@+id/plus_coins_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:layout_marginLeft="8dp"
                     android:layout_marginStart="8dp"
                     android:text="+0"
                     android:textColor="@color/color_right"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:layout_gravity="center_vertical"
-                    android:visibility="invisible"/>
+                    android:visibility="invisible" />
             </LinearLayout>
 
             <TextView
@@ -68,7 +67,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/text_distance_margin"
+                android:layout_marginTop="@dimen/text_distance_margin"
                 android:text="Story Title"
                 android:textColor="@color/purple_main"
                 android:textSize="24sp"
@@ -78,31 +78,56 @@
                 android:id="@+id/part0_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"
-                android:text="adfsdfsdcsdfcsdzcasdas"
+                android:layout_marginBottom="@dimen/text_distance_margin"
+                android:layout_marginTop="@dimen/text_distance_margin"
                 android:textColor="@color/color_question_text"
                 android:textSize="@dimen/question_text_size" />
+
+            <TextView
+                android:id="@+id/didnt_use_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_distance_margin"
+                android:layout_marginTop="@dimen/text_distance_margin"
+                android:text="@string/did_not_use"
+                android:textColor="@color/color_question_text"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:visibility="gone" />
 
             <TextView
                 android:id="@+id/part1_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/text_distance_margin"
+                android:layout_marginTop="@dimen/text_distance_margin"
                 android:textColor="@color/color_question_text"
                 android:textSize="@dimen/question_text_size"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/didnt_use_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_distance_margin"
+                android:layout_marginTop="@dimen/text_distance_margin"
+                android:text="@string/did_not_use"
+                android:textColor="@color/color_question_text"
+                android:textSize="12sp"
+                android:gravity="center"
                 android:visibility="gone" />
 
             <TextView
                 android:id="@+id/part2_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/text_distance_margin"
+                android:layout_marginTop="@dimen/text_distance_margin"
                 android:textColor="@color/color_question_text"
                 android:textSize="@dimen/question_text_size"
                 android:visibility="gone" />
         </LinearLayout>
     </ScrollView>
-
 
 
     <RelativeLayout

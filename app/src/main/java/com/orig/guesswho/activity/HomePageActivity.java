@@ -55,6 +55,8 @@ public class HomePageActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == AppConstants.REQ_CODE_LANGUAGE && resultCode == RESULT_OK && data.getBooleanExtra(AppConstants.EXTRA_LANGUAGE_CHANGED, true)) {
             ((TextView)findViewById(R.id.settings_text)).setText(R.string.action_settings);
+            ((TextView)findViewById(R.id.about_text)).setText(R.string.about);
+            ((TextView)findViewById(R.id.play_text)).setText(R.string.play);
         }
     }
 }

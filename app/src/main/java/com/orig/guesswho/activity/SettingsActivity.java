@@ -36,12 +36,15 @@ public class SettingsActivity extends AppCompatActivity {
         switch (PreferenceController.getInstance(getApplicationContext()).getLanguage()) {
             case "en":
                 radioEN.setChecked(true);
+                radioEN.setTypeface(null, Typeface.BOLD);
                 break;
             case "ru":
                 radioRU.setChecked(true);
+                radioRU.setTypeface(null, Typeface.BOLD);
                 break;
             case "hy":
                 radioHY.setChecked(true);
+                radioHY.setTypeface(null, Typeface.BOLD);
                 break;
         }
     }

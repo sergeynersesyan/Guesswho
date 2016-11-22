@@ -24,6 +24,7 @@ public class QuestionActivity extends AppCompatActivity {
     TextView questionTitle;
     TextView plusCoins;
     TextView totalCoins;
+    TextView didNotUseText1, didNotUseText2;
     Package currentPackage;
     int currentPartNo = 0;
     Question currentQuestion;
@@ -32,6 +33,7 @@ public class QuestionActivity extends AppCompatActivity {
     SharedPreferences sPref;
     private int totalCoinsValue;
     boolean finished = false;
+    int answeredIndexes;
 
 
     @Override
@@ -50,6 +52,8 @@ public class QuestionActivity extends AppCompatActivity {
         questionCost = (TextView) findViewById(R.id.question_cost_textview);
         questionTitle = (TextView) findViewById(R.id.story_title_textView);
         notSureButton = (TextView) findViewById(R.id.not_sure_button_textview);
+        didNotUseText1 = (TextView) findViewById(R.id.didnt_use_text1);
+        didNotUseText2 = (TextView) findViewById(R.id.didnt_use_text2);
         currentPackage = (Package) getIntent().getSerializableExtra(AppConstants.PACKAGE_EXTRA);
         plusCoins = (TextView) findViewById(R.id.plus_coins_text);
         totalCoins = (TextView) findViewById(R.id.total_coins_textView);
@@ -57,7 +61,7 @@ public class QuestionActivity extends AppCompatActivity {
         initNewQuestion();
     }
 
-    private void initNewQuestion(){
+    private void initNewQuestion() {
         currentQuestion = currentPackage.questions.get(currentPackage.currentQuestionNo);
         if (finished) {
             next();
@@ -82,7 +86,7 @@ public class QuestionActivity extends AppCompatActivity {
         questionTitle.setText(currentPackage.title + " " + (currentPackage.currentQuestionNo + 1) + "/" + currentPackage.questionCount);
         String x = Integer.toString(totalCoinsValue);
         totalCoins.setText(x);
-        for (int i = 0; i< currentPartNo; i++) {
+        for (int i = 0; i < currentPartNo; i++) {
             part[i].setVisibility(View.VISIBLE);
         }
     }
@@ -107,9 +111,19 @@ public class QuestionActivity extends AppCompatActivity {
                 if (!(v instanceof TextView)) {
                     throw new UnsupportedOperationException("This listener should be set only to answer Textview");
                 }
+                for (int i = 0; i < 4; i++) {
+                    if (currentQuestion.getAnswer(i).equals(((TextView) v).getText())) {
+                        answeredIndexes = answeredIndexes * 10 + i+1;
+                    }
+                }
                 TextView selectedButton = (TextView) v;
                 if (selectedButton.getText().toString().equals(currentQuestion.getRightAnswer())) {
-                    while (currentPartNo < part.length-1) {
+                    if (currentPartNo == 0) {
+                        showDidNotUseText(didNotUseText1, true);
+                    } else if (currentPartNo == 1){
+                        showDidNotUseText(didNotUseText2, true);
+                    }
+                    while (currentPartNo < part.length - 1) {
                         currentPartNo++;
                         part[currentPartNo].setTextColor(getResources().getColor(R.color.color_right));
                         part[currentPartNo].setVisibility(View.VISIBLE);
@@ -152,12 +166,17 @@ public class QuestionActivity extends AppCompatActivity {
 
 
         for (int i = 0; i < 4; i++) {
-            answer[i].setText(currentQuestion.getAnswer(i));
-            answer[i].setBackgroundResource(R.drawable.answer_options_button);
-            fitInButton(answer[i]);
-            if (!finished) {
-                answer[i].setOnClickListener(onAnsweredListener);
+
+            if (i+1 == answeredIndexes % 10 || i+1 == answeredIndexes / 10 % 10 || i+1 == answeredIndexes / 100) {
+                answer[i].setBackgroundResource(currentQuestion.getAnswer(i).equals(currentQuestion.getRightAnswer()) ? R.drawable.answer_right_button : R.drawable.answer_error_button);
+            } else {
+                if (!finished) {
+                    answer[i].setOnClickListener(onAnsweredListener);
+                }
+                answer[i].setBackgroundResource(R.drawable.answer_options_button);
             }
+            answer[i].setText(currentQuestion.getAnswer(i));
+            fitInButton(answer[i]);
         }
     }
 
@@ -165,7 +184,7 @@ public class QuestionActivity extends AppCompatActivity {
         int charCount = textView.getText().length();
         if (charCount > 15) {
             textView.setTextSize(answerTextSize - 4);
-        } else if (charCount > 11) {
+        } else if (charCount > 9) {
             textView.setTextSize(answerTextSize - 2);
         }
     }
@@ -177,7 +196,8 @@ public class QuestionActivity extends AppCompatActivity {
             questionCost.setText(s);
             if ("0".equals(s)) {
                 next();
-                part[currentPartNo].setTextColor(getResources().getColor(R.color.color_error));
+                part[currentPartNo].setTextColor(getResources().getColor(R.color.color_wrong));
+                showDidNotUseText(didNotUseText2, false);
             }
         } else {
             next();
@@ -197,10 +217,13 @@ public class QuestionActivity extends AppCompatActivity {
                 currentCost = AppConstants.QUESTION_COST;
                 currentPartNo = 0;
                 finished = false;
-                for (TextView p:part) {
+                answeredIndexes = 0;
+                for (TextView p : part) {
                     p.setVisibility(View.GONE);
                     p.setTextColor(getResources().getColor(R.color.color_question_text));
                 }
+                didNotUseText1.setVisibility(View.GONE);
+                didNotUseText2.setVisibility(View.GONE);
                 initNewQuestion();
             }
         });
@@ -213,16 +236,17 @@ public class QuestionActivity extends AppCompatActivity {
     }
 
     void saveState() {
-        sPref = getSharedPreferences(AppConstants.PREF_FOLDER,MODE_PRIVATE);
+        sPref = getSharedPreferences(AppConstants.PREF_FOLDER, MODE_PRIVATE);
         SharedPreferences.Editor ed = sPref.edit();
         ed.putInt(currentPackage.packageUID + AppConstants.PREF_PACK_INTS, codeState(currentPackage.currentQuestionNo, currentCost, currentPartNo));
         ed.putInt(AppConstants.PREF_TOTAL_COINS, totalCoinsValue);
+        ed.putInt(currentPackage.packageUID + AppConstants.PREF_ANSWERED_INDEXES, answeredIndexes);
         ed.putBoolean(currentPackage.packageUID + AppConstants.PREF_BOOL_FINISHED, finished);
         ed.apply();
     }
 
     void loadState() {
-        sPref = getSharedPreferences(AppConstants.PREF_FOLDER,MODE_PRIVATE);
+        sPref = getSharedPreferences(AppConstants.PREF_FOLDER, MODE_PRIVATE);
         int codedInt = sPref.getInt(currentPackage.packageUID + AppConstants.PREF_PACK_INTS, 0);
         totalCoinsValue = PreferenceController.getInstance(getApplicationContext()).getTotalCoins();
         if (codedInt <= 0) {
@@ -232,6 +256,7 @@ public class QuestionActivity extends AppCompatActivity {
             decodeState(codedInt);
         }
         finished = sPref.getBoolean(currentPackage.packageUID + AppConstants.PREF_BOOL_FINISHED, false);
+        answeredIndexes = sPref.getInt(currentPackage.packageUID + AppConstants.PREF_ANSWERED_INDEXES, 0);
     }
 
     private int codeState(int cQuestion, int cCost, int cPartNo) {
@@ -246,4 +271,10 @@ public class QuestionActivity extends AppCompatActivity {
         currentPartNo = codedInt % 10;
 
     }
+
+    private void showDidNotUseText(TextView textView, boolean isTrue) {
+        textView.setVisibility(View.VISIBLE);
+        textView.setTextColor(isTrue ? getResources().getColor(R.color.color_right) : getResources().getColor(R.color.color_wrong));
+    }
+
 }
