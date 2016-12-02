@@ -30,6 +30,7 @@ public class QuestionHelper {
 
     public Question getQuestion(String packageName, int number, Context context) {
         if (questionStringIDs.size() == 0) {
+
             throw new IllegalStateException("Question String IDs are not initialised yet");
         }
         int partsID = questionStringIDs.get(packageName + "Question" + number);
