@@ -57,49 +57,182 @@
 
 
     <!--..................................package 2......................................-->
-    <string name="package2UID">king</string>
-    <string name="package2title">King Ming</string>
-    <string name="package2description">same king question several times</string>
-    <integer name="package2questionCount">3</integer>
+    <string name="package2UID">animals</string>
+    <string name="package2title">Животные</string>
+    <string name="package2description">Животные и т.д.</string>
+    <integer name="package2questionCount">11</integer>
 
-    <string-array name="kingQuestion1">
-        <item>KWhich of the following are given the title of Pharaoh?</item>
-        <item>KWho is left his invasions unfinished because of the disease.</item>
-        <item>KWhose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion1">
+        <item>Какие острова называют  «Собачьими островами»?</item>
+        <item>Принадлежат Испании</item>
+        <item>Родина воробьев.</item>
     </string-array>
-    <string-array name="kingAnswers1">
-        <item>kNapoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers1">
+        <item>Гавайские </item>
+        <item>Филиппины</item>
+        <item>Канарские </item>
+        <item>Сэндвичи</item>
     </string-array>
-    <string name="kingAnswer1">Alexander the Great</string>
+    <string name="animalsAnswer1">Канарские </string>
 
-    <string-array name="kingQuestion2">
-        <item>k2Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion2">
+        <item>Что дарит влюбленный пингвин Хьюби своей возлюбленной в качестве свадебного подарка?</item>
+        <item>Что такое порфир?</item>
+        <item>Что из перечисленных  имеет неорганический состав?</item>
     </string-array>
-    <string-array name="kingAnswers2">
-        <item>k2Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers2">
+        <item>Рыба</item>
+        <item>Лед</item>
+        <item>Камень </item>
+        <item>Пингвин</item>
     </string-array>
-    <string name="kingAnswer2">Alexander the Great</string>
+    <string name="animalsAnswer2">Камень</string>
 
-    <string-array name="kingQuestion3">
-        <item>k3Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion3">
+        <item>Какое животное без поворота головы видит все вокруг себя со всех сторон.</item>
+        <item>Хищника видя животное может умереть от страха.</item>
+        <item>Кто из  перечисленных животных  прыгает  в 7 раз выше себя.</item>
     </string-array>
-    <string-array name="kingAnswers3">
-        <item>k3Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers3">
+        <item>Ящерица</item>
+        <item>Жираф</item>
+        <item>Кролик</item>
+        <item>Cерна</item>
     </string-array>
-    <string name="kingAnswer3">Alexander the Great</string>
+    <string name="animalsAnswer3">Кролик</string>
+
+    <string-array name="animalsQuestion4">
+        <item>В монгольских шахматах,  какую фигуру заменяет собака.</item>
+        <item>В начале партии  на доске этой фигуры 2</item>
+        <item>В классических   шахматах  может держать под ударом  до 27  позиций.</item>
+    </string-array>
+    <string-array name="animalsAnswers4">
+        <item>Пешка </item>
+        <item>Ладья</item>
+        <item>Лошадь </item>
+        <item>Королева</item>
+    </string-array>
+    <string name="animalsAnswer4">Королева</string>
+
+    <string-array name="animalsQuestion5">
+        <item>Длина языка какого животного равна длине его тела</item>
+        <item>Из указанных животных, которая ящерица.</item>
+        <item>Какое животное умеет менять окраску</item>
+    </string-array>
+    <string-array name="animalsAnswers5">
+        <item>Крокодил</item>
+        <item>Муравьед</item>
+        <item>Хамелеон</item>
+        <item>Анаконда</item>
+    </string-array>
+    <string name="animalsAnswer5">Хамелеон</string>
+
+    <string-array name="animalsQuestion6">
+        <item>Внешность какого животного имела  древнеегипетская  богиня плодородия Хеккета .</item>
+        <item>Какому животному построили памятник в Париже за услуги перед наукой.</item>
+        <item>Это животное, как правило, не ходит.</item>
+    </string-array>
+    <string-array name="animalsAnswers6">
+        <item>Крыса</item>
+        <item>Собака</item>
+        <item>Кролик</item>
+        <item>Лягушка</item>
+    </string-array>
+    <string name="animalsAnswer6">Лягушка</string>
+
+    <string-array name="animalsQuestion7">
+        <item>Кто помогает крокодилу чистить зубы</item>
+        <item>У кого температура тела выше, чем у человека</item>
+        <item>С каким наполнителем выбрать подушку</item>
+    </string-array>
+    <string-array name="animalsAnswers7">
+        <item>Птица </item>
+        <item>Змея</item>
+        <item>Рак </item>
+        <item>Бегемот</item>
+    </string-array>
+    <string name="animalsAnswer7">Птица</string>
+
+    <string-array name="animalsQuestion8">
+        <item>Назовите единственное хищное  животное, у которого 5 пальцев</item>
+        <item>Кто проводит всю зиму в спячке</item>
+        <item>Кто чаще всего встречается как игрушка</item>
+    </string-array>
+    <string-array name="animalsAnswers8">
+        <item>Лиса </item>
+        <item>Медведь</item>
+        <item>Лев </item>
+        <item>Тигр</item>
+    </string-array>
+    <string name="animalsAnswer8">Медведь</string>
+
+    <string-array name="animalsQuestion9">
+        <item>Алектриомантия  –  это древний способ гадания данным  животным.</item>
+        <item>Какое животное является символом Франции?</item>
+        <item>Какое животное может  заменить будильник?</item>
+    </string-array>
+    <string-array name="animalsAnswers9">
+        <item>Петух </item>
+        <item>Утка</item>
+        <item>Медведь </item>
+        <item>Лев</item>
+    </string-array>
+    <string name="animalsAnswer9">Петух </string>
+
+    <string-array name="animalsQuestion10">
+        <item>Что определяют чешуей рыбы?</item>
+        <item>Что определяют с помощью кругов в разрезе дерева</item>
+        <item>Что прибавляется у человека в день рождения.</item>
+    </string-array>
+    <string-array name="animalsAnswers10">
+        <item>Возраст </item>
+        <item>Рост </item>
+        <item>Здоровье </item>
+        <item>Пол</item>
+    </string-array>
+    <string name="animalsAnswer10">Возраст </string>
+
+    <string-array name="animalsQuestion11">
+        <item>какое животное сажает больше деревьев в течение всего года?</item>
+        <item>Кто из следующих грызуна.</item>
+        <item>Любит лазить по деревьям.</item>
+    </string-array>
+    <string-array name="animalsAnswers11">
+        <item>кролик</item>
+        <item>белка</item>
+        <item>слон</item>
+        <item>моль</item>
+    </string-array>
+    <string name="animalsAnswer11">белка</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--..................................package 3......................................-->
     <string name="package3UID">third</string>

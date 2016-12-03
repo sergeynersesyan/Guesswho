@@ -63,49 +63,177 @@
 
 
     <!--..................................package 2......................................-->
-    <string name="package2UID">king</string>
-    <string name="package2title">King Ming</string>
-    <string name="package2description">same king question several times</string>
-    <integer name="package2questionCount">3</integer>
+    <string name="package2UID">animals</string>
+    <string name="package2title">Animals</string>
+    <string name="package2description">Animals and so on</string>
+    <integer name="package2questionCount">11</integer>
 
-    <string-array name="kingQuestion1">
-        <item>KWhich of the following are given the title of Pharaoh?</item>
-        <item>KWho is left his invasions unfinished because of the disease.</item>
-        <item>KWhose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion1">
+        <item>The name of which islands below means “Islands of the Dogs”?</item>
+        <item>They belong to Spain.</item>
+        <item>The homeland of sparrows.</item>
     </string-array>
-    <string-array name="kingAnswers1">
-        <item>kNapoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers1">
+        <item>The Hawaiian Islands</item>
+        <item>The Philippine Islands</item>
+        <item>The Canarie islands</item>
+        <item>The Sandwich Islands</item>
     </string-array>
-    <string name="kingAnswer1">Alexander the Great</string>
+    <string name="animalsAnswer1">The Canarie islands</string>
 
-    <string-array name="kingQuestion2">
-        <item>k2Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion2">
+        <item>What does a penguin in love give to the female to propose to her?</item>
+        <item>What is porphyry?</item>
+        <item>Which of the following has an inorganic compound?</item>
     </string-array>
-    <string-array name="kingAnswers2">
-        <item>k2Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers2">
+        <item>Fish</item>
+        <item>Ice</item>
+        <item>Stone</item>
+        <item>Penguin</item>
     </string-array>
-    <string name="kingAnswer2">Alexander the Great</string>
+    <string name="animalsAnswer2">Stone</string>
 
-    <string-array name="kingQuestion3">
-        <item>k3Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion3">
+        <item>Which animal sees what’s going on behind it without turning its head?</item>
+        <item>Seeing a predator that animal can die of fear.</item>
+        <item>Which of the following animals can jump 7 times higher than its height?</item>
     </string-array>
-    <string-array name="kingAnswers3">
-        <item>k3Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers3">
+        <item>Lizard</item>
+        <item>Giraffe</item>
+        <item>Rabbit</item>
+        <item>Chamois</item>
     </string-array>
-    <string name="kingAnswer3">Alexander the Great</string>
+    <string name="animalsAnswer3">Rabbit</string>
+
+    <string-array name="animalsQuestion4">
+        <item>Which piece is replaced by a dog in the Mongolian chess?</item>
+        <item>At the beginning of the match there are 2 of these pieces on the chessboard.</item>
+        <item>In classic chess this piece can place up to 27 fields under threat.</item>
+    </string-array>
+    <string-array name="animalsAnswers4">
+        <item>Pawn</item>
+        <item>rook</item>
+        <item>Knight</item>
+        <item>queen</item>
+    </string-array>
+    <string name="animalsAnswer4">queen</string>
+
+    <string-array name="animalsQuestion5">
+        <item>The length of which animal’s tongue is equal to its body length?</item>
+        <item>Which of the following animals is a lizard?</item>
+        <item>Which animal is able to change its skin colour?</item>
+    </string-array>
+    <string-array name="animalsAnswers5">
+        <item>Crocodile</item>
+        <item>Anteater</item>
+        <item>Chameleon</item>
+        <item>Anaconda</item>
+    </string-array>
+    <string name="animalsAnswer5">Chameleon</string>
+
+    <string-array name="animalsQuestion6">
+        <item>Which animal did the Egyptian goddess of fertility Heqet resemble?</item>
+        <item>Which animal has a statue in France for its service to science?</item>
+        <item>As a rule, that animal does not walk.</item>
+    </string-array>
+    <string-array name="animalsAnswers6">
+        <item>Rat</item>
+        <item>Dog</item>
+        <item>Rabbit</item>
+        <item>Frog</item>
+    </string-array>
+    <string name="animalsAnswer6">Frog</string>
+
+    <string-array name="animalsQuestion7">
+        <item>Who helps the crocodile to clean the teeth?</item>
+        <item>Whose body temperature is higher than the human?</item>
+        <item>Whose body coverage is used in pillows?</item>
+    </string-array>
+    <string-array name="animalsAnswers7">
+        <item>Birds</item>
+        <item>Snakes</item>
+        <item>Crayfish</item>
+        <item>Hippopotamuses </item>
+    </string-array>
+    <string name="animalsAnswer7">Birds</string>
+
+    <string-array name="animalsQuestion8">
+        <item>Which is the only predator that has 5 fingers?</item>
+        <item>Which animal spends the winter sleeping?</item>
+        <item>Which animal is more often a toy?</item>
+    </string-array>
+    <string-array name="animalsAnswers8">
+        <item>Fox</item>
+        <item>Bear</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+    </string-array>
+    <string name="animalsAnswer8">Bear</string>
+
+    <string-array name="animalsQuestion9">
+        <item>Alectryomancy is an old form of divination with the help of one of the following animals.</item>
+        <item>Which animal is the symbol of France?</item>
+        <item>Which animal can substitute the alarm clock?</item>
+    </string-array>
+    <string-array name="animalsAnswers9">
+        <item>Rooster</item>
+        <item>Duck</item>
+        <item>Bear</item>
+        <item>Lion</item>
+    </string-array>
+    <string name="animalsAnswer9">Rooster</string>
+
+    <string-array name="animalsQuestion10">
+        <item>Which of the following can fish scales help to identify?</item>
+        <item>Which of the following can the lines on a tree trunk section identify?</item>
+        <item>Which of the following is increased on one’s birthday?</item>
+    </string-array>
+    <string-array name="animalsAnswers10">
+        <item>Age</item>
+        <item>Height</item>
+        <item>Health</item>
+        <item>Sex</item>
+    </string-array>
+    <string name="animalsAnswer10">Age</string>
+
+    <string-array name="animalsQuestion11">
+        <item>what animal is planting more trees throughout the year</item>
+        <item>Who of the following is rodent.</item>
+        <item>Loves to climb trees.</item>
+    </string-array>
+    <string-array name="animalsAnswers11">
+        <item>rabbit</item>
+        <item>squirrel</item>
+        <item>elephant</item>
+        <item>mole</item>
+    </string-array>
+    <string name="animalsAnswer11">squirrel</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--..................................package 3......................................-->
     <string name="package3UID">third</string>

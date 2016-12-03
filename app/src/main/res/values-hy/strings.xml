@@ -57,49 +57,167 @@
 
 
     <!--..................................package 2......................................-->
-    <string name="package2UID">king</string>
-    <string name="package2title">King Ming</string>
-    <string name="package2description">same king question several times</string>
-    <integer name="package2questionCount">3</integer>
+    <string name="package2UID">animals</string>
+    <string name="package2title">Կենդանիներ</string>
+    <string name="package2description">Կենդանիներ եւ այլն</string>
+    <integer name="package2questionCount">11</integer>
 
-    <string-array name="kingQuestion1">
-        <item>KWhich of the following are given the title of Pharaoh?</item>
-        <item>KWho is left his invasions unfinished because of the disease.</item>
-        <item>KWhose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion1">
+        <item>Ո՞ր կղզիների անվանումն է նշանակում «Շների կղզիներ»:</item>
+        <item>Պատկանում են Իսպանիային</item>
+        <item>Ճնճղուկների հայրենիքը</item>
     </string-array>
-    <string-array name="kingAnswers1">
-        <item>kNapoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers1">
+        <item>Հավայան</item>
+        <item>Ֆիլիպինյան</item>
+        <item>Կանարյան</item>
+        <item>Սենդվիչյան</item>
     </string-array>
-    <string name="kingAnswer1">Alexander the Great</string>
+    <string name="animalsAnswer1">Կանարյան</string>
 
-    <string-array name="kingQuestion2">
-        <item>k2Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion2">
+        <item>Ի՞նչ է նվիրում սիրահարված պինգվինը էգին՝ առաջարկություն անելիս:</item>
+        <item>Ի՞նչ է պորֆիրը:</item>
+        <item>Նշվածներից ո՞րը ունի անօրգանական բաղադրություն:</item>
     </string-array>
-    <string-array name="kingAnswers2">
-        <item>k2Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers2">
+        <item>Ձուկ</item>
+        <item>Սառույց</item>
+        <item>Քար</item>
+        <item>Պինգվին</item>
     </string-array>
-    <string name="kingAnswer2">Alexander the Great</string>
+    <string name="animalsAnswer2">Քար</string>
 
-    <string-array name="kingQuestion3">
-        <item>k3Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion3">
+        <item>Ո՞ր կենդանին է տեսնում, թե ինչ է կատարվում հետևում՝ առանց գլուխը շրջելու:</item>
+        <item>Գիշատիչ կենդանու տեսնելիս այդ կենդանին կարող է վախից սատկել:</item>
+        <item>Նշվածներից ո՞ր կենդանին կարող է ցատկել իր հասակից 7 անգամ բարձր:</item>
     </string-array>
-    <string-array name="kingAnswers3">
-        <item>k3Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers3">
+        <item>Մողես</item>
+        <item>Ընձուղտ</item>
+        <item>Ճագար</item>
+        <item>Քարայծ</item>
     </string-array>
-    <string name="kingAnswer3">Alexander the Great</string>
+    <string name="animalsAnswer3">Ճագար</string>
+
+    <string-array name="animalsQuestion4">
+        <item>Մոնղոլական շախմատում ո՞ր խաղաքարին է փոխարինում շունը:</item>
+        <item>Պարտիայի սկզբում խաղադաշտում այդ խաղաքարից կա երկու հատ:</item>
+        <item>Դասական շախմատում կարող է հարվածի տակ պահել մինչև 27 դաշտ:</item>
+    </string-array>
+    <string-array name="animalsAnswers4">
+        <item>Զինվոր</item>
+        <item>Նավակ</item>
+        <item>Ձի</item>
+        <item>Թագուհի</item>
+    </string-array>
+    <string name="animalsAnswer4">Թագուհի</string>
+
+    <string-array name="animalsQuestion5">
+        <item>Ո՞ր կենդանու լեզվի երկարությունն է հավասար մարմնի երկարությանը:</item>
+        <item>Նշված կենդանիներից ո՞րն է մողես:</item>
+        <item>Ո՞ր կենդանին է կարողանում փոխել իր մաշկի գույնը:</item>
+    </string-array>
+    <string-array name="animalsAnswers5">
+        <item>Կոկորդիլոս</item>
+        <item>Մրջնակեր</item>
+        <item>Քամելեոն</item>
+        <item>Անակոնդա</item>
+    </string-array>
+    <string name="animalsAnswer5">Քամելեոն</string>
+
+    <string-array name="animalsQuestion6">
+        <item>Ի՞նչ կենդանու տեսք ուներ հին Եգիպտոսի պտղաբերության աստված Հեքեթը:</item>
+        <item>Գիտությանը մատուցած ծառայությունների համար, ո՞ր կենդանուն են հուշարձան կառուցել Փարիզում:</item>
+        <item>Այդ կենդանին որպես կանոն չի քայլում:</item>
+    </string-array>
+    <string-array name="animalsAnswers6">
+        <item>Առնետ</item>
+        <item>Շուն</item>
+        <item>Ճագար</item>
+        <item>Գորտ</item>
+    </string-array>
+    <string name="animalsAnswer6">Գորտ</string>
+
+    <string-array name="animalsQuestion7">
+        <item>Ովքե՞ր են օգնում կոկորդիլոսին մաքրել ատամները:</item>
+        <item>Ու՞մ մարմնի ջերմաստիճանն է ավելի բարձր քան մարդունը:</item>
+        <item>Ու՞մ մարմնի ծածկույթն է օգտագործվում բարձի մեջ:</item>
+    </string-array>
+    <string-array name="animalsAnswers7">
+        <item>Թռչուններ</item>
+        <item>Օձ</item>
+        <item>Խեցգետին</item>
+        <item>Գետաձի</item>
+    </string-array>
+    <string name="animalsAnswer7">Թռչուններ</string>
+
+    <string-array name="animalsQuestion8">
+        <item>Ո՞րն է այն միակ գիշատիչ կենդանին, ով ունի 5 մատ:</item>
+        <item>Ո՞վ է ձմեռը քնած անցկացնում:</item>
+        <item>Ո՞վ է ավելի հաճախ հանդիպում որպես խաղալիք:</item>
+    </string-array>
+    <string-array name="animalsAnswers8">
+        <item>Աղվես</item>
+        <item>Արջ</item>
+        <item>Առյուծ</item>
+        <item>Վագր</item>
+    </string-array>
+    <string name="animalsAnswer8">Արջ</string>
+
+    <string-array name="animalsQuestion9">
+        <item>Ալեկտրիոմանտիյան հին գուշակության ձև է այդ կենդանու օգնությամբ:</item>
+        <item>Ո՞ր կենդանին է Ֆրանսիայի խորհրդանիշը:</item>
+        <item>Ո՞ր կենդանին կարող է փոխարինել զարթուցիչին:</item>
+    </string-array>
+    <string-array name="animalsAnswers9">
+        <item>Աքաղաղ</item>
+        <item>Բադ</item>
+        <item>Արջ</item>
+        <item>Առյուծ</item>
+    </string-array>
+    <string name="animalsAnswer9">Աքաղաղ</string>
+
+    <string-array name="animalsQuestion10">
+        <item>Ձկան ի՞նչն են որոշում թեփուկներով:</item>
+        <item>Ծառի ի՞նչն են որոշում նրա բնի հատույթի վրայի գծերով:</item>
+        <item>Ի՞նչն է ավելանում մարդու ծննդյան օրը:</item>
+    </string-array>
+    <string-array name="animalsAnswers10">
+        <item>Տարիքը</item>
+        <item>Հասակը</item>
+        <item>Առողջությունը</item>
+        <item>Սեռը</item>
+    </string-array>
+    <string name="animalsAnswer10">Տարիքը</string>
+
+    <string-array name="animalsQuestion11">
+        <item>Ո՞ր կենդանին է տարվա ընթացքում ամենաշատ ծառը տնկում:</item>
+        <item>Նշվածներից ո՞րն է կրծող:</item>
+        <item>Սիրում է ծառ բարձրանալ:</item>
+    </string-array>
+    <string-array name="animalsAnswers11">
+        <item>Նապաստակ </item>
+        <item>սկյուռ</item>
+        <item>փիղ </item>
+        <item>խլուրդ</item>
+    </string-array>
+    <string name="animalsAnswer11">սկյուռ</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!--..................................package 3......................................-->
     <string name="package3UID">third</string>
