@@ -88,7 +88,7 @@ public class QuestionHelper {
         questionStringIDs.put("trialAnswers3", R.array.trialAnswers3);
         questionStringIDs.put("trialAnswer3", R.string.trialAnswer3);
 
-        packageResourceIDs.put("package2UID", 2);
+        packageResourceIDs.put("package2UID", R.string.package2UID);
         packageResourceIDs.put("package2title", R.string.package2title);
         packageResourceIDs.put("package2description", R.string.package2description);
         packageResourceIDs.put("package2questionCount", R.integer.package2questionCount);
