@@ -205,64 +205,207 @@
     </string-array>
     <string name="animalsAnswer11">սկյուռ</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--..................................package 3......................................-->
-    <string name="package3UID">third</string>
-    <string name="package3title">Third</string>
-    <string name="package3description">same trial question several times</string>
-    <integer name="package3questionCount">3</integer>
+    <string name="package3UID">school</string>
+    <string name="package3title">Դպրոց</string>
+    <string name="package3description">Դուք դպրոցում անցել եք այս հարցերի զգալի մասը</string>
+    <integer name="package3questionCount">15</integer>
 
-    <string-array name="thirdQuestion1">
-        <item>Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion1">
+        <item>Ո՞ր մայրաքաղաքն է գտնվում կղզու վրա:</item>
+        <item>2013թ-ին Բրիտանական Monocle պարբերականը ճանաչել է այս քաղաքը որպես բնակվելու համար ամենահարմար քաղաք:</item>
+        <item>Դանիայի ո՞ր քաղաքում է գտնվում ջրահարսի արձանը:</item>
     </string-array>
-    <string-array name="thirdAnswers1">
-        <item>Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="schoolAnswers1">
+        <item>Կոպենհագեն</item>
+        <item>Օսլո</item>
+        <item>Պալերմո</item>
+        <item>Հելսինկի</item>
     </string-array>
-    <string name="thirdAnswer1">Alexander the Great</string>
+    <string name="schoolAnswer1">Կոպենհագեն</string>
 
-    <string-array name="thirdQuestion2">
-        <item>Wh1ich of the following are given the title of Pharaoh?</item>
-        <item>Who1 is left his invasions unfinished because of the disease Wh1ich of the following are given the title of PharaohWh1ich of the following are given the title of PharaohWh1ich of the following are given the title of Pharaoh.</item>
-        <item>Whos1e teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion2">
+        <item>Նշվածներից ու՞մ են տվել Փարավոնի կոչում:</item>
+        <item>Ո՞վ է կիսատ թողել իր արշավանքները հիվանդության պատճառով:</item>
+        <item>Ու՞մ ուսուցիչն էր հույն փիլիսոփա Արիստոտելը:</item>
     </string-array>
-    <string-array name="thirdAnswers2">
-        <item>Napol1eon</item>
-        <item>Hannib1al</item>
-        <item>Alexand1er the Great</item>
-        <item>Attila1</item>
+    <string-array name="schoolAnswers2">
+        <item>Նեպոլեոն</item>
+        <item>Հանիբալ</item>
+        <item>Մակեդոնացի</item>
+        <item>Աթիլլա</item>
     </string-array>
-    <string name="thirdAnswer2">Alexand1er the Great</string>
+    <string name="schoolAnswer2">Մակեդոնացի</string>
 
-    <string-array name="thirdQuestion3">
-        <item>2Which of the following are given the title of Pharaoh?</item>
-        <item>W2ho is left his invasions unfinished because of the disease.</item>
-        <item>Wh2ose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion3">
+        <item>Ո՞րն է երկրին ամենամոտ մոլորակը:</item>
+        <item>Սիրո և գեղեցկության աստվածուհին հռոմեական դիցաբանությունում:</item>
+        <item>Այդ մոլորակի վրա արևը ծագում է արևմուտքից:</item>
     </string-array>
-    <string-array name="thirdAnswers3">
-        <item>2Napoleon</item>
-        <item>H2annibal</item>
-        <item>Al2exander the Great</item>
-        <item>Att2ila</item>
+    <string-array name="schoolAnswers3">
+        <item>Վեներա</item>
+        <item>Մարս</item>
+        <item>Մերկուրի</item>
+        <item>Յուպիտեր</item>
     </string-array>
-    <string name="thirdAnswer3">Al2exander the Great</string>
+    <string name="schoolAnswer3">Վեներա</string>
+
+    <string-array name="schoolQuestion4">
+        <item>Ո՞ր երկրում է սկիզբ առել Ֆաշիզմը:</item>
+        <item>Ի՞նչ ծագում ունեն Ամերիգո Վեսպուչչին, Գալիլեո Գալիլեյը և Լեոնարդո դա Վինչին:</item>
+        <item>Պետություն, որի տարածքը քարտեզի վրա նման է երկարաճիտ կոշիկի:</item>
+    </string-array>
+    <string-array name="schoolAnswers4">
+        <item>Իտալիա</item>
+        <item>Գերմանիա</item>
+        <item>ԽՍՀՄ</item>
+        <item>Թուրքիա</item>
+    </string-array>
+    <string name="schoolAnswer4">Իտալիա</string>
+
+    <string-array name="schoolQuestion5">
+        <item>Ո՞ր երկրում են հորինվել արաբական թվերը:</item>
+        <item>Երբ Քրիստափոր Կոլումբոսը առաջին անգամ ոտք դրեց Ամերիկա մայրցամաք, նա կարծում էր, թե այդ երկրում է:</item>
+        <item>Այդ երկիրն ունի ավելի քան 1 միլիարդ բնակիչ:</item>
+    </string-array>
+    <string-array name="schoolAnswers5">
+        <item>Եգիպտոս</item>
+        <item>Հնդկաստան</item>
+        <item>Իսրայել</item>
+        <item>Հայաստան</item>
+    </string-array>
+    <string name="schoolAnswer5">Հնդկաստան</string>
+
+    <string-array name="schoolQuestion6">
+        <item>Ո՞ր կենդանու արյան ճնշումն է ամենամեծը:</item>
+        <item>Նշված կենդանիներից ո՞վ է ամենաարագը վազում:</item>
+        <item>Անգլերենում այդ կենդանիների խմբին անվանում են tower (աշտարակ):</item>
+    </string-array>
+    <string-array name="schoolAnswers6">
+        <item>Փիղ</item>
+        <item>Ընձուղտ</item>
+        <item>Կրիա</item>
+        <item>կատու</item>
+    </string-array>
+    <string name="schoolAnswer6">Ընձուղտ</string>
+
+    <string-array name="schoolQuestion7">
+        <item>Քանի՞ գույն ունի Լիբիայի դրոշը:</item>
+        <item>Քանի՞ հատ պարզ զույգ թիվ կա:</item>
+        <item>Ո՞ր տեղը պիտի գրավի մարզիկը, որպեսզի դառնա չեմպիոն:</item>
+    </string-array>
+    <string-array name="schoolAnswers7">
+        <item>1</item>
+        <item>10</item>
+        <item>2</item>
+        <item>անվերջ</item>
+    </string-array>
+    <string name="schoolAnswer7">1</string>
+
+    <string-array name="schoolQuestion8">
+        <item>Ինչպե՞ս է կոչվում մարդու պարանոցի առաջին ողը, որը պահում է գլուխը:</item>
+        <item>Հին Հունական դիցաբանությունում՝ հզոր տիտան, որն իր ուսերին պահում էր երկնակամարը:</item>
+        <item>Համանուն է Օվկիանոսներից մեկի հետ:</item>
+    </string-array>
+    <string-array name="schoolAnswers8">
+        <item>Հերակլես</item>
+        <item>Արիստոտել</item>
+        <item>Ատլանտ</item>
+        <item>Ուրանոս</item>
+    </string-array>
+    <string name="schoolAnswer8">Ատլանտ</string>
+
+    <string-array name="schoolQuestion9">
+        <item>Փորձարարական ֆիզիկայի հիմնադիրը:</item>
+        <item>Ու՞մ կյանքում խնձորը ճակատագրական դեր չի խաղացել:</item>
+        <item>Նրան Հռոմի կաթոլիկ եկեղեցին ձերբակալեց՝ մեղադրելով հերետիկոս լինելու մեջ, իր մի աշխատության համար, որն ապացուցում էր, որ երկիրը պտտվում է արևի շուրջ:</item>
+    </string-array>
+    <string-array name="schoolAnswers9">
+        <item>Նյուտոն</item>
+        <item>Ադամ</item>
+        <item>Վիլհելմ Տելլ</item>
+        <item>Գալիլեյ</item>
+    </string-array>
+    <string name="schoolAnswer9">Գալիլեյ</string>
+
+    <string-array name="schoolQuestion10">
+        <item>Ո՞ր պետության կապիտուլյացիայով ավարտվեց 2-րդ համաշխարհային պատերազմը:</item>
+        <item>Ո՞ր պետության դեմ է կիրառվել ատոմային զենք:</item>
+        <item>Այդ պետության տարածքը բաղկացած է 6852 կղզիներից:</item>
+    </string-array>
+    <string-array name="schoolAnswers10">
+        <item>Ճապոնիա</item>
+        <item>Գերմանիա</item>
+        <item>Իտալիա</item>
+        <item>ԽՍՀՄ</item>
+    </string-array>
+    <string name="schoolAnswer10">Ճապոնիա</string>
+
+    <string-array name="schoolQuestion11">
+        <item>Ո՞ր մետաղի անունով է կոչվում մթա 4000-3000թթ դարաշրջանը:</item>
+        <item>Ո՞ր մետաղից են պատրաստում փողային գործիքները:</item>
+        <item>Ո՞րն է բրոնզի հիմնական բաղադրիչը:</item>
+    </string-array>
+    <string-array name="schoolAnswers11">
+        <item>Երկաթ</item>
+        <item>Պղինձ</item>
+        <item>Ալյումին</item>
+        <item>Նիկել</item>
+    </string-array>
+    <string name="schoolAnswer11">Պղինձ</string>
+
+    <string-array name="schoolQuestion12">
+        <item>Քանի՞ ջերմային գոտի կա:</item>
+        <item>Քանի՞ անգամ պետք է ծալել թուղթը, որպեսզի այն ունենա 32 շերտ:</item>
+        <item>Մայրցամաքներից քանի՞սն են բնակելի:</item>
+    </string-array>
+    <string-array name="schoolAnswers12">
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+    <string name="schoolAnswer12">5</string>
+
+    <string-array name="schoolQuestion13">
+        <item> Որտե՞ղ անձրև չի գալիս:</item>
+        <item>Որտե՞ղ է բնակչությունն ավելի քիչ:</item>
+        <item>Ո՞րն է տարածքով ավելի մեծ:</item>
+    </string-array>
+    <string-array name="schoolAnswers13">
+        <item>Անտարկտիդա</item>
+        <item>Ավստրալիա</item>
+        <item>Սահարա անապատ</item>
+        <item>Գրենլանդիա</item>
+    </string-array>
+    <string name="schoolAnswer13">Անտարկտիդա</string>
+
+    <string-array name="schoolQuestion14">
+        <item>Ո՞ր թվաբանական գործողությունը պիտի լինի *-ի փոխարեն, որ հետևյալ արտահայտությունն ընդունի ամենամեծ արժեքը՝ 0.3*0.2:</item>
+        <item>Ո՞ր գործողության դեպքում երկու ամբողջ թվերի արդյունքը կարող է լինել ռացիոնալ:</item>
+        <item>Ո՞ր գործողությունն է անհնար, երբ անդամներից մեկը զրո է:</item>
+    </string-array>
+    <string-array name="schoolAnswers14">
+        <item>գումարում</item>
+        <item>բազմապատկում</item>
+        <item>հանում</item>
+        <item>բաժանում</item>
+    </string-array>
+    <string name="schoolAnswer14">բաժանում</string>
+
+    <string-array name="schoolQuestion15">
+        <item>Հնում hավատում էին, որ այդ կենդանիներն են իրենց վրա պահում աշխարհը:</item>
+        <item>Այդ կենդանին կարող է 3 ամիս չքնել, իսկ քնած ժամանակ կարող է խեղդվել ջրում:</item>
+        <item>Երկրագնդի ամենամեծ կենդանին:</item>
+    </string-array>
+    <string-array name="schoolAnswers15">
+        <item>կոկորդիլոս</item>
+        <item>արջ</item>
+        <item>կետ</item>
+        <item>ոզնի</item>
+    </string-array>
+    <string name="schoolAnswer15">կետ</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

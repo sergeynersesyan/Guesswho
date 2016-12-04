@@ -212,73 +212,208 @@
     <string name="animalsAnswer11">squirrel</string>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--..................................package 3......................................-->
-    <string name="package3UID">third</string>
-    <string name="package3title">Third</string>
-    <string name="package3description">same trial question several times</string>
-    <integer name="package3questionCount">3</integer>
+    <string name="package3UID">school</string>
+    <string name="package3title">School</string>
+    <string name="package3description">You passed at school the most part of this questions</string>
+    <integer name="package3questionCount">15</integer>
 
-    <string-array name="thirdQuestion1">
-        <item>Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion1">
+        <item>Which capital is situated on an island?</item>
+        <item>In 2013 the British magazine Monocle recognized this city as the most comfortable for living.</item>
+        <item>Which Danish city is the statue of The Little Mermaid located in?</item>
     </string-array>
-    <string-array name="thirdAnswers1">
+    <string-array name="schoolAnswers1">
+        <item>Copenhagen</item>
+        <item>Oslo</item>
+        <item>Palermo</item>
+        <item>Helsinki </item>
+    </string-array>
+    <string name="schoolAnswer1">Copenhagen</string>
+
+    <string-array name="schoolQuestion2">
+        <item>Who of the following was given the title of Pharaoh?</item>
+        <item>Who left his invasions unfinished because of a disease?</item>
+        <item>Whose teacher was the Greek philosopher Aristotle?</item>
+    </string-array>
+    <string-array name="schoolAnswers2">
         <item>Napoleon</item>
         <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+        <item>Alexander the Great </item>
+        <item>Atilla</item>
     </string-array>
-    <string name="thirdAnswer1">Alexander the Great</string>
+    <string name="schoolAnswer2">Alexander the Great </string>
 
-    <string-array name="thirdQuestion2">
-        <item>Wh1ich of the following are given the title of Pharaoh?</item>
-        <item>Who1 is left his invasions unfinished because of the disease?</item>
-        <item>Whos1e teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion3">
+        <item>Which planet is the closest to the Earth?</item>
+        <item>The Goddess of love and beauty in the Roman mythology.</item>
+        <item>The sun rises in the west on that planet.</item>
     </string-array>
-    <string-array name="thirdAnswers2">
-        <item>Napol1eon</item>
-        <item>Hannib1al</item>
-        <item>Alexand1er the Great</item>
-        <item>Attila1</item>
+    <string-array name="schoolAnswers3">
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Mercury </item>
+        <item>Jupiter</item>
     </string-array>
-    <string name="thirdAnswer2">Alexand1er the Great</string>
+    <string name="schoolAnswer3">Venus</string>
 
-    <string-array name="thirdQuestion3">
-        <item>2Which of the following are given the title of Pharaoh?</item>
-        <item>W2ho is left his invasions unfinished because of the disease.</item>
-        <item>Wh2ose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion4">
+        <item>Which country did fascism originate in?</item>
+        <item>Where do Amerigo Vespucci, Galileo Galilei and Leonardo da Vinci come from?</item>
+        <item>A country, which resembles a heeled boot on the map.</item>
     </string-array>
-    <string-array name="thirdAnswers3">
-        <item>2Napoleon</item>
-        <item>H2annibal</item>
-        <item>Al2exander the Great</item>
-        <item>Att2ila</item>
+    <string-array name="schoolAnswers4">
+        <item>Italy</item>
+        <item>Germany</item>
+        <item>USSR</item>
+        <item>Turkey</item>
     </string-array>
-    <string name="thirdAnswer3">Al2exander the Great</string>
+    <string name="schoolAnswer4">Italy</string>
+
+    <string-array name="schoolQuestion5">
+        <item>Which country were the Arabic numerals invented in?</item>
+        <item>When Christopher Columbus first set foot on the American Continent he thought it was that country.</item>
+        <item>That country has more than 1 billion inhabitants. </item>
+    </string-array>
+    <string-array name="schoolAnswers5">
+        <item>Egypt</item>
+        <item>India</item>
+        <item>Israel </item>
+        <item>Armenia</item>
+    </string-array>
+    <string name="schoolAnswer5">India</string>
+
+    <string-array name="schoolQuestion6">
+        <item>Which animal has the highest blood pressure?</item>
+        <item>Which of the following animals runs the fastest?</item>
+        <item>The group that animals is called a tower in English.</item>
+    </string-array>
+    <string-array name="schoolAnswers6">
+        <item>Elephant</item>
+        <item>Giraffe</item>
+        <item>Turtle </item>
+        <item>Cat</item>
+    </string-array>
+    <string name="schoolAnswer6">Giraffe</string>
+
+    <string-array name="schoolQuestion7">
+        <item>How many colours does the flag of Libyan Arab Jamahiriya have?</item>
+        <item>How many even prime numbers are there?</item>
+        <item>Which place must a sportsman take to become a champion?</item>
+    </string-array>
+    <string-array name="schoolAnswers7">
+        <item>1</item>
+        <item>10</item>
+        <item>2</item>
+        <item>infinite</item>
+    </string-array>
+    <string name="schoolAnswer7">1</string>
+
+    <string-array name="schoolQuestion8">
+        <item>What is the name of the first cervical vertebra which hold the head?</item>
+        <item>A powerful titan in the Greek mythology who supported the weight of the world on his shoulders.</item>
+        <item>One of the oceans bears the same name.</item>
+    </string-array>
+    <string-array name="schoolAnswers8">
+        <item>Hercule</item>
+        <item>Aristotle</item>
+        <item>Atlas</item>
+        <item>Uran</item>
+    </string-array>
+    <string name="schoolAnswer8">Atlas</string>
+
+    <string-array name="schoolQuestion9">
+        <item>The founder of experimental Physics.</item>
+        <item>Whose life has not been crucially affected by an apple?</item>
+        <item>Catholic Church of Rome arrested him accusing him of being a heretic for his work which proved that the earth revolves around the sun. </item>
+    </string-array>
+    <string-array name="schoolAnswers9">
+        <item>Newton</item>
+        <item>Adam</item>
+        <item>William Tell</item>
+        <item>Galileo </item>
+    </string-array>
+    <string name="schoolAnswer9">Galileo </string>
+
+    <string-array name="schoolQuestion10">
+        <item>The capitulation of which country did World War II end with?</item>
+        <item>Which country was the nuclear weapon used against?</item>
+        <item>The territory of that country consists of 6852 islands.</item>
+    </string-array>
+    <string-array name="schoolAnswers10">
+        <item>Japan</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>USSR</item>
+    </string-array>
+    <string name="schoolAnswer10">Japan</string>
+
+    <string-array name="schoolQuestion11">
+        <item>Which metal is the era BC 4000-3000 named after?</item>
+        <item>Which metal are wind instruments made of?</item>
+        <item>Which is the main component of bronze?</item>
+    </string-array>
+    <string-array name="schoolAnswers11">
+        <item>Iron</item>
+        <item>Copper</item>
+        <item>Aluminum</item>
+        <item>Nickel </item>
+    </string-array>
+    <string name="schoolAnswer11">Copper</string>
+
+    <string-array name="schoolQuestion12">
+        <item>How many thermal zones are there?</item>
+        <item>How many times should paper be folded to have 32 layers?</item>
+        <item>How many continents are inhabited?</item>
+    </string-array>
+    <string-array name="schoolAnswers12">
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+    <string name="schoolAnswer12">5</string>
+
+    <string-array name="schoolQuestion13">
+        <item>Which place has no rain?</item>
+        <item>Which place has less population?</item>
+        <item>Which place has the largest territory?</item>
+    </string-array>
+    <string-array name="schoolAnswers13">
+        <item>Antarctica </item>
+        <item>Australia</item>
+        <item>Sahara Desert </item>
+        <item>Greenland </item>
+    </string-array>
+    <string name="schoolAnswer13">Antarctica</string>
+
+    <string-array name="schoolQuestion14">
+        <item>Which arithmetic operation should substitute * so as 0.3*0.2 gets the greatest value?</item>
+        <item>In which case can the result of two integers be rational?</item>
+        <item>Which arithmetic operation is impossible if one of the components is 0?</item>
+    </string-array>
+    <string-array name="schoolAnswers14">
+        <item>Addition </item>
+        <item>Multiplication</item>
+        <item>Subtraction </item>
+        <item>Division</item>
+    </string-array>
+    <string name="schoolAnswer14">Division</string>
+
+    <string-array name="schoolQuestion15">
+        <item>In ancient times people believed that those animals supported the world on them.</item>
+        <item>That animal can stay awake for 3 months, and while asleep it can be drowned in water.</item>
+        <item>The biggest animal on earth.</item>
+    </string-array>
+    <string-array name="schoolAnswers15">
+        <item>Crocodile</item>
+        <item>Bear</item>
+        <item>Whale</item>
+        <item>Hedgehog </item>
+    </string-array>
+    <string name="schoolAnswer15">Whale</string>
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

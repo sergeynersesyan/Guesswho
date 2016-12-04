@@ -207,77 +207,207 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--..................................package 3......................................-->
-    <string name="package3UID">third</string>
-    <string name="package3title">Third</string>
-    <string name="package3description">same trial question several times</string>
-    <integer name="package3questionCount">3</integer>
+    <string name="package3UID">school</string>
+    <string name="package3title">Школа</string>
+    <string name="package3description">Вы имеете значительная часть этих вопросов в школе</string>
+    <integer name="package3questionCount">15</integer>
 
-    <string-array name="thirdQuestion1">
-        <item>Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion1">
+        <item>Какая столица находится на острове?</item>
+        <item>В  2013 г. британский журнал  Monocle  признал  этот город наиболее удобным для жизни.</item>
+        <item>В каком городе Дании находится статуя  Русалочки</item>
     </string-array>
-    <string-array name="thirdAnswers1">
-        <item>Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="schoolAnswers1">
+        <item>Копенгаген </item>
+        <item>Хельсинки</item>
+        <item>Осло </item>
+        <item>Палермо</item>
     </string-array>
-    <string name="thirdAnswer1">Alexander the Great</string>
+    <string name="schoolAnswer1">Копенгаген </string>
 
-    <string-array name="thirdQuestion2">
-        <item>Wh1ich of the following are given the title of Pharaoh?</item>
-        <item>Who1 is left his invasions unfinished because of the disease?</item>
-        <item>Whos1e teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion2">
+        <item> Кому из перечисленных    принадлежит звание Фараона.</item>
+        <item>Кто по причине болезни оставил  свои походы незавершенными.</item>
+        <item>Учителем кого был греческий философ Аристотель.</item>
     </string-array>
-    <string-array name="thirdAnswers2">
-        <item>Napol1eon</item>
-        <item>Hannib1al</item>
-        <item>Alexand1er the Great</item>
-        <item>Attila1</item>
+    <string-array name="schoolAnswers2">
+        <item>Наполеон </item>
+        <item>Ганнибал</item>
+        <item>Македонский </item>
+        <item>Аттила</item>
     </string-array>
-    <string name="thirdAnswer2">Alexand1er the Great</string>
+    <string name="schoolAnswer2">Македонский </string>
 
-    <string-array name="thirdQuestion3">
-        <item>2Which of the following are given the title of Pharaoh?</item>
-        <item>W2ho is left his invasions unfinished because of the disease.</item>
-        <item>Wh2ose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion3">
+        <item>Самая близкая планета к Земле</item>
+        <item>Богиня любви и красоты в древнегреческой мифологии</item>
+        <item>На этой планете Солнце восходит на западе.</item>
     </string-array>
-    <string-array name="thirdAnswers3">
-        <item>2Napoleon</item>
-        <item>H2annibal</item>
-        <item>Al2exander the Great</item>
-        <item>Att2ila</item>
+    <string-array name="schoolAnswers3">
+        <item>Венера </item>
+        <item>Марс</item>
+        <item>Меркурий </item>
+        <item>Юпитер</item>
     </string-array>
-    <string name="thirdAnswer3">Al2exander the Great</string>
+    <string name="schoolAnswer3">Венера </string>
+
+    <string-array name="schoolQuestion4">
+        <item>В какой стране зародился фашизм</item>
+        <item>Откуда  родом  Америго  Веспуччи, Галилео Галилей, Леонардо да Винчи</item>
+        <item>Страна, которая похожа на каблуках ботинок на карте.</item>
+    </string-array>
+    <string-array name="schoolAnswers4">
+        <item>Италия</item>
+        <item>Германия</item>
+        <item>СССР </item>
+        <item>Турция</item>
+    </string-array>
+    <string name="schoolAnswer4">Италия</string>
+
+    <string-array name="schoolQuestion5">
+        <item>В  какой стране придумали арабские цифры.</item>
+        <item>Впервые побывав  в Америке, Кристофер Колумб  думал, что попал в эту страну</item>
+        <item>Эта страна имеет более 1 миллиарда населения.</item>
+    </string-array>
+    <string-array name="schoolAnswers5">
+        <item>Египет </item>
+        <item>Индия</item>
+        <item>Израиль </item>
+        <item>Армения</item>
+    </string-array>
+    <string name="schoolAnswer5">Индия</string>
+
+    <string-array name="schoolQuestion6">
+        <item>Давление крови какого животного  самое высокое?</item>
+        <item>Кто из перечисленных животных бежит быстрее всех</item>
+        <item>В переводе на английский  группу этих животных  называют tower (башня)</item>
+    </string-array>
+    <string-array name="schoolAnswers6">
+        <item>Слон</item>
+        <item>Жираф</item>
+        <item>Черепаха</item>
+        <item>Кошка</item>
+    </string-array>
+    <string name="schoolAnswer6">Жираф</string>
+
+    <string-array name="schoolQuestion7">
+        <item>Сколько цветов на флаге Ливии.</item>
+        <item>Сколько существует простых  четных чисел.</item>
+        <item>Какое место должен занять спортсмен, чтобы стать чемпионом</item>
+    </string-array>
+    <string-array name="schoolAnswers7">
+        <item>1</item>
+        <item>10</item>
+        <item>2</item>
+        <item>бесконечность</item>
+    </string-array>
+    <string name="schoolAnswer7">1</string>
+
+    <string-array name="schoolQuestion8">
+        <item>Как называется первый шейный позвонок человека, который держит голову</item>
+        <item>В Древнегреческой мифологии  могущественный титан, на плечах которого держалась земля.</item>
+        <item>Одноименное название океана:</item>
+    </string-array>
+    <string-array name="schoolAnswers8">
+        <item>Геракл </item>
+        <item>Аристотель</item>
+        <item>Атлант </item>
+        <item>Уран</item>
+    </string-array>
+    <string name="schoolAnswer8">Атлант </string>
+
+    <string-array name="schoolQuestion9">
+        <item>Основатель экспериментальной физики</item>
+        <item>В жизни кого яблоко не сыграло решающей роли</item>
+        <item>Римская католическая церковь арестовала его, обвинив в том, что он  еретик, за   то произведение, которое доказывало, что Земля вращается вокруг Солнца.</item>
+    </string-array>
+    <string-array name="schoolAnswers9">
+        <item>Ньютон </item>
+        <item>Адам</item>
+        <item>Вильгельм Телль</item>
+        <item>Галилей</item>
+    </string-array>
+    <string name="schoolAnswer9">Галилей</string>
+
+    <string-array name="schoolQuestion10">
+        <item>Капитуляцией какого государства завершилась вторая мировая война.</item>
+        <item>Против какого государства применили ядерное оружие.</item>
+        <item>Территория этого государства состоит из 6852 островов.</item>
+    </string-array>
+    <string-array name="schoolAnswers10">
+        <item>Япония </item>
+        <item>Германия</item>
+        <item>Италия </item>
+        <item>СССР</item>
+    </string-array>
+    <string name="schoolAnswer10">Япония </string>
+
+    <string-array name="schoolQuestion11">
+        <item>Как называется эпоха  4000-3000 гг.  до н.э.</item>
+        <item>Из какого металла изготавливают духовые инструменты.</item>
+        <item>Что является основным компонентом бронзы.</item>
+    </string-array>
+    <string-array name="schoolAnswers11">
+        <item>Железо</item>
+        <item>Медь</item>
+        <item>Алюминий</item>
+        <item>Никель</item>
+    </string-array>
+    <string name="schoolAnswer11">Медь</string>
+
+    <string-array name="schoolQuestion12">
+        <item>Сколько тепловых зон существует</item>
+        <item>Сколько раз нужно сложить бумагу, чтобы получить 32 слоя.</item>
+        <item>Назовите число  населенных материков </item>
+    </string-array>
+    <string-array name="schoolAnswers12">
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+    <string name="schoolAnswer12">5</string>
+
+    <string-array name="schoolQuestion13">
+        <item>Где не бывает дождя?</item>
+        <item>Где самое малое количество населения?</item>
+        <item>Кто больше по территории?</item>
+    </string-array>
+    <string-array name="schoolAnswers13">
+        <item>Антарктида </item>
+        <item>Австралия</item>
+        <item>Пустыня Сахара</item>
+        <item>Гренландия</item>
+    </string-array>
+    <string name="schoolAnswer13">Антарктида </string>
+
+    <string-array name="schoolQuestion14">
+        <item>Какая арифметическая операция должна быть вместо  * , чтобы следующее выражение стало максимальным 0.3 * 0.2?</item>
+        <item>При каком действии результат над  двумя целыми числами может быть рациональным.</item>
+        <item>Какое действие невозможно, если один из  членов ноль. </item>
+    </string-array>
+    <string-array name="schoolAnswers14">
+        <item>Сложение </item>
+        <item>Умножение</item>
+        <item>Вычитание </item>
+        <item>Деление</item>
+    </string-array>
+    <string name="schoolAnswer14">Деление</string>
+
+    <string-array name="schoolQuestion15">
+        <item> В древности верили, что именно на этих животных держится мир.</item>
+        <item>Это животное может три месяца не спать, а во время сна утонуть в воде.</item>
+        <item>Самое большое животное на планете.</item>
+    </string-array>
+    <string-array name="schoolAnswers15">
+        <item>Крокодил </item>
+        <item>Медведь</item>
+        <item>Кит </item>
+        <item>Еж</item>
+    </string-array>
+    <string name="schoolAnswer15">Кит </string>
+
 
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -130,23 +130,55 @@ public class QuestionHelper {
 
 
 
-
-
-
-
         packageResourceIDs.put("package3UID", R.string.package3UID);
-        packageResourceIDs.put("package3title", R.string.package3title);
+        packageResourceIDs.put("package3title", R.string.package2title);
         packageResourceIDs.put("package3description", R.string.package3description);
         packageResourceIDs.put("package3questionCount", R.integer.package3questionCount);
-        questionStringIDs.put("thirdQuestion1", R.array.thirdQuestion1);
-        questionStringIDs.put("thirdAnswers1", R.array.thirdAnswers1);
-        questionStringIDs.put("thirdAnswer1", R.string.thirdAnswer1);
-        questionStringIDs.put("thirdQuestion2", R.array.thirdQuestion2);
-        questionStringIDs.put("thirdAnswers2", R.array.thirdAnswers2);
-        questionStringIDs.put("thirdAnswer2", R.string.thirdAnswer2);
-        questionStringIDs.put("thirdQuestion3", R.array.thirdQuestion3);
-        questionStringIDs.put("thirdAnswers3", R.array.thirdAnswers3);
-        questionStringIDs.put("thirdAnswer3", R.string.thirdAnswer3);
+        questionStringIDs.put("schoolQuestion1", R.array.schoolQuestion1);
+        questionStringIDs.put("schoolAnswers1", R.array.schoolAnswers1);
+        questionStringIDs.put("schoolAnswer1", R.string.schoolAnswer1);
+        questionStringIDs.put("schoolQuestion2", R.array.schoolQuestion2);
+        questionStringIDs.put("schoolAnswers2", R.array.schoolAnswers2);
+        questionStringIDs.put("schoolAnswer2", R.string.schoolAnswer2);
+        questionStringIDs.put("schoolQuestion3", R.array.schoolQuestion3);
+        questionStringIDs.put("schoolAnswers3", R.array.schoolAnswers3);
+        questionStringIDs.put("schoolAnswer3", R.string.schoolAnswer3);
+        questionStringIDs.put("schoolQuestion4", R.array.schoolQuestion4);
+        questionStringIDs.put("schoolAnswers4", R.array.schoolAnswers4);
+        questionStringIDs.put("schoolAnswer4", R.string.schoolAnswer4);
+        questionStringIDs.put("schoolQuestion5", R.array.schoolQuestion5);
+        questionStringIDs.put("schoolAnswers5", R.array.schoolAnswers5);
+        questionStringIDs.put("schoolAnswer5", R.string.schoolAnswer5);
+        questionStringIDs.put("schoolQuestion6", R.array.schoolQuestion6);
+        questionStringIDs.put("schoolAnswers6", R.array.schoolAnswers6);
+        questionStringIDs.put("schoolAnswer6", R.string.schoolAnswer6);
+        questionStringIDs.put("schoolQuestion7", R.array.schoolQuestion7);
+        questionStringIDs.put("schoolAnswers7", R.array.schoolAnswers7);
+        questionStringIDs.put("schoolAnswer7", R.string.schoolAnswer7);
+        questionStringIDs.put("schoolQuestion8", R.array.schoolQuestion8);
+        questionStringIDs.put("schoolAnswers8", R.array.schoolAnswers8);
+        questionStringIDs.put("schoolAnswer8", R.string.schoolAnswer8);
+        questionStringIDs.put("schoolQuestion9", R.array.schoolQuestion9);
+        questionStringIDs.put("schoolAnswers9", R.array.schoolAnswers9);
+        questionStringIDs.put("schoolAnswer9", R.string.schoolAnswer9);
+        questionStringIDs.put("schoolQuestion10", R.array.schoolQuestion10);
+        questionStringIDs.put("schoolAnswers10", R.array.schoolAnswers10);
+        questionStringIDs.put("schoolAnswer10", R.string.schoolAnswer10);
+        questionStringIDs.put("schoolQuestion11", R.array.schoolQuestion11);
+        questionStringIDs.put("schoolAnswers11", R.array.schoolAnswers11);
+        questionStringIDs.put("schoolAnswer11", R.string.schoolAnswer11);
+        questionStringIDs.put("schoolQuestion12", R.array.schoolQuestion12);
+        questionStringIDs.put("schoolAnswers12", R.array.schoolAnswers12);
+        questionStringIDs.put("schoolAnswer12", R.string.schoolAnswer12);
+        questionStringIDs.put("schoolQuestion13", R.array.schoolQuestion13);
+        questionStringIDs.put("schoolAnswers13", R.array.schoolAnswers13);
+        questionStringIDs.put("schoolAnswer13", R.string.schoolAnswer13);
+        questionStringIDs.put("schoolQuestion14", R.array.schoolQuestion14);
+        questionStringIDs.put("schoolAnswers14", R.array.schoolAnswers14);
+        questionStringIDs.put("schoolAnswer14", R.string.schoolAnswer14);
+        questionStringIDs.put("schoolQuestion15", R.array.schoolQuestion15);
+        questionStringIDs.put("schoolAnswers15", R.array.schoolAnswers15);
+        questionStringIDs.put("schoolAnswer15", R.string.schoolAnswer15);
     }
 }
 
