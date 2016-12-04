@@ -211,7 +211,7 @@
     <string name="package3UID">school</string>
     <string name="package3title">Школа</string>
     <string name="package3description">Вы имеете значительная часть этих вопросов в школе</string>
-    <integer name="package3questionCount">15</integer>
+    <integer name="package3questionCount">20</integer>
 
     <string-array name="schoolQuestion1">
         <item>Какая столица находится на острове?</item>
@@ -407,6 +407,71 @@
         <item>Еж</item>
     </string-array>
     <string name="schoolAnswer15">Кит </string>
+
+    <string-array name="schoolQuestion16">
+        <item>Где  была опубликована первая энциклопедия</item>
+        <item>Какое государство подарило США статую свободы</item>
+        <item>Родина балета, велосипеда, кинематографии и женских колготок.</item>
+    </string-array>
+    <string-array name="schoolAnswers16">
+        <item>Франция</item>
+        <item>Великобритания</item>
+        <item>Германия  </item>
+        <item>Италия</item>
+    </string-array>
+    <string name="schoolAnswer16">Франция</string>
+
+    <string-array name="schoolQuestion17">
+        <item>Прежнее название этого города означает грязный</item>
+        <item>Оттуда течет река Сена</item>
+        <item>Эйфелева башня является его символом</item>
+    </string-array>
+    <string-array name="schoolAnswers17">
+        <item>Лондон</item>
+        <item>Париж</item>
+        <item>Берлин</item>
+        <item>Мадрид</item>
+    </string-array>
+    <string name="schoolAnswer17">Париж</string>
+
+    <string-array name="schoolQuestion18">
+        <item>В древние времена он был известен как Понтийское море</item>
+        <item>В переводе это означает негостеприимна</item>
+        <item>Одноименное название цвета</item>
+    </string-array>
+    <string-array name="schoolAnswers18">
+        <item>Каспийский</item>
+        <item>Средиземное</item>
+        <item>Черное</item>
+        <item>Эгейский</item>
+    </string-array>
+    <string name="schoolAnswer18">Черное</string>
+
+    <string-array name="schoolQuestion19">
+        <item>Там так популярны зимние виды спорта, что о новорожденных детях говорят, что они рождаются с лыжами</item>
+        <item>родина Фритьофа Нансена</item>
+        <item>в буквальном переводе означает северный маршрут</item>
+    </string-array>
+    <string-array name="schoolAnswers19">
+        <item>Египет</item>
+        <item>Россия</item>
+        <item>Болгария</item>
+        <item>Норвегия</item>
+    </string-array>
+    <string name="schoolAnswer19">Норвегия</string>
+
+    <string-array name="schoolQuestion20">
+        <item>вместе с этой землей Дания является самой большой страной в Европе</item>
+        <item>буквально означает зеленая земля</item>
+        <item>восточный сосед Канады</item>
+    </string-array>
+    <string-array name="schoolAnswers20">
+        <item>Гренландия</item>
+        <item>Гринвич</item>
+        <item>Уэльс</item>
+        <item>Северный остров</item>
+    </string-array>
+    <string name="schoolAnswer20">Гренландия</string>
 
 
 

@@ -209,7 +209,7 @@
     <string name="package3UID">school</string>
     <string name="package3title">Դպրոց</string>
     <string name="package3description">Դուք դպրոցում անցել եք այս հարցերի զգալի մասը</string>
-    <integer name="package3questionCount">15</integer>
+    <integer name="package3questionCount">20</integer>
 
     <string-array name="schoolQuestion1">
         <item>Ո՞ր մայրաքաղաքն է գտնվում կղզու վրա:</item>
@@ -405,6 +405,71 @@
         <item>ոզնի</item>
     </string-array>
     <string name="schoolAnswer15">կետ</string>
+
+    <string-array name="schoolQuestion16">
+        <item>Որտե՞ղ է հրատարակվել առաջին հանրագիտարանը:</item>
+        <item>Ո՞ր պետությունն է ԱՄՆ-ին նվիրել ազատության արձանը:</item>
+        <item>Բալետի, հեծանիվի, կինեմատոգրաֆիայի և կանացի զուգագուլպաների հայրենիքը:</item>
+    </string-array>
+    <string-array name="schoolAnswers16">
+        <item>Ֆրանսիա</item>
+        <item>Բրիտանիա</item>
+        <item>Գերմանիա</item>
+        <item>Իտալիա</item>
+    </string-array>
+    <string name="schoolAnswer16">Ֆրանսիա</string>
+
+    <string-array name="schoolQuestion17">
+        <item>Այդ քաղաքի նախկին անունը թարգմանաբար նշանակում է կեղտոտ</item>
+        <item>Այդտեղով հոսում է Սենա գետը</item>
+        <item>Էյֆելյան աշտարակը համարվում է նրա խորհրդանիշը</item>
+    </string-array>
+    <string-array name="schoolAnswers17">
+        <item>Լոնդոն</item>
+        <item>Փարիզ</item>
+        <item>Բեռլին</item>
+        <item>Մադրիդ</item>
+    </string-array>
+    <string name="schoolAnswer17">Փարիզ</string>
+
+    <string-array name="schoolQuestion18">
+        <item>Հին աշխարհում այն հայտնի էր որպես  Պոնտիական ծով</item>
+        <item>Թարգմանաբար այն նշանակում է անհյուրընկալ</item>
+        <item>Համանուն է գույներից մեկի հետ</item>
+    </string-array>
+    <string-array name="schoolAnswers18">
+        <item>Կասպից</item>
+        <item>Միջերկրական</item>
+        <item>Սեվ</item>
+        <item>Էգեյան</item>
+    </string-array>
+    <string name="schoolAnswer18">Սեվ</string>
+
+    <string-array name="schoolQuestion19">
+        <item>Այնտեղ այնքան է տարածված ձմեռային մարզաձևերը,որ նորածինների մասին ասում են,որ նրանք ծնվում են դահուկներով</item>
+        <item>Ֆրիտյոֆ Նանսենի հայրենիքը</item>
+        <item>Այդ երկիրը բառացի նշանակում է հյուսիսային ճանապարհ</item>
+    </string-array>
+    <string-array name="schoolAnswers19">
+        <item>Եգիպտոս</item>
+        <item>Ռուսաստան</item>
+        <item>Բուլղարիա</item>
+        <item>Նորվեգիա</item>
+    </string-array>
+    <string name="schoolAnswer19">Նորվեգիա</string>
+
+    <string-array name="schoolQuestion20">
+        <item>Այդ տարածքի հետ միասին Դանիան համարվում է Եվրոպայի ամենամեծ երկիրը</item>
+        <item>բառացի նշանակում է կանաչ երկիր</item>
+        <item>Կանադայի արևելյան հարևանը</item>
+    </string-array>
+    <string-array name="schoolAnswers20">
+        <item>Գրենլանդիա</item>
+        <item>Գրինվիչ</item>
+        <item>Ուելս</item>
+        <item>Հյուսիսային կղզիներ</item>
+    </string-array>
+    <string name="schoolAnswer20">Գրենլանդիա</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

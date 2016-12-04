@@ -216,7 +216,7 @@
     <string name="package3UID">school</string>
     <string name="package3title">School</string>
     <string name="package3description">You passed at school the most part of this questions</string>
-    <integer name="package3questionCount">15</integer>
+    <integer name="package3questionCount">20</integer>
 
     <string-array name="schoolQuestion1">
         <item>Which capital is situated on an island?</item>
@@ -242,7 +242,7 @@
         <item>Alexander the Great </item>
         <item>Atilla</item>
     </string-array>
-    <string name="schoolAnswer2">Alexander the Great </string>
+    <string name="schoolAnswer2">Alexander the Great</string>
 
     <string-array name="schoolQuestion3">
         <item>Which planet is the closest to the Earth?</item>
@@ -412,6 +412,71 @@
         <item>Hedgehog </item>
     </string-array>
     <string name="schoolAnswer15">Whale</string>
+
+    <string-array name="schoolQuestion16">
+        <item>Where was the first encyclopedia published?</item>
+        <item>Which country gave the Statue of Liberty to the USA?</item>
+        <item>The homeland of ballet, bicycle, cinematography, and female tights.</item>
+    </string-array>
+    <string-array name="schoolAnswers16">
+        <item>France</item>
+        <item>Britain</item>
+        <item>Germany</item>
+        <item>Italy </item>
+    </string-array>
+    <string name="schoolAnswer16">France</string>
+
+    <string-array name="schoolQuestion17">
+        <item>Previous name of the city means dirty</item>
+        <item>From there flows the Seine river</item>
+        <item>Eiffel Tower is the symbol of his</item>
+    </string-array>
+    <string-array name="schoolAnswers17">
+        <item>London</item>
+        <item>Paris</item>
+        <item>Berlin</item>
+        <item>Madrid</item>
+    </string-array>
+    <string name="schoolAnswer17">Paris</string>
+
+    <string-array name="schoolQuestion18">
+        <item>In ancient times it was known as Pontic sea</item>
+        <item>Translated it means inhospitable</item>
+        <item>One of the colors bears the same name.</item>
+    </string-array>
+    <string-array name="schoolAnswers18">
+        <item>Caspian</item>
+        <item>Mediterranean</item>
+        <item>Black</item>
+        <item>Aegean</item>
+    </string-array>
+    <string name="schoolAnswer18">Black</string>
+
+    <string-array name="schoolQuestion19">
+        <item>There is so popular winter sports that newborns say that they are born with skis</item>
+        <item>Fridtjof Nansen homeland</item>
+        <item>The country literally means the northern way</item>
+    </string-array>
+    <string-array name="schoolAnswers19">
+        <item>Egypt</item>
+        <item>Russia</item>
+        <item>Bulgaria</item>
+        <item>Norway</item>
+    </string-array>
+    <string name="schoolAnswer19">Norway</string>
+
+    <string-array name="schoolQuestion20">
+        <item>With this area Denmark is the largest country in Europe</item>
+        <item>literally means green land</item>
+        <item>Canada's eastern neighbor</item>
+    </string-array>
+    <string-array name="schoolAnswers20">
+        <item>Greenland</item>
+        <item>Greenwich</item>
+        <item>Wales</item>
+        <item>North Island</item>
+    </string-array>
+    <string name="schoolAnswer20">Greenland</string>
 
 
 

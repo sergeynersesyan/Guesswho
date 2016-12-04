@@ -179,6 +179,21 @@ public class QuestionHelper {
         questionStringIDs.put("schoolQuestion15", R.array.schoolQuestion15);
         questionStringIDs.put("schoolAnswers15", R.array.schoolAnswers15);
         questionStringIDs.put("schoolAnswer15", R.string.schoolAnswer15);
+        questionStringIDs.put("schoolQuestion16", R.array.schoolQuestion16);
+        questionStringIDs.put("schoolAnswers16", R.array.schoolAnswers16);
+        questionStringIDs.put("schoolAnswer16", R.string.schoolAnswer16);
+        questionStringIDs.put("schoolQuestion17", R.array.schoolQuestion17);
+        questionStringIDs.put("schoolAnswers17", R.array.schoolAnswers17);
+        questionStringIDs.put("schoolAnswer17", R.string.schoolAnswer17);
+        questionStringIDs.put("schoolQuestion18", R.array.schoolQuestion18);
+        questionStringIDs.put("schoolAnswers18", R.array.schoolAnswers18);
+        questionStringIDs.put("schoolAnswer18", R.string.schoolAnswer18);
+        questionStringIDs.put("schoolQuestion19", R.array.schoolQuestion19);
+        questionStringIDs.put("schoolAnswers19", R.array.schoolAnswers19);
+        questionStringIDs.put("schoolAnswer19", R.string.schoolAnswer19);
+        questionStringIDs.put("schoolQuestion20", R.array.schoolQuestion20);
+        questionStringIDs.put("schoolAnswers20", R.array.schoolAnswers20);
+        questionStringIDs.put("schoolAnswer20", R.string.schoolAnswer20);
     }
 }
 
