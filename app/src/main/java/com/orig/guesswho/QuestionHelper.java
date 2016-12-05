@@ -194,6 +194,73 @@ public class QuestionHelper {
         questionStringIDs.put("schoolQuestion20", R.array.schoolQuestion20);
         questionStringIDs.put("schoolAnswers20", R.array.schoolAnswers20);
         questionStringIDs.put("schoolAnswer20", R.string.schoolAnswer20);
+
+
+
+        packageResourceIDs.put("package4UID", R.string.package4UID);
+        packageResourceIDs.put("package4title", R.string.package4title);
+        packageResourceIDs.put("package4description", R.string.package4description);
+        packageResourceIDs.put("package4questionCount", R.integer.package4questionCount);
+        questionStringIDs.put("didyouknowQuestion1", R.array.didyouknowQuestion1);
+        questionStringIDs.put("didyouknowAnswers1", R.array.didyouknowAnswers1);
+        questionStringIDs.put("didyouknowAnswer1", R.string.didyouknowAnswer1);
+        questionStringIDs.put("didyouknowQuestion2", R.array.didyouknowQuestion2);
+        questionStringIDs.put("didyouknowAnswers2", R.array.didyouknowAnswers2);
+        questionStringIDs.put("didyouknowAnswer2", R.string.didyouknowAnswer2);
+        questionStringIDs.put("didyouknowQuestion3", R.array.didyouknowQuestion3);
+        questionStringIDs.put("didyouknowAnswers3", R.array.didyouknowAnswers3);
+        questionStringIDs.put("didyouknowAnswer3", R.string.didyouknowAnswer3);
+        questionStringIDs.put("didyouknowQuestion4", R.array.didyouknowQuestion4);
+        questionStringIDs.put("didyouknowAnswers4", R.array.didyouknowAnswers4);
+        questionStringIDs.put("didyouknowAnswer4", R.string.didyouknowAnswer4);
+        questionStringIDs.put("didyouknowQuestion5", R.array.didyouknowQuestion5);
+        questionStringIDs.put("didyouknowAnswers5", R.array.didyouknowAnswers5);
+        questionStringIDs.put("didyouknowAnswer5", R.string.didyouknowAnswer5);
+        questionStringIDs.put("didyouknowQuestion6", R.array.didyouknowQuestion6);
+        questionStringIDs.put("didyouknowAnswers6", R.array.didyouknowAnswers6);
+        questionStringIDs.put("didyouknowAnswer6", R.string.didyouknowAnswer6);
+        questionStringIDs.put("didyouknowQuestion7", R.array.didyouknowQuestion7);
+        questionStringIDs.put("didyouknowAnswers7", R.array.didyouknowAnswers7);
+        questionStringIDs.put("didyouknowAnswer7", R.string.didyouknowAnswer7);
+        questionStringIDs.put("didyouknowQuestion8", R.array.didyouknowQuestion8);
+        questionStringIDs.put("didyouknowAnswers8", R.array.didyouknowAnswers8);
+        questionStringIDs.put("didyouknowAnswer8", R.string.didyouknowAnswer8);
+        questionStringIDs.put("didyouknowQuestion9", R.array.didyouknowQuestion9);
+        questionStringIDs.put("didyouknowAnswers9", R.array.didyouknowAnswers9);
+        questionStringIDs.put("didyouknowAnswer9", R.string.didyouknowAnswer9);
+        questionStringIDs.put("didyouknowQuestion10", R.array.didyouknowQuestion10);
+        questionStringIDs.put("didyouknowAnswers10", R.array.didyouknowAnswers10);
+        questionStringIDs.put("didyouknowAnswer10", R.string.didyouknowAnswer10);
+        questionStringIDs.put("didyouknowQuestion11", R.array.didyouknowQuestion11);
+        questionStringIDs.put("didyouknowAnswers11", R.array.didyouknowAnswers11);
+        questionStringIDs.put("didyouknowAnswer11", R.string.didyouknowAnswer11);
+        questionStringIDs.put("didyouknowQuestion12", R.array.didyouknowQuestion12);
+        questionStringIDs.put("didyouknowAnswers12", R.array.didyouknowAnswers12);
+        questionStringIDs.put("didyouknowAnswer12", R.string.didyouknowAnswer12);
+        questionStringIDs.put("didyouknowQuestion13", R.array.didyouknowQuestion13);
+        questionStringIDs.put("didyouknowAnswers13", R.array.didyouknowAnswers13);
+        questionStringIDs.put("didyouknowAnswer13", R.string.didyouknowAnswer13);
+        questionStringIDs.put("didyouknowQuestion14", R.array.didyouknowQuestion14);
+        questionStringIDs.put("didyouknowAnswers14", R.array.didyouknowAnswers14);
+        questionStringIDs.put("didyouknowAnswer14", R.string.didyouknowAnswer14);
+        questionStringIDs.put("didyouknowQuestion15", R.array.didyouknowQuestion15);
+        questionStringIDs.put("didyouknowAnswers15", R.array.didyouknowAnswers15);
+        questionStringIDs.put("didyouknowAnswer15", R.string.didyouknowAnswer15);
+        questionStringIDs.put("didyouknowQuestion16", R.array.didyouknowQuestion16);
+        questionStringIDs.put("didyouknowAnswers16", R.array.didyouknowAnswers16);
+        questionStringIDs.put("didyouknowAnswer16", R.string.didyouknowAnswer16);
+        questionStringIDs.put("didyouknowQuestion17", R.array.didyouknowQuestion17);
+        questionStringIDs.put("didyouknowAnswers17", R.array.didyouknowAnswers17);
+        questionStringIDs.put("didyouknowAnswer17", R.string.didyouknowAnswer17);
+        questionStringIDs.put("didyouknowQuestion18", R.array.didyouknowQuestion18);
+        questionStringIDs.put("didyouknowAnswers18", R.array.didyouknowAnswers18);
+        questionStringIDs.put("didyouknowAnswer18", R.string.didyouknowAnswer18);
+        questionStringIDs.put("didyouknowQuestion19", R.array.didyouknowQuestion19);
+        questionStringIDs.put("didyouknowAnswers19", R.array.didyouknowAnswers19);
+        questionStringIDs.put("didyouknowAnswer19", R.string.didyouknowAnswer19);
+        questionStringIDs.put("didyouknowQuestion20", R.array.didyouknowQuestion20);
+        questionStringIDs.put("didyouknowAnswers20", R.array.didyouknowAnswers20);
+        questionStringIDs.put("didyouknowAnswer20", R.string.didyouknowAnswer20);
     }
 }
 

@@ -480,6 +480,274 @@
 
 
 
+
+    <!--..................................package 4......................................-->
+    <string name="package4UID">didyouknow</string>
+    <string name="package4title">Did you know?</string>
+    <string name="package4description">Facts you probably didn't know, about things that you know</string>
+    <integer name="package4questionCount">20</integer>
+
+    <string-array name="didyouknowQuestion1">
+        <item>In which profession is the recipe ℞ symbol used?</item>
+        <item>What did the inventor of the Pepsi Cola recipe do?</item>
+        <item>Who of the following is able to understand a doctor’s prescription?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers1">
+        <item>Cosmetologist </item>
+        <item>Pharmacist</item>
+        <item>Cook</item>
+        <item>Alchemist </item>
+    </string-array>
+    <string name="didyouknowAnswer1">Pharmacist</string>
+
+    <string-array name="didyouknowQuestion2">
+        <item>Which word is translated as “the man of the desert”?</item>
+        <item>They mostly live in North Africa.</item>
+        <item>They speak Arabic</item>
+    </string-array>
+    <string-array name="didyouknowAnswers2">
+        <item>Negro</item>
+        <item>Hopman</item>
+        <item>Arab</item>
+        <item>Apache</item>
+    </string-array>
+    <string name="didyouknowAnswer2">Arab</string>
+
+    <string-array name="didyouknowQuestion3">
+        <item>What did Fridtjof Nansen use to get from the eastern shore of Greenland to the western? </item>
+        <item>They can be mountain, walking and water. </item>
+        <item>Facilities that increase area of fulcrum and make the movement on snowy, marshy and water surfaces easier.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers3">
+        <item>Sledges</item>
+        <item>Skis</item>
+        <item>Skates</item>
+        <item>Amphibious all-terrain vehicles</item>
+    </string-array>
+    <string name="didyouknowAnswer3">Skis</string>
+
+    <string-array name="didyouknowQuestion4">
+        <item>What did Joan of Arc do before becoming a military leader?</item>
+        <item>What did Santiago, the hero of Paulo Coelho’s “The Alchemist”, do before setting off on a journey?</item>
+        <item>What did Prophet Moses (Old Testament) do for religious leader Yophor?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers4">
+        <item>Shepherding</item>
+        <item>Goldsmithing</item>
+        <item>Plowing and sowing</item>
+        <item>Knitting </item>
+    </string-array>
+    <string name="didyouknowAnswer4">Shepherding</string>
+
+    <string-array name="didyouknowQuestion5">
+        <item>The word “Orchestra” is translated as… </item>
+        <item>What is director Darren Aronofsky’s “Black Swan” about?</item>
+        <item>What was Michael Jackson good at besides singing?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers5">
+        <item>Singing</item>
+        <item>Dancing</item>
+        <item>Playing (a musical instrument)</item>
+        <item>Walking</item>
+    </string-array>
+    <string name="didyouknowAnswer5">Dancing</string>
+
+    <string-array name="didyouknowQuestion6">
+        <item>Which musical instrument is depicted on the road sign “No honking”?</item>
+        <item>Three fingers are enough to play that musical instrument.</item>
+        <item>Twisted tube. </item>
+    </string-array>
+    <string-array name="didyouknowAnswers6">
+        <item>Saxophone</item>
+        <item>Clarinet</item>
+        <item>Trumpet </item>
+        <item>Drum</item>
+    </string-array>
+    <string name="didyouknowAnswer6">Trumpet </string>
+
+    <string-array name="didyouknowQuestion7">
+        <item>Berber people inhabiting North Africa.</item>
+        <item>A model of a Volkswagen car. </item>
+        <item>The answer “Copt” is incorrect.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers7">
+        <item>Iraqi Kurd </item>
+        <item>Copt</item>
+        <item>Tuareg </item>
+        <item>Eskimo</item>
+    </string-array>
+    <string name="didyouknowAnswer7">Tuareg </string>
+
+    <string-array name="didyouknowQuestion8">
+        <item>Which country’s name did the word “chemistry” originate from?</item>
+        <item>A country situated on two continents. </item>
+        <item>The country of pyramids. </item>
+    </string-array>
+    <string-array name="didyouknowAnswers8">
+        <item>Babel</item>
+        <item>Libya </item>
+        <item>Ethiopia </item>
+        <item>Egypt</item>
+    </string-array>
+    <string name="didyouknowAnswer8">Egypt</string>
+
+    <string-array name="didyouknowQuestion9">
+        <item>Which of the following countries does not have a football championship?</item>
+        <item>A lion and a horse are depicted on that county’s coat of arms.</item>
+        <item>Which country is governed by a queen?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers9">
+        <item>Bulgaria</item>
+        <item>Great Britain</item>
+        <item>Singapore </item>
+        <item>China</item>
+    </string-array>
+    <string name="didyouknowAnswer9">Great Britain</string>
+
+    <string-array name="didyouknowQuestion10">
+        <item>A rare type of lightning.</item>
+        <item>A graphical object in computer graphics.</item>
+        <item>Which of the following drinks is colourless?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers10">
+        <item>Pepsi</item>
+        <item>Mirinda</item>
+        <item>Fanta</item>
+        <item>Sprite </item>
+    </string-array>
+    <string name="didyouknowAnswer10">Sprite </string>
+
+    <string-array name="didyouknowQuestion11">
+        <item>A goalkeeper of which football club did singer Julio Iglesias use to be?</item>
+        <item>Which is the best football club of the 20th century according to FIFA?</item>
+        <item>Which football team has won UEFA Champions League most?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers11">
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Real</item>
+        <item>Manchester United</item>
+    </string-array>
+    <string name="didyouknowAnswer11">Real</string>
+
+    <string-array name="didyouknowQuestion12">
+        <item>What do astronauts use during takeoff and landing?</item>
+        <item>What does the company with the motto “Making life better for children” produce?</item>
+        <item>It was first produced in 1961 by the company Pampers. </item>
+    </string-array>
+    <string-array name="didyouknowAnswers12">
+        <item>Nappies</item>
+        <item>Handcuffs</item>
+        <item>Milk</item>
+        <item>Tooth paste</item>
+    </string-array>
+    <string name="didyouknowAnswer12">Nappies</string>
+
+    <string-array name="didyouknowQuestion13">
+        <item>Which of the Olympic circles represents Asia?</item>
+        <item>Which colour blood does not exist in the fauna?</item>
+        <item>Which colour will be the result of blending red and green?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers13">
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Blue	</item>
+        <item>Green</item>
+    </string-array>
+    <string name="didyouknowAnswer13">Yellow</string>
+
+    <string-array name="didyouknowQuestion14">
+        <item>Which month is not named after a god?</item>
+        <item>Which of the following is the name of the ninja turtles’ journalist friend in the animated movie “Ninja Turtles”?</item>
+        <item>Which month is All Fools' Day celebrated in?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers14">
+        <item>March</item>
+        <item>April</item>
+        <item>June</item>
+        <item>January</item>
+    </string-array>
+    <string name="didyouknowAnswer14">April</string>
+
+    <string-array name="didyouknowQuestion15">
+        <item>The name of which car is translated as “People's Automobile”?</item>
+        <item>Which car has not been named after its inventor?</item>
+        <item>Which company has a round car sign?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers15">
+        <item>Renault</item>
+        <item>Ford</item>
+        <item>Rolls Royce </item>
+        <item>Volkswagen</item>
+    </string-array>
+    <string name="didyouknowAnswer15">Volkswagen</string>
+
+    <string-array name="didyouknowQuestion16">
+        <item>US 42nd President Bill Clinton could play that musical instrument and used to play it in TV shows in his youth.</item>
+        <item>Which musical instrument is named after its inventor?</item>
+        <item>Which of the following is a more jazz instrument?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers16">
+        <item>Clarinet</item>
+        <item>Saxophone</item>
+        <item>Oboe</item>
+        <item>Viola</item>
+    </string-array>
+    <string name="didyouknowAnswer16">Saxophone</string>
+
+    <string-array name="didyouknowQuestion17">
+        <item>That word is translated as “a big house”.</item>
+        <item>Who used to wear a beard which symbolized authority and power?</item>
+        <item>Whose tombs are Egyptian Pyramids?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers17">
+        <item>Pharaoh</item>
+        <item>Sphinx </item>
+        <item>Mafia</item>
+        <item>Kangaroo</item>
+    </string-array>
+    <string name="didyouknowAnswer17">Pharaoh</string>
+
+    <string-array name="didyouknowQuestion18">
+        <item>Which masterpiece of world art is a mural?</item>
+        <item>Which of the following was painted by Leonardo da Vinci?</item>
+        <item>Which of the following has more people?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers18">
+        <item>Persistence of Memory</item>
+        <item>Sistine Madonna</item>
+        <item>The Ninth Wave</item>
+        <item>The Last Supper</item>
+    </string-array>
+    <string name="didyouknowAnswer18">Sistine Madonna</string>
+
+    <string-array name="didyouknowQuestion19">
+        <item>The name of which famous museum means “forest of wolves”?</item>
+        <item>Which museum is situated in a castle?</item>
+        <item>The museum which has the most visitors in the world.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers19">
+        <item>Prado</item>
+        <item>Hermitage</item>
+        <item>Louvre</item>
+        <item>Tate Modern</item>
+    </string-array>
+    <string name="didyouknowAnswer19">Louvre</string>
+
+    <string-array name="didyouknowQuestion20">
+        <item>Which animated movie is based on Shakespeare’s Hamlet?</item>
+        <item>Which animated movie can you come across the expression “Hakuna Matata” (No Worries) in?</item>
+        <item>Which animated movie do a boar and a mongoose take care and raise the future king in?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers20">
+        <item>The Lion King	</item>
+        <item>Ice Age </item>
+        <item>Tom and Jerry</item>
+        <item>Hercules </item>
+    </string-array>
+    <string name="didyouknowAnswer20">The Lion King	</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
