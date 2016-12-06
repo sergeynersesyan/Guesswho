@@ -21,6 +21,7 @@ public class UnlockDialog extends DialogFragment {
     Button yesButton, noButton, addCoinsButton;
     TextView headerText, messageText;
     Package aPackage;
+    private int totalCoins;
 
     public UnlockDialog() {
         // Required empty public constructor
@@ -43,27 +44,24 @@ public class UnlockDialog extends DialogFragment {
         yesButton = (Button) view.findViewById(R.id.yes_button);
         noButton = (Button) view.findViewById(R.id.no_button);
         addCoinsButton = (Button) view.findViewById(R.id.add_coins_button);
-        headerText = (TextView) view.findViewById(R.id.dialog_header);
         messageText = (TextView) view.findViewById(R.id.dialog_message);
-
-
     }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
         Bundle args = getArguments();
 
         aPackage = (Package) args.getSerializable(AppConstants.PACKAGE_EXTRA);
         final PreferenceController prefController = PreferenceController.getInstance(getContext());
-        final int totalCoins = prefController.getTotalCoins();
+        totalCoins = prefController.getTotalCoins();
+        getDialog().setTitle("Price:" + " " + aPackage.price);
 
         yesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (aPackage.price < totalCoins) {
+                if (aPackage.price <= totalCoins) {
                     aPackage.locked = false;
                     prefController.setLock(aPackage.packageUID, false);
                     prefController.setTotalCoins(totalCoins - aPackage.price);
@@ -83,7 +81,19 @@ public class UnlockDialog extends DialogFragment {
                 getActivity().getSupportFragmentManager().beginTransaction().remove(UnlockDialog.this).commit();
             }
         });
+
+        addCoinsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((PackageListActivity)getActivity()).addCoins();
+            }
+        });
     }
 
 
+    @Override
+    public void onResume() {
+        totalCoins = PreferenceController.getInstance(getContext()).getTotalCoins();
+        super.onResume();
+    }
 }

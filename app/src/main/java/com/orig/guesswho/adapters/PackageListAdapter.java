@@ -43,37 +43,45 @@ public class PackageListAdapter extends RecyclerView.Adapter<PackageListAdapter.
 
     @Override
     public void onBindViewHolder(PackageViewHolder packageViewHolder, int i) {
-        final Package currentPackage = packageItems.get(i);
-        packageViewHolder.packageName.setText(currentPackage.title);
-        packageViewHolder.description.setText(currentPackage.description);
-        if (currentPackage.locked) {
+
+        if (i == getItemCount()-1) {
+            packageViewHolder.packageName.setText(R.string.soon);
+            packageViewHolder.description.setText(R.string.soon_description);
             packageViewHolder.lockIcon.setVisibility(View.VISIBLE);
+            packageViewHolder.itemView.setOnClickListener(null);
         } else {
-            packageViewHolder.lockIcon.setVisibility(View.INVISIBLE);
-        }
-
-        packageViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (currentPackage.locked) {
-                    UnlockDialog dialog = new UnlockDialog();
-                    Bundle args = new Bundle();
-                    args.putSerializable(AppConstants.PACKAGE_EXTRA, currentPackage);
-                    dialog.setArguments(args);
-                    dialog.show(activity.getSupportFragmentManager(), "tag");
-                } else {
-                    Intent intent = new Intent(activity, QuestionActivity.class);
-                    intent.putExtra(AppConstants.PACKAGE_EXTRA, currentPackage);
-                    activity.startActivity(intent);
-                }
-
+            final Package currentPackage = packageItems.get(i);
+            packageViewHolder.packageName.setText(currentPackage.title);
+            packageViewHolder.description.setText(currentPackage.description);
+            if (currentPackage.locked) {
+                packageViewHolder.lockIcon.setVisibility(View.VISIBLE);
+            } else {
+                packageViewHolder.lockIcon.setVisibility(View.INVISIBLE);
             }
-        });
+
+            packageViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (currentPackage.locked) {
+                        UnlockDialog dialog = new UnlockDialog();
+                        Bundle args = new Bundle();
+                        args.putSerializable(AppConstants.PACKAGE_EXTRA, currentPackage);
+                        dialog.setArguments(args);
+                        dialog.show(activity.getSupportFragmentManager(), "tag");
+                    } else {
+                        Intent intent = new Intent(activity, QuestionActivity.class);
+                        intent.putExtra(AppConstants.PACKAGE_EXTRA, currentPackage);
+                        activity.startActivity(intent);
+                    }
+
+                }
+            });
+        }
     }
 
     @Override
     public int getItemCount() {
-        return packageItems.size();
+        return packageItems.size() +1;
     }
 
     public class PackageViewHolder extends RecyclerView.ViewHolder {

@@ -9,6 +9,13 @@
     <string name="not_sure_text">Not Sure Yet</string>
     <string name="language">Language</string>
     <string name="did_not_use">You did not use the following questions</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="passed_text">You have passed this package</string>
+    <string name="earned_coins">Earned Coins: </string>
+    <string name="soon">New packages soon</string>
+    <string name="soon_description">new questions will be available after few days</string>
+
+
 
 
 

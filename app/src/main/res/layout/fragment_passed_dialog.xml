@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.orig.guesswho.fragment.UnlockDialog">
+
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_distance_margin"
+        android:text="@string/passed_text"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/earned_coins_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_distance_margin"
+        android:text="@string/earned_coins"
+        android:textSize="14sp"/>
+
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="OK"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+
+</LinearLayout>

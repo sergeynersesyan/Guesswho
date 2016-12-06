@@ -9,10 +9,12 @@ import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import com.orig.guesswho.AppConstants;
+import com.orig.guesswho.Utils;
 import com.orig.guesswho.block.Package;
 import com.orig.guesswho.PreferenceController;
 import com.orig.guesswho.block.Question;
 import com.orig.guesswho.R;
+import com.orig.guesswho.fragment.PackagePassedDialog;
 
 public class QuestionActivity extends AppCompatActivity {
 
@@ -34,6 +36,8 @@ public class QuestionActivity extends AppCompatActivity {
     private int totalCoinsValue;
     boolean finished = false;
     int answeredIndexes;
+    Animation animAlpha;
+
 
 
     @Override
@@ -57,6 +61,7 @@ public class QuestionActivity extends AppCompatActivity {
         currentPackage = (Package) getIntent().getSerializableExtra(AppConstants.PACKAGE_EXTRA);
         plusCoins = (TextView) findViewById(R.id.plus_coins_text);
         totalCoins = (TextView) findViewById(R.id.total_coins_textView);
+        animAlpha = AnimationUtils.loadAnimation(QuestionActivity.this, R.anim.anim_appear);
         loadState();
         initNewQuestion();
     }
@@ -87,7 +92,7 @@ public class QuestionActivity extends AppCompatActivity {
         String x = Integer.toString(totalCoinsValue);
         totalCoins.setText(x);
         for (int i = 0; i < currentPartNo; i++) {
-            part[i].setVisibility(View.VISIBLE);
+            showQuestion(part[i]);
         }
     }
 
@@ -113,48 +118,33 @@ public class QuestionActivity extends AppCompatActivity {
                 }
                 for (int i = 0; i < 4; i++) {
                     if (currentQuestion.getAnswer(i).equals(((TextView) v).getText())) {
-                        answeredIndexes = answeredIndexes * 10 + i+1;
+                        answeredIndexes = answeredIndexes * 10 + i + 1;
                     }
                 }
                 TextView selectedButton = (TextView) v;
                 if (selectedButton.getText().toString().equals(currentQuestion.getRightAnswer())) {
                     if (currentPartNo == 0) {
                         showDidNotUseText(didNotUseText1, true);
-                    } else if (currentPartNo == 1){
+                    } else if (currentPartNo == 1) {
                         showDidNotUseText(didNotUseText2, true);
                     }
                     while (currentPartNo < part.length - 1) {
                         currentPartNo++;
                         part[currentPartNo].setTextColor(getResources().getColor(R.color.color_right));
-                        part[currentPartNo].setVisibility(View.VISIBLE);
+                        showQuestion(part[currentPartNo]);
                     }
                     selectedButton.setBackgroundResource(R.drawable.answer_right_button);
                     next();
-                    totalCoinsValue += currentCost;
-                    String newTotalCoins = totalCoinsValue + "";
-                    totalCoins.setText(newTotalCoins);
-                    String plusText = "+" + currentCost;
-                    plusCoins.setText(plusText);
-                    plusCoins.setVisibility(View.VISIBLE);
-                    Animation anim = AnimationUtils.loadAnimation(QuestionActivity.this, R.anim.anim_size);
-                    Animation animPlus = AnimationUtils.loadAnimation(QuestionActivity.this, R.anim.move_up);
-                    animPlus.setAnimationListener(new Animation.AnimationListener() {
-                        @Override
-                        public void onAnimationStart(Animation animation) {
-                        }
+                    if (!currentPackage.passed) {
+                        currentPackage.earnedCoins += currentCost;
+                        totalCoinsValue += currentCost;
+                        String newTotalCoins = totalCoinsValue + "";
+                        totalCoins.setText(newTotalCoins);
+                        Animation anim = AnimationUtils.loadAnimation(QuestionActivity.this, R.anim.anim_size);
+                        Utils.animateCoinsUp(QuestionActivity.this, plusCoins, currentCost);
+                        findViewById(R.id.coins_icon_imageView).startAnimation(anim);
+                    }
 
-                        @Override
-                        public void onAnimationEnd(Animation animation) {
-                            plusCoins.setVisibility(View.INVISIBLE);
-                        }
-
-                        @Override
-                        public void onAnimationRepeat(Animation animation) {
-                        }
-                    });
-                    plusCoins.startAnimation(animPlus);
-                    findViewById(R.id.coins_icon_imageView).startAnimation(anim);
-//
                 } else {
                     selectedButton.setBackgroundResource(R.drawable.answer_error_button);
                     currentCost = Math.max(currentCost - AppConstants.ERROR_COST, 0);
@@ -167,7 +157,7 @@ public class QuestionActivity extends AppCompatActivity {
 
         for (int i = 0; i < 4; i++) {
 
-            if (i+1 == answeredIndexes % 10 || i+1 == answeredIndexes / 10 % 10 || i+1 == answeredIndexes / 100) {
+            if (i + 1 == answeredIndexes % 10 || i + 1 == answeredIndexes / 10 % 10 || i + 1 == answeredIndexes / 100) {
                 answer[i].setBackgroundResource(currentQuestion.getAnswer(i).equals(currentQuestion.getRightAnswer()) ? R.drawable.answer_right_button : R.drawable.answer_error_button);
             } else {
                 if (!finished) {
@@ -191,7 +181,7 @@ public class QuestionActivity extends AppCompatActivity {
 
     private void initCommons() {
         if (currentPartNo < part.length) {
-            part[currentPartNo].setVisibility(View.VISIBLE);
+            showQuestion(part[currentPartNo]);
             String s = currentCost + "";
             questionCost.setText(s);
             if ("0".equals(s)) {
@@ -213,18 +203,31 @@ public class QuestionActivity extends AppCompatActivity {
         notSureButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                currentPackage.currentQuestionNo++;
                 currentCost = AppConstants.QUESTION_COST;
                 currentPartNo = 0;
                 finished = false;
                 answeredIndexes = 0;
-                for (TextView p : part) {
-                    p.setVisibility(View.GONE);
-                    p.setTextColor(getResources().getColor(R.color.color_question_text));
+                if (currentPackage.currentQuestionNo < currentPackage.questionCount - 1) {
+                    for (TextView p : part) {
+                        p.setVisibility(View.GONE);
+                        p.setTextColor(getResources().getColor(R.color.color_question_text));
+                    }
+                    didNotUseText1.setVisibility(View.GONE);
+                    didNotUseText2.setVisibility(View.GONE);
+                    currentPackage.currentQuestionNo++;
+                    initNewQuestion();
+                } else {
+                    currentPackage.currentQuestionNo = 0;
+                    currentPackage.passed = true;
+                    showPassedFragment();
+                    notSureButton.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            showPassedFragment();
+                        }
+                    });
                 }
-                didNotUseText1.setVisibility(View.GONE);
-                didNotUseText2.setVisibility(View.GONE);
-                initNewQuestion();
+
             }
         });
     }
@@ -241,7 +244,9 @@ public class QuestionActivity extends AppCompatActivity {
         ed.putInt(currentPackage.packageUID + AppConstants.PREF_PACK_INTS, codeState(currentPackage.currentQuestionNo, currentCost, currentPartNo));
         ed.putInt(AppConstants.PREF_TOTAL_COINS, totalCoinsValue);
         ed.putInt(currentPackage.packageUID + AppConstants.PREF_ANSWERED_INDEXES, answeredIndexes);
+        ed.putBoolean(currentPackage.packageUID + AppConstants.PREF_PACKAGE_PASSED, currentPackage.passed);
         ed.putBoolean(currentPackage.packageUID + AppConstants.PREF_BOOL_FINISHED, finished);
+        ed.putInt(currentPackage.packageUID + AppConstants.PREF_PACKAGE_EARNED, currentPackage.earnedCoins);
         ed.apply();
     }
 
@@ -257,6 +262,8 @@ public class QuestionActivity extends AppCompatActivity {
         }
         finished = sPref.getBoolean(currentPackage.packageUID + AppConstants.PREF_BOOL_FINISHED, false);
         answeredIndexes = sPref.getInt(currentPackage.packageUID + AppConstants.PREF_ANSWERED_INDEXES, 0);
+        currentPackage.passed = sPref.getBoolean(currentPackage.packageUID + AppConstants.PREF_PACKAGE_PASSED, false);
+        currentPackage.earnedCoins = sPref.getInt(currentPackage.packageUID + AppConstants.PREF_PACKAGE_EARNED, 0);
     }
 
     private int codeState(int cQuestion, int cCost, int cPartNo) {
@@ -273,8 +280,21 @@ public class QuestionActivity extends AppCompatActivity {
     }
 
     private void showDidNotUseText(TextView textView, boolean isTrue) {
-        textView.setVisibility(View.VISIBLE);
+        showQuestion(textView);
         textView.setTextColor(isTrue ? getResources().getColor(R.color.color_right) : getResources().getColor(R.color.color_wrong));
+    }
+
+    private void showPassedFragment() {
+        PackagePassedDialog dialog = new PackagePassedDialog();
+        Bundle args = new Bundle();
+        args.putInt(AppConstants.EXTRA_EARNED_COINS, currentPackage.earnedCoins);
+        dialog.setArguments(args);
+        dialog.show(getSupportFragmentManager(), "tag");
+    }
+
+    private void showQuestion(TextView text) {
+        text.setVisibility(View.VISIBLE);
+        text.startAnimation(animAlpha);
     }
 
 }

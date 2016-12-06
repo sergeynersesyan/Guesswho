@@ -1,85 +1,101 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
-    tools:context="com.orig.guesswho.activity.PackageListActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_portrait_phone"
     android:orientation="vertical"
-    android:paddingTop="@dimen/vertical_margin_half"
-    android:background="@drawable/background_portrait_phone">
+    tools:context="com.orig.guesswho.activity.PackageListActivity">
 
     <LinearLayout
         android:id="@+id/coins_linearlayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="@dimen/activity_vertical_margin">
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/coin_phone"/>
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@drawable/coin_phone" />
 
         <TextView
             android:id="@+id/total_coins_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"
-            android:layout_gravity="center_vertical"
-            android:textSize="28sp"
+            android:text="0"
             android:textColor="@color/gold"
-            android:textStyle="bold"/>
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/plus_coins_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="+0"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/select_package_linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin">
+        android:layout_below="@+id/coins_linearlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/vertical_margin_half"
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/arrow_phone_left"/>
+            android:src="@drawable/arrow_phone_left" />
 
         <TextView
             android:id="@+id/select_package_textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select Package"
+            android:layout_gravity="center_vertical"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:layout_gravity="center_vertical"
-            android:textSize="24sp"
+            android:text="Select Package"
             android:textColor="@color/purple_main"
-            android:textStyle="bold"/>
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/arrow_phone_right"/>
+            android:src="@drawable/arrow_phone_right" />
     </LinearLayout>
-
 
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/package_list_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:layout_below="@+id/select_package_linearLayout" />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id">
-    </com.google.android.gms.ads.AdView>
+        ads:adUnitId="@string/banner_ad_unit_id" />
 
 
-</LinearLayout>
+</RelativeLayout>

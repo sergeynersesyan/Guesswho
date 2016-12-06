@@ -1,6 +1,5 @@
 package com.orig.guesswho.activity;
 
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +15,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.orig.guesswho.Utils;
 import com.orig.guesswho.block.Package;
 import com.orig.guesswho.PreferenceController;
 import com.orig.guesswho.QuestionHelper;
@@ -30,6 +30,8 @@ public class PackageListActivity extends AppCompatActivity {
     PackageListAdapter packageAdapter;
     ArrayList<Package> packages;
     TextView totalCoinsTextView;
+    int totalCoinsCount;
+    TextView plusCoins;
     View coinsLayout;
     InterstitialAd mInterstitial;
 
@@ -40,29 +42,19 @@ public class PackageListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_package_list);
         // ads
         initBannerAd();
-        mInterstitial = new InterstitialAd(this);
-        mInterstitial.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
-        mInterstitial.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                requestNewInterstitial();
-            }
-        });
+        initInterstitialAd();
         requestNewInterstitial();
         //layout
         TextView selectPackageText = (TextView) findViewById(R.id.select_package_textView);
         totalCoinsTextView = (TextView) findViewById(R.id.total_coins_textView);
         coinsLayout = findViewById(R.id.coins_linearlayout);
+        plusCoins = (TextView) findViewById(R.id.plus_coins_text);
         Typeface typeFace = Typeface.createFromAsset(getAssets(), "fonts/aladin.ttf");
         selectPackageText.setTypeface(typeFace);
         coinsLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (mInterstitial.isLoaded()) {
-                    mInterstitial.show();
-                } else {
-                    Toast.makeText(PackageListActivity.this, "Ad is not loaded yet", Toast.LENGTH_SHORT).show();
-                }
+                addCoins();
             }
         });
 
@@ -98,7 +90,8 @@ public class PackageListActivity extends AppCompatActivity {
 
     public void update() {
         packageAdapter.notifyDataSetChanged();
-        String totalCoins = Integer.toString(PreferenceController.getInstance(getApplicationContext()).getTotalCoins());
+        totalCoinsCount = PreferenceController.getInstance(getApplicationContext()).getTotalCoins();
+        String totalCoins = Integer.toString(totalCoinsCount);
         totalCoinsTextView.setText(totalCoins);
     }
 
@@ -115,12 +108,37 @@ public class PackageListActivity extends AppCompatActivity {
         mAdView.loadAd(request);
     }
 
+    private void initInterstitialAd() {
+        mInterstitial = new InterstitialAd(this);
+        mInterstitial.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitial.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                requestNewInterstitial();
+                Toast.makeText(PackageListActivity.this, "Thanks, You got 3 coins", Toast.LENGTH_SHORT).show();
+                totalCoinsCount += 3;
+                String str = Integer.toString(totalCoinsCount);
+                totalCoinsTextView.setText(str);
+                PreferenceController.getInstance(getApplicationContext()).setTotalCoins(totalCoinsCount);
+                Utils.animateCoinsUp(PackageListActivity.this, plusCoins, 3);
+            }
+        });
+    }
+
     private void requestNewInterstitial() {
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(getString(R.string.device_id_huawei))
                 .build();
 
         mInterstitial.loadAd(adRequest);
+    }
+
+    public void addCoins() {
+        if (mInterstitial.isLoaded()) {
+            mInterstitial.show();
+        } else {
+            Toast.makeText(PackageListActivity.this, "Ad is not loaded yet", Toast.LENGTH_SHORT).show();
+        }
     }
 
 }

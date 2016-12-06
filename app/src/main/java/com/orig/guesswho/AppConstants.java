@@ -13,6 +13,7 @@ public class AppConstants {
     //Extras and Args
     public static final String PACKAGE_EXTRA = "extraQuestions";
     public static final String EXTRA_LANGUAGE_CHANGED = "extraLang";
+    public static final String EXTRA_EARNED_COINS = "extraEarned";
 
     //preferences constants
     public static final String PREF_FOLDER = "prefFolder";
@@ -22,6 +23,9 @@ public class AppConstants {
     public static final String PREF_PACK_LOCK = "isLocked";
     public static final String PREF_LANGUAGE = "language";
     public static final String PREF_ANSWERED_INDEXES = "ansIndexes";
+    public static final String PREF_PACKAGE_PASSED = "packFinished";
+    public static final String PREF_PACKAGE_EARNED = "packEarn";
+
 
     //codes
     public static final int REQ_CODE_LANGUAGE = 651;

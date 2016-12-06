@@ -21,6 +21,8 @@ public class Package implements Serializable{
     public int questionCount;
     public int currentQuestionNo;
     public int price;
+    public boolean passed;
+    public int earnedCoins = 0;
     Context context;
 
 
