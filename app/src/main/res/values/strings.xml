@@ -211,6 +211,123 @@
     </string-array>
     <string name="animalsAnswer11">squirrel</string>
 
+    <string-array name="animalsQuestion12">
+        <item>China established the death penalty for killing that animal.</item>
+        <item>Predatory animal that feeds on plants.</item>
+        <item>His skin is not single-colored.</item>
+    </string-array>
+    <string-array name="animalsAnswers12">
+        <item>Whale</item>
+        <item>Elephant</item>
+        <item>Panda </item>
+        <item>Rhinoceros</item>
+    </string-array>
+    <string name="animalsAnswer12">Panda </string>
+
+    <string-array name="animalsQuestion13">
+        <item>Тhey laugh when tickled.</item>
+        <item>These animals two times greater than humans on earth.</item>
+        <item>Who will know first that the ship is sinking?</item>
+    </string-array>
+    <string-array name="animalsAnswers13">
+        <item>Rat </item>
+        <item>Parrot</item>
+        <item>Duck </item>
+        <item>Dog</item>
+    </string-array>
+    <string name="animalsAnswer13">Rat </string>
+
+    <string-array name="animalsQuestion14">
+        <item>Norway knighted that animal. </item>
+        <item>Lives also in Africa.</item>
+        <item>It is bird.</item>
+    </string-array>
+    <string-array name="animalsAnswers14">
+        <item>Panda </item>
+        <item>Kangaroo</item>
+        <item>Penguin </item>
+        <item>Cat</item>
+    </string-array>
+    <string name="animalsAnswer14">Penguin </string>
+
+    <string-array name="animalsQuestion15">
+        <item>During World War II, Americans tried to train that animal to drop bombs.</item>
+        <item>The only mammal that can fly.</item>
+        <item>What image of the animal has Batman?</item>
+    </string-array>
+    <string-array name="animalsAnswers15">
+        <item>Bat </item>
+        <item>Raven</item>
+        <item>Dove </item>
+        <item>Platypus</item>
+    </string-array>
+    <string name="animalsAnswer15">Bat </string>
+
+    <string-array name="animalsQuestion16">
+        <item>What could replace fingerprint for dogs?</item>
+        <item>Of these, there are lower temperatures than in other mentioned places in the body (humans).</item>
+        <item>That body part of elephant longer than tail.</item>
+    </string-array>
+    <string-array name="animalsAnswers16">
+        <item>Nose </item>
+        <item>Tongue</item>
+        <item>Tail </item>
+        <item>Lips</item>
+    </string-array>
+    <string name="animalsAnswer16">Nose </string>
+
+    <string-array name="animalsQuestion17">
+        <item>They never sleep.</item>
+        <item>They don’t have lungs.</item>
+        <item>They work hard.</item>
+    </string-array>
+    <string-array name="animalsAnswers17">
+        <item>Bat</item>
+        <item>Mouse</item>
+        <item>Bunny </item>
+        <item>Ant</item>
+    </string-array>
+    <string name="animalsAnswer17">Bunny </string>
+
+    <string-array name="animalsQuestion18">
+        <item>Which group of animals are called in English "Parliament"?</item>
+        <item>His eyes are fixed.</item>
+        <item>night-bird.</item>
+    </string-array>
+    <string-array name="animalsAnswers18">
+        <item>Owl </item>
+        <item>Chameleon</item>
+        <item>Lion </item>
+        <item>Cow</item>
+    </string-array>
+    <string name="animalsAnswer18">Owl </string>
+
+    <string-array name="animalsQuestion19">
+        <item> It gives off around 300 litre methane gas in a single day.</item>
+        <item>The meat of that animal is sold in the store.</item>
+        <item>The meat of that animal is sold in the store.</item>
+    </string-array>
+    <string-array name="animalsAnswers19">
+        <item>Cow </item>
+        <item>Elephant</item>
+        <item>Skunk </item>
+        <item>Anaconda</item>
+    </string-array>
+    <string name="animalsAnswer19">Cow </string>
+
+    <string-array name="animalsQuestion20">
+        <item>Which animal has 32 muscles in each ear?</item>
+        <item>Animal, who is mayor of Talkeetna, Alaska, since July 1997.</item>
+        <item>Whose ears are smaller?</item>
+    </string-array>
+    <string-array name="animalsAnswers20">
+        <item>Bunny </item>
+        <item>Donkey</item>
+        <item>Cat </item>
+        <item>Deer</item>
+    </string-array>
+    <string name="animalsAnswer20">Cat </string>
+
 
     <!--..................................package 3......................................-->
     <string name="package3UID">school</string>
@@ -651,7 +768,7 @@
     <string-array name="didyouknowAnswers13">
         <item>Yellow</item>
         <item>Red</item>
-        <item>Blue	</item>
+        <item>Blue</item>
         <item>Green</item>
     </string-array>
     <string name="didyouknowAnswer13">Yellow</string>
@@ -745,7 +862,7 @@
         <item>Tom and Jerry</item>
         <item>Hercules </item>
     </string-array>
-    <string name="didyouknowAnswer20">The Lion King	</string>
+    <string name="didyouknowAnswer20">The Lion King</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

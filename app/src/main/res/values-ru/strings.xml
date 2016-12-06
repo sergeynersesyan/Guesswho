@@ -205,6 +205,122 @@
     </string-array>
     <string name="animalsAnswer11">белка</string>
 
+    <string-array name="animalsQuestion12">
+        <item>Китай установил смертную казнь за убийство этого животного.</item>
+        <item>Хищное животное, которое питается растениями.</item>
+        <item>Его кожа не одноцветная.</item>
+    </string-array>
+    <string-array name="animalsAnswers12">
+        <item>кит </item>
+        <item>слон</item>
+        <item>панда </item>
+        <item>носорог</item>
+    </string-array>
+    <string name="animalsAnswer12">панда </string>
+
+    <string-array name="animalsQuestion13">
+        <item> эти животные смеются, когда их щекочут.</item>
+        <item>Этих животных 2 раза больше на земле чем людей.</item>
+        <item>Кто узнает первым, что корабль тонет?</item>
+    </string-array>
+    <string-array name="animalsAnswers13">
+        <item>крыса </item>
+        <item>попугай</item>
+        <item>утка </item>
+        <item>собака</item>
+    </string-array>
+    <string name="animalsAnswer13">крыса </string>
+
+    <string-array name="animalsQuestion14">
+        <item>B Норвегии это животное  посвящен в рыцари.</item>
+        <item>Живёт  также в африке. </item>
+        <item>кто из перечисленных птица? </item>
+    </string-array>
+    <string-array name="animalsAnswers14">
+        <item>Панда </item>
+        <item>Кенгуру</item>
+        <item>Пингвин </item>
+        <item>Кошка</item>
+    </string-array>
+    <string name="animalsAnswer14">Пингвин </string>
+
+    <string-array name="animalsQuestion15">
+        <item>Во время Второй мировой войны, американцы пытались обучать Этих животных, чтобы сбросить бомбы.</item>
+        <item>единственное млекопитающее, которое может летать.</item>
+        <item>Образ какого животного имеет Бэтмен?</item>
+    </string-array>
+    <string-array name="animalsAnswers15">
+        <item>Летучая мышь </item>
+        <item>Ворона</item>
+        <item>Голубь	</item>
+        <item>Утконос</item>
+    </string-array>
+    <string name="animalsAnswer15">Летучая мышь </string>
+
+    <string-array name="animalsQuestion16">
+        <item>Что может заменить отпечатку пальца у собак?</item>
+        <item>Из перечисленных, там температура ниже, чем в  остальных местах тела  (у человека).</item>
+        <item>У слона это длиннее хвоста. </item>
+    </string-array>
+    <string-array name="animalsAnswers16">
+        <item>Нос </item>
+        <item>Язык</item>
+        <item>Хвост </item>
+        <item>Губы</item>
+    </string-array>
+    <string name="animalsAnswer16">Нос </string>
+
+    <string-array name="animalsQuestion17">
+        <item>Они не спят.</item>
+        <item>У них нет легких.</item>
+        <item>Они много работают.</item>
+    </string-array>
+    <string-array name="animalsAnswers17">
+        <item>Летучая мышь</item>
+        <item>Мышь</item>
+        <item>Муравей </item>
+        <item>Заяц </item>
+    </string-array>
+    <string name="animalsAnswer17">Муравей </string>
+
+    <string-array name="animalsQuestion18">
+        <item> Какая группа животных называются на английском языке "Парламент"?.</item>
+        <item>Глаза у него неподвижны.</item>
+        <item>Ночная птица. </item>
+    </string-array>
+    <string-array name="animalsAnswers18">
+        <item>Сова </item>
+        <item>Хамелеон</item>
+        <item>Лев </item>
+        <item>Корова</item>
+    </string-array>
+    <string name="animalsAnswer18">Сова </string>
+
+    <string-array name="animalsQuestion19">
+        <item>Он испускает в день около 300 литров метана.</item>
+        <item>Мясо какого  животного  продают в магазине?</item>
+        <item>Мало того что мясо и молоко тоже.</item>
+    </string-array>
+    <string-array name="animalsAnswers19">
+        <item>Корова </item>
+        <item>Слон</item>
+        <item>Скунс </item>
+        <item>Анаконда</item>
+    </string-array>
+    <string name="animalsAnswer19">Корова </string>
+
+    <string-array name="animalsQuestion20">
+        <item>Какое  Животное имеет 32 мышц в каждом ухе?</item>
+        <item>Какое животное почётный мэр местности Талкитна, Аляска, США - Стабс?</item>
+        <item>Чьи уши меньше?</item>
+    </string-array>
+    <string-array name="animalsAnswers20">
+        <item>Заяц </item>
+        <item>Осёл </item>
+        <item>Кошка </item>
+        <item>Олень</item>
+    </string-array>
+    <string name="animalsAnswer20">Кошка </string>
 
 
     <!--..................................package 3......................................-->

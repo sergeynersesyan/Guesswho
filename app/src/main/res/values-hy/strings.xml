@@ -205,6 +205,124 @@
     </string-array>
     <string name="animalsAnswer11">սկյուռ</string>
 
+    <string-array name="animalsQuestion12">
+        <item>Այդ կենդանուն սպանելու համար չինաստանում սահմանված է մահապատիժ:</item>
+        <item>Ո՞ր գիշատիչ կենդանին է սնվում բույսերով:</item>
+        <item>Ո՞ր կենդանին միագույն չէ:</item>
+    </string-array>
+    <string-array name="animalsAnswers12">
+        <item>Փիղ </item>
+        <item>կետ</item>
+        <item>Պանդա </item>
+        <item>ռնգեղջյուր </item>
+    </string-array>
+    <string name="animalsAnswer12">Պանդա </string>
+
+    <string-array name="animalsQuestion13">
+        <item>Ո՞ր կենդանիներն են ծիծաղում երբ նրանց խուտուտ են տալիս:</item>
+        <item>Երկրի վրա այդ կենդանիները մարդկանցից 2 անգամ շատ են:</item>
+        <item>Ո՞վ է առաջինը իմանում, որ նավը խորտակվում է:</item>
+    </string-array>
+    <string-array name="animalsAnswers13">
+        <item>Առնետ</item>
+        <item>Թութակ</item>
+        <item>Շուն</item>
+        <item>Բադ</item>
+    </string-array>
+    <string name="animalsAnswer13">Առնետ</string>
+
+    <string-array name="animalsQuestion14">
+        <item>Ի՞նչ կենդանի է Նորվեգիայի ասպետ Նիլս Ուլաֆը</item>
+        <item>Որ կենդանին է ապրում նաև Աֆրիկայում</item>
+        <item>Ո՞րն է թռչուն</item>
+    </string-array>
+    <string-array name="animalsAnswers14">
+        <item>Պանդա</item>
+        <item>Կենգուրու</item>
+        <item>Պինգվին</item>
+        <item>Կատու</item>
+    </string-array>
+    <string name="animalsAnswer14">Պինգվին</string>
+
+    <string-array name="animalsQuestion15">
+        <item>Երկրորդ համաշխարհայինի ժամանակ ԱՄՆ-ում փորձում էին վարժեցնել այդ կենդանիներին՝ ռումբեր նետելու համար:</item>
+        <item>Միակ կաթնասունը, որ կարողանում է թռչել:</item>
+        <item>Ի՞նչ կենդանու կերպարանքով է հանդես գալիս Բեթմենը:</item>
+    </string-array>
+    <string-array name="animalsAnswers15">
+        <item>Չղջիկ</item>
+        <item>Ագռավ</item>
+        <item>Աղավնի</item>
+        <item>Բադակտուց</item>
+    </string-array>
+    <string name="animalsAnswer15">Չղջիկ</string>
+
+    <string-array name="animalsQuestion16">
+        <item> Շան մոտ ի՞նչը կարող է փոխարինել մատնահետքին</item>
+        <item>Նշվածներից ո՞րի ջերմաստիճանն է մյուսների համեմատ ավելի ցածր (մարդու մոտ):</item>
+        <item>Փղի մոտ այն պոչից երկար է:</item>
+    </string-array>
+    <string-array name="animalsAnswers16">
+        <item>Քիթ</item>
+        <item>Լեզու</item>
+        <item>Պոչ</item>
+        <item>Շուրթեր</item>
+    </string-array>
+    <string name="animalsAnswer16">Քիթ</string>
+
+    <string-array name="animalsQuestion17">
+        <item> Նրանք չեն քնում</item>
+        <item>Նրանք թոքեր չունեն</item>
+        <item>Նրանք շատ են աշխատում</item>
+    </string-array>
+    <string-array name="animalsAnswers17">
+        <item>Չղջիկ</item>
+        <item>Մուկ</item>
+        <item>Մրջյուն </item>
+        <item>Նապաստակ</item>
+    </string-array>
+    <string name="animalsAnswer17">Մրջյուն </string>
+
+    <string-array name="animalsQuestion18">
+        <item>Ո՞ր կենդանիների խմբին են անգլերեն անվանում «Պարլամենտ»:</item>
+        <item>Ո՞ր կենդանու աչքերն են անշարժ:</item>
+        <item>Ո՞ր կենդանու աչքերն են անշարժ:</item>
+    </string-array>
+    <string-array name="animalsAnswers18">
+        <item>Բու</item>
+        <item>Քամելեոն</item>
+        <item>Կով</item>
+        <item>Առյուծ</item>
+    </string-array>
+    <string name="animalsAnswer18">Բու</string>
+
+    <string-array name="animalsQuestion19">
+        <item>Այդ կենդանին օրական բաց է թողնում օրական 300լ մեթան:</item>
+        <item>Ո՞ր կենդանու միսն են վաճառում խանությում:</item>
+        <item>Ոչ միայն միսը, նաև կաթը:</item>
+    </string-array>
+    <string-array name="animalsAnswers19">
+        <item>Կով</item>
+        <item>Փիղ</item>
+        <item>Սկունս</item>
+        <item>Անակոնդա</item>
+    </string-array>
+    <string name="animalsAnswer19">Կով</string>
+
+    <string-array name="animalsQuestion20">
+        <item>Ո՞ր կենդանին ունի 32 մկան յուրաքանչյուր ականջին:</item>
+        <item>Ի՞նչ կենդանի է  Ամերիկայի Միացյալ Նահանգների Տալկիտնա քաղաքի պատվավոր քաղաքապետ Ստաբսը:</item>
+        <item>Ո՞ւմ ականջներն են ավելի փոքր:</item>
+    </string-array>
+    <string-array name="animalsAnswers20">
+        <item>Նապաստակ</item>
+        <item>Ավանակ</item>
+        <item>Կատու</item>
+        <item>Եղնիկ</item>
+    </string-array>
+    <string name="animalsAnswer20">Կատու</string>
+
+
     <!--..................................package 3......................................-->
     <string name="package3UID">school</string>
     <string name="package3title">Դպրոց</string>
