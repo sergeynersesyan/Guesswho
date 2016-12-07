@@ -57,94 +57,690 @@
 
 
     <!--..................................package 2......................................-->
-    <string name="package2UID">king</string>
-    <string name="package2title">King Ming</string>
-    <string name="package2description">same king question several times</string>
-    <integer name="package2questionCount">3</integer>
+    <string name="package2UID">animals</string>
+    <string name="package2title">Կենդանիներ</string>
+    <string name="package2description">Կենդանիներ եւ այլն</string>
+    <integer name="package2questionCount">11</integer>
 
-    <string-array name="kingQuestion1">
-        <item>KWhich of the following are given the title of Pharaoh?</item>
-        <item>KWho is left his invasions unfinished because of the disease.</item>
-        <item>KWhose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion1">
+        <item>Ո՞ր կղզիների անվանումն է նշանակում «Շների կղզիներ»:</item>
+        <item>Պատկանում են Իսպանիային</item>
+        <item>Ճնճղուկների հայրենիքը</item>
     </string-array>
-    <string-array name="kingAnswers1">
-        <item>kNapoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers1">
+        <item>Հավայան</item>
+        <item>Ֆիլիպինյան</item>
+        <item>Կանարյան</item>
+        <item>Սենդվիչյան</item>
     </string-array>
-    <string name="kingAnswer1">Alexander the Great</string>
+    <string name="animalsAnswer1">Կանարյան</string>
 
-    <string-array name="kingQuestion2">
-        <item>k2Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion2">
+        <item>Ի՞նչ է նվիրում սիրահարված պինգվինը էգին՝ առաջարկություն անելիս:</item>
+        <item>Ի՞նչ է պորֆիրը:</item>
+        <item>Նշվածներից ո՞րը ունի անօրգանական բաղադրություն:</item>
     </string-array>
-    <string-array name="kingAnswers2">
-        <item>k2Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers2">
+        <item>Ձուկ</item>
+        <item>Սառույց</item>
+        <item>Քար</item>
+        <item>Պինգվին</item>
     </string-array>
-    <string name="kingAnswer2">Alexander the Great</string>
+    <string name="animalsAnswer2">Քար</string>
 
-    <string-array name="kingQuestion3">
-        <item>k3Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion3">
+        <item>Ո՞ր կենդանին է տեսնում, թե ինչ է կատարվում հետևում՝ առանց գլուխը շրջելու:</item>
+        <item>Գիշատիչ կենդանու տեսնելիս այդ կենդանին կարող է վախից սատկել:</item>
+        <item>Նշվածներից ո՞ր կենդանին կարող է ցատկել իր հասակից 7 անգամ բարձր:</item>
     </string-array>
-    <string-array name="kingAnswers3">
-        <item>k3Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers3">
+        <item>Մողես</item>
+        <item>Ընձուղտ</item>
+        <item>Ճագար</item>
+        <item>Քարայծ</item>
     </string-array>
-    <string name="kingAnswer3">Alexander the Great</string>
+    <string name="animalsAnswer3">Ճագար</string>
+
+    <string-array name="animalsQuestion4">
+        <item>Մոնղոլական շախմատում ո՞ր խաղաքարին է փոխարինում շունը:</item>
+        <item>Պարտիայի սկզբում խաղադաշտում այդ խաղաքարից կա երկու հատ:</item>
+        <item>Դասական շախմատում կարող է հարվածի տակ պահել մինչև 27 դաշտ:</item>
+    </string-array>
+    <string-array name="animalsAnswers4">
+        <item>Զինվոր</item>
+        <item>Նավակ</item>
+        <item>Ձի</item>
+        <item>Թագուհի</item>
+    </string-array>
+    <string name="animalsAnswer4">Թագուհի</string>
+
+    <string-array name="animalsQuestion5">
+        <item>Ո՞ր կենդանու լեզվի երկարությունն է հավասար մարմնի երկարությանը:</item>
+        <item>Նշված կենդանիներից ո՞րն է մողես:</item>
+        <item>Ո՞ր կենդանին է կարողանում փոխել իր մաշկի գույնը:</item>
+    </string-array>
+    <string-array name="animalsAnswers5">
+        <item>Կոկորդիլոս</item>
+        <item>Մրջնակեր</item>
+        <item>Քամելեոն</item>
+        <item>Անակոնդա</item>
+    </string-array>
+    <string name="animalsAnswer5">Քամելեոն</string>
+
+    <string-array name="animalsQuestion6">
+        <item>Ի՞նչ կենդանու տեսք ուներ հին Եգիպտոսի պտղաբերության աստված Հեքեթը:</item>
+        <item>Գիտությանը մատուցած ծառայությունների համար, ո՞ր կենդանուն են հուշարձան կառուցել Փարիզում:</item>
+        <item>Այդ կենդանին որպես կանոն չի քայլում:</item>
+    </string-array>
+    <string-array name="animalsAnswers6">
+        <item>Առնետ</item>
+        <item>Շուն</item>
+        <item>Ճագար</item>
+        <item>Գորտ</item>
+    </string-array>
+    <string name="animalsAnswer6">Գորտ</string>
+
+    <string-array name="animalsQuestion7">
+        <item>Ովքե՞ր են օգնում կոկորդիլոսին մաքրել ատամները:</item>
+        <item>Ու՞մ մարմնի ջերմաստիճանն է ավելի բարձր քան մարդունը:</item>
+        <item>Ու՞մ մարմնի ծածկույթն է օգտագործվում բարձի մեջ:</item>
+    </string-array>
+    <string-array name="animalsAnswers7">
+        <item>Թռչուններ</item>
+        <item>Օձ</item>
+        <item>Խեցգետին</item>
+        <item>Գետաձի</item>
+    </string-array>
+    <string name="animalsAnswer7">Թռչուններ</string>
+
+    <string-array name="animalsQuestion8">
+        <item>Ո՞րն է այն միակ գիշատիչ կենդանին, ով ունի 5 մատ:</item>
+        <item>Ո՞վ է ձմեռը քնած անցկացնում:</item>
+        <item>Ո՞վ է ավելի հաճախ հանդիպում որպես խաղալիք:</item>
+    </string-array>
+    <string-array name="animalsAnswers8">
+        <item>Աղվես</item>
+        <item>Արջ</item>
+        <item>Առյուծ</item>
+        <item>Վագր</item>
+    </string-array>
+    <string name="animalsAnswer8">Արջ</string>
+
+    <string-array name="animalsQuestion9">
+        <item>Ալեկտրիոմանտիյան հին գուշակության ձև է այդ կենդանու օգնությամբ:</item>
+        <item>Ո՞ր կենդանին է Ֆրանսիայի խորհրդանիշը:</item>
+        <item>Ո՞ր կենդանին կարող է փոխարինել զարթուցիչին:</item>
+    </string-array>
+    <string-array name="animalsAnswers9">
+        <item>Աքաղաղ</item>
+        <item>Բադ</item>
+        <item>Արջ</item>
+        <item>Առյուծ</item>
+    </string-array>
+    <string name="animalsAnswer9">Աքաղաղ</string>
+
+    <string-array name="animalsQuestion10">
+        <item>Ձկան ի՞նչն են որոշում թեփուկներով:</item>
+        <item>Ծառի ի՞նչն են որոշում նրա բնի հատույթի վրայի գծերով:</item>
+        <item>Ի՞նչն է ավելանում մարդու ծննդյան օրը:</item>
+    </string-array>
+    <string-array name="animalsAnswers10">
+        <item>Տարիքը</item>
+        <item>Հասակը</item>
+        <item>Առողջությունը</item>
+        <item>Սեռը</item>
+    </string-array>
+    <string name="animalsAnswer10">Տարիքը</string>
+
+    <string-array name="animalsQuestion11">
+        <item>Ո՞ր կենդանին է տարվա ընթացքում ամենաշատ ծառը տնկում:</item>
+        <item>Նշվածներից ո՞րն է կրծող:</item>
+        <item>Սիրում է ծառ բարձրանալ:</item>
+    </string-array>
+    <string-array name="animalsAnswers11">
+        <item>Նապաստակ </item>
+        <item>սկյուռ</item>
+        <item>փիղ </item>
+        <item>խլուրդ</item>
+    </string-array>
+    <string name="animalsAnswer11">սկյուռ</string>
 
     <!--..................................package 3......................................-->
-    <string name="package3UID">third</string>
-    <string name="package3title">Third</string>
-    <string name="package3description">same trial question several times</string>
-    <integer name="package3questionCount">3</integer>
+    <string name="package3UID">school</string>
+    <string name="package3title">Դպրոց</string>
+    <string name="package3description">Դուք դպրոցում անցել եք այս հարցերի զգալի մասը</string>
+    <integer name="package3questionCount">20</integer>
 
-    <string-array name="thirdQuestion1">
-        <item>Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion1">
+        <item>Ո՞ր մայրաքաղաքն է գտնվում կղզու վրա:</item>
+        <item>2013թ-ին Բրիտանական Monocle պարբերականը ճանաչել է այս քաղաքը որպես բնակվելու համար ամենահարմար քաղաք:</item>
+        <item>Դանիայի ո՞ր քաղաքում է գտնվում ջրահարսի արձանը:</item>
     </string-array>
-    <string-array name="thirdAnswers1">
-        <item>Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="schoolAnswers1">
+        <item>Կոպենհագեն</item>
+        <item>Օսլո</item>
+        <item>Պալերմո</item>
+        <item>Հելսինկի</item>
     </string-array>
-    <string name="thirdAnswer1">Alexander the Great</string>
+    <string name="schoolAnswer1">Կոպենհագեն</string>
 
-    <string-array name="thirdQuestion2">
-        <item>Wh1ich of the following are given the title of Pharaoh?</item>
-        <item>Who1 is left his invasions unfinished because of the disease Wh1ich of the following are given the title of PharaohWh1ich of the following are given the title of PharaohWh1ich of the following are given the title of Pharaoh.</item>
-        <item>Whos1e teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion2">
+        <item>Նշվածներից ու՞մ են տվել Փարավոնի կոչում:</item>
+        <item>Ո՞վ է կիսատ թողել իր արշավանքները հիվանդության պատճառով:</item>
+        <item>Ու՞մ ուսուցիչն էր հույն փիլիսոփա Արիստոտելը:</item>
     </string-array>
-    <string-array name="thirdAnswers2">
-        <item>Napol1eon</item>
-        <item>Hannib1al</item>
-        <item>Alexand1er the Great</item>
-        <item>Attila1</item>
+    <string-array name="schoolAnswers2">
+        <item>Նեպոլեոն</item>
+        <item>Հանիբալ</item>
+        <item>Մակեդոնացի</item>
+        <item>Աթիլլա</item>
     </string-array>
-    <string name="thirdAnswer2">Alexand1er the Great</string>
+    <string name="schoolAnswer2">Մակեդոնացի</string>
 
-    <string-array name="thirdQuestion3">
-        <item>2Which of the following are given the title of Pharaoh?</item>
-        <item>W2ho is left his invasions unfinished because of the disease.</item>
-        <item>Wh2ose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion3">
+        <item>Ո՞րն է երկրին ամենամոտ մոլորակը:</item>
+        <item>Սիրո և գեղեցկության աստվածուհին հռոմեական դիցաբանությունում:</item>
+        <item>Այդ մոլորակի վրա արևը ծագում է արևմուտքից:</item>
     </string-array>
-    <string-array name="thirdAnswers3">
-        <item>2Napoleon</item>
-        <item>H2annibal</item>
-        <item>Al2exander the Great</item>
-        <item>Att2ila</item>
+    <string-array name="schoolAnswers3">
+        <item>Վեներա</item>
+        <item>Մարս</item>
+        <item>Մերկուրի</item>
+        <item>Յուպիտեր</item>
     </string-array>
-    <string name="thirdAnswer3">Al2exander the Great</string>
+    <string name="schoolAnswer3">Վեներա</string>
+
+    <string-array name="schoolQuestion4">
+        <item>Ո՞ր երկրում է սկիզբ առել Ֆաշիզմը:</item>
+        <item>Ի՞նչ ծագում ունեն Ամերիգո Վեսպուչչին, Գալիլեո Գալիլեյը և Լեոնարդո դա Վինչին:</item>
+        <item>Պետություն, որի տարածքը քարտեզի վրա նման է երկարաճիտ կոշիկի:</item>
+    </string-array>
+    <string-array name="schoolAnswers4">
+        <item>Իտալիա</item>
+        <item>Գերմանիա</item>
+        <item>ԽՍՀՄ</item>
+        <item>Թուրքիա</item>
+    </string-array>
+    <string name="schoolAnswer4">Իտալիա</string>
+
+    <string-array name="schoolQuestion5">
+        <item>Ո՞ր երկրում են հորինվել արաբական թվերը:</item>
+        <item>Երբ Քրիստափոր Կոլումբոսը առաջին անգամ ոտք դրեց Ամերիկա մայրցամաք, նա կարծում էր, թե այդ երկրում է:</item>
+        <item>Այդ երկիրն ունի ավելի քան 1 միլիարդ բնակիչ:</item>
+    </string-array>
+    <string-array name="schoolAnswers5">
+        <item>Եգիպտոս</item>
+        <item>Հնդկաստան</item>
+        <item>Իսրայել</item>
+        <item>Հայաստան</item>
+    </string-array>
+    <string name="schoolAnswer5">Հնդկաստան</string>
+
+    <string-array name="schoolQuestion6">
+        <item>Ո՞ր կենդանու արյան ճնշումն է ամենամեծը:</item>
+        <item>Նշված կենդանիներից ո՞վ է ամենաարագը վազում:</item>
+        <item>Անգլերենում այդ կենդանիների խմբին անվանում են tower (աշտարակ):</item>
+    </string-array>
+    <string-array name="schoolAnswers6">
+        <item>Փիղ</item>
+        <item>Ընձուղտ</item>
+        <item>Կրիա</item>
+        <item>կատու</item>
+    </string-array>
+    <string name="schoolAnswer6">Ընձուղտ</string>
+
+    <string-array name="schoolQuestion7">
+        <item>Քանի՞ գույն ունի Լիբիայի դրոշը:</item>
+        <item>Քանի՞ հատ պարզ զույգ թիվ կա:</item>
+        <item>Ո՞ր տեղը պիտի գրավի մարզիկը, որպեսզի դառնա չեմպիոն:</item>
+    </string-array>
+    <string-array name="schoolAnswers7">
+        <item>1</item>
+        <item>10</item>
+        <item>2</item>
+        <item>անվերջ</item>
+    </string-array>
+    <string name="schoolAnswer7">1</string>
+
+    <string-array name="schoolQuestion8">
+        <item>Ինչպե՞ս է կոչվում մարդու պարանոցի առաջին ողը, որը պահում է գլուխը:</item>
+        <item>Հին Հունական դիցաբանությունում՝ հզոր տիտան, որն իր ուսերին պահում էր երկնակամարը:</item>
+        <item>Համանուն է Օվկիանոսներից մեկի հետ:</item>
+    </string-array>
+    <string-array name="schoolAnswers8">
+        <item>Հերակլես</item>
+        <item>Արիստոտել</item>
+        <item>Ատլանտ</item>
+        <item>Ուրանոս</item>
+    </string-array>
+    <string name="schoolAnswer8">Ատլանտ</string>
+
+    <string-array name="schoolQuestion9">
+        <item>Փորձարարական ֆիզիկայի հիմնադիրը:</item>
+        <item>Ու՞մ կյանքում խնձորը ճակատագրական դեր չի խաղացել:</item>
+        <item>Նրան Հռոմի կաթոլիկ եկեղեցին ձերբակալեց՝ մեղադրելով հերետիկոս լինելու մեջ, իր մի աշխատության համար, որն ապացուցում էր, որ երկիրը պտտվում է արևի շուրջ:</item>
+    </string-array>
+    <string-array name="schoolAnswers9">
+        <item>Նյուտոն</item>
+        <item>Ադամ</item>
+        <item>Վիլհելմ Տելլ</item>
+        <item>Գալիլեյ</item>
+    </string-array>
+    <string name="schoolAnswer9">Գալիլեյ</string>
+
+    <string-array name="schoolQuestion10">
+        <item>Ո՞ր պետության կապիտուլյացիայով ավարտվեց 2-րդ համաշխարհային պատերազմը:</item>
+        <item>Ո՞ր պետության դեմ է կիրառվել ատոմային զենք:</item>
+        <item>Այդ պետության տարածքը բաղկացած է 6852 կղզիներից:</item>
+    </string-array>
+    <string-array name="schoolAnswers10">
+        <item>Ճապոնիա</item>
+        <item>Գերմանիա</item>
+        <item>Իտալիա</item>
+        <item>ԽՍՀՄ</item>
+    </string-array>
+    <string name="schoolAnswer10">Ճապոնիա</string>
+
+    <string-array name="schoolQuestion11">
+        <item>Ո՞ր մետաղի անունով է կոչվում մթա 4000-3000թթ դարաշրջանը:</item>
+        <item>Ո՞ր մետաղից են պատրաստում փողային գործիքները:</item>
+        <item>Ո՞րն է բրոնզի հիմնական բաղադրիչը:</item>
+    </string-array>
+    <string-array name="schoolAnswers11">
+        <item>Երկաթ</item>
+        <item>Պղինձ</item>
+        <item>Ալյումին</item>
+        <item>Նիկել</item>
+    </string-array>
+    <string name="schoolAnswer11">Պղինձ</string>
+
+    <string-array name="schoolQuestion12">
+        <item>Քանի՞ ջերմային գոտի կա:</item>
+        <item>Քանի՞ անգամ պետք է ծալել թուղթը, որպեսզի այն ունենա 32 շերտ:</item>
+        <item>Մայրցամաքներից քանի՞սն են բնակելի:</item>
+    </string-array>
+    <string-array name="schoolAnswers12">
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+    <string name="schoolAnswer12">5</string>
+
+    <string-array name="schoolQuestion13">
+        <item> Որտե՞ղ անձրև չի գալիս:</item>
+        <item>Որտե՞ղ է բնակչությունն ավելի քիչ:</item>
+        <item>Ո՞րն է տարածքով ավելի մեծ:</item>
+    </string-array>
+    <string-array name="schoolAnswers13">
+        <item>Անտարկտիդա</item>
+        <item>Ավստրալիա</item>
+        <item>Սահարա անապատ</item>
+        <item>Գրենլանդիա</item>
+    </string-array>
+    <string name="schoolAnswer13">Անտարկտիդա</string>
+
+    <string-array name="schoolQuestion14">
+        <item>Ո՞ր թվաբանական գործողությունը պիտի լինի *-ի փոխարեն, որ հետևյալ արտահայտությունն ընդունի ամենամեծ արժեքը՝ 0.3*0.2:</item>
+        <item>Ո՞ր գործողության դեպքում երկու ամբողջ թվերի արդյունքը կարող է լինել ռացիոնալ:</item>
+        <item>Ո՞ր գործողությունն է անհնար, երբ անդամներից մեկը զրո է:</item>
+    </string-array>
+    <string-array name="schoolAnswers14">
+        <item>գումարում</item>
+        <item>բազմապատկում</item>
+        <item>հանում</item>
+        <item>բաժանում</item>
+    </string-array>
+    <string name="schoolAnswer14">բաժանում</string>
+
+    <string-array name="schoolQuestion15">
+        <item>Հնում hավատում էին, որ այդ կենդանիներն են իրենց վրա պահում աշխարհը:</item>
+        <item>Այդ կենդանին կարող է 3 ամիս չքնել, իսկ քնած ժամանակ կարող է խեղդվել ջրում:</item>
+        <item>Երկրագնդի ամենամեծ կենդանին:</item>
+    </string-array>
+    <string-array name="schoolAnswers15">
+        <item>կոկորդիլոս</item>
+        <item>արջ</item>
+        <item>կետ</item>
+        <item>ոզնի</item>
+    </string-array>
+    <string name="schoolAnswer15">կետ</string>
+
+    <string-array name="schoolQuestion16">
+        <item>Որտե՞ղ է հրատարակվել առաջին հանրագիտարանը:</item>
+        <item>Ո՞ր պետությունն է ԱՄՆ-ին նվիրել ազատության արձանը:</item>
+        <item>Բալետի, հեծանիվի, կինեմատոգրաֆիայի և կանացի զուգագուլպաների հայրենիքը:</item>
+    </string-array>
+    <string-array name="schoolAnswers16">
+        <item>Ֆրանսիա</item>
+        <item>Բրիտանիա</item>
+        <item>Գերմանիա</item>
+        <item>Իտալիա</item>
+    </string-array>
+    <string name="schoolAnswer16">Ֆրանսիա</string>
+
+    <string-array name="schoolQuestion17">
+        <item>Այդ քաղաքի նախկին անունը թարգմանաբար նշանակում է կեղտոտ</item>
+        <item>Այդտեղով հոսում է Սենա գետը</item>
+        <item>Էյֆելյան աշտարակը համարվում է նրա խորհրդանիշը</item>
+    </string-array>
+    <string-array name="schoolAnswers17">
+        <item>Լոնդոն</item>
+        <item>Փարիզ</item>
+        <item>Բեռլին</item>
+        <item>Մադրիդ</item>
+    </string-array>
+    <string name="schoolAnswer17">Փարիզ</string>
+
+    <string-array name="schoolQuestion18">
+        <item>Հին աշխարհում այն հայտնի էր որպես  Պոնտիական ծով</item>
+        <item>Թարգմանաբար այն նշանակում է անհյուրընկալ</item>
+        <item>Համանուն է գույներից մեկի հետ</item>
+    </string-array>
+    <string-array name="schoolAnswers18">
+        <item>Կասպից</item>
+        <item>Միջերկրական</item>
+        <item>Սեվ</item>
+        <item>Էգեյան</item>
+    </string-array>
+    <string name="schoolAnswer18">Սեվ</string>
+
+    <string-array name="schoolQuestion19">
+        <item>Այնտեղ այնքան է տարածված ձմեռային մարզաձևերը,որ նորածինների մասին ասում են,որ նրանք ծնվում են դահուկներով</item>
+        <item>Ֆրիտյոֆ Նանսենի հայրենիքը</item>
+        <item>Այդ երկիրը բառացի նշանակում է հյուսիսային ճանապարհ</item>
+    </string-array>
+    <string-array name="schoolAnswers19">
+        <item>Եգիպտոս</item>
+        <item>Ռուսաստան</item>
+        <item>Բուլղարիա</item>
+        <item>Նորվեգիա</item>
+    </string-array>
+    <string name="schoolAnswer19">Նորվեգիա</string>
+
+    <string-array name="schoolQuestion20">
+        <item>Այդ տարածքի հետ միասին Դանիան համարվում է Եվրոպայի ամենամեծ երկիրը</item>
+        <item>բառացի նշանակում է կանաչ երկիր</item>
+        <item>Կանադայի արևելյան հարևանը</item>
+    </string-array>
+    <string-array name="schoolAnswers20">
+        <item>Գրենլանդիա</item>
+        <item>Գրինվիչ</item>
+        <item>Ուելս</item>
+        <item>Հյուսիսային կղզիներ</item>
+    </string-array>
+    <string name="schoolAnswer20">Գրենլանդիա</string>
+
+
+
+
+    <!--..................................package 4......................................-->
+    <string name="package4UID">didyouknow</string>
+    <string name="package4title">Իսկ դուք գիտեք?</string>
+    <string name="package4description">Դուք հավանաբար չգիտեք այս փաստերը այն ամենի մասին ինչի մասին գիտեք</string>
+    <integer name="package4questionCount">20</integer>
+
+    <string-array name="didyouknowQuestion1">
+        <item>Ո՞ր մասնագիտության մեջ է օգտագոտծվում Բաղադրատոմսի ℞ սիմվոլը: </item>
+        <item>Մասնագիտությամբ ո՞վ էր պեպսի-կոլայի բաղադրատոմսի հեղինակը:</item>
+        <item>Նշվածներից ո՞վ ավելի լավ կհասկանա բժշկի ձեռագիրը:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers1">
+        <item>Կոսմետոլոգ</item>
+        <item>Դեղագործ</item>
+        <item>Խոհարար</item>
+        <item>Ալքիմիկ</item>
+    </string-array>
+    <string name="didyouknowAnswer1">Դեղագործ</string>
+
+    <string-array name="didyouknowQuestion2">
+        <item>Ո՞րն է թարգմանաբար նշանակում անապատի մարդ:</item>
+        <item>Նրանք ապրում են հիմնականում հյուսիսային Աֆրիկայում:</item>
+        <item>Խոսում են արաբերեն:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers2">
+        <item>Նեգր</item>
+        <item>Հոպման</item>
+        <item>Արաբ</item>
+        <item>Ապաչի</item>
+    </string-array>
+    <string name="didyouknowAnswer2">Արաբ</string>
+
+    <string-array name="didyouknowQuestion3">
+        <item>Ինչո՞վ է Ֆրիտյոֆ Նանսենը անցել Գրենլանդիայի արևելյան ափից մինչև արևմտյան ափ:</item>
+        <item>Դա լինում է Լեռնային, քայլքի և ջրային:</item>
+        <item>Հարմարանքներ, որոնք մեծացնում են հենման մակերեսը և թեթևացնում շարժումը ձյունապատ, ճահճոտ և ջրային տարածություններով։</item>
+    </string-array>
+    <string-array name="didyouknowAnswers3">
+        <item>Սահնակ</item>
+        <item>Դահուկներ</item>
+        <item>Չմուշկներ</item>
+        <item>Ամենագնաց</item>
+    </string-array>
+    <string name="didyouknowAnswer3">Դահուկներ</string>
+
+    <string-array name="didyouknowQuestion4">
+        <item>Ինչո՞վ էր զբաղվում Ժաննա  դ\'Արկը մինչև զորավար դառնալը:</item>
+        <item>Ինչո՞վ էր զբաղվում Պաուլո Կոելյոյի «Ալքիմիկ» գրքի հերոս Սանտիագոն մինչև ճամփորդության մեկնելը:</item>
+        <item>Ինչով էր զբաղվում Մովսես մարգարեն (Հին Կտակարան) Հոգևորական Յոֆորի մոտ:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers4">
+        <item>Հովվություն</item>
+        <item>Ոսկերչություն</item>
+        <item>Վար ու ցանք	</item>
+        <item>Կար ու ձև </item>
+    </string-array>
+    <string name="didyouknowAnswer4">Հովվություն</string>
+
+    <string-array name="didyouknowQuestion5">
+        <item>Թարգմանաբար ի՞նչ է նշանակում Օրկեստր բառը:</item>
+        <item>Ինչի՞ մասին է Ռեժիսյոր Դարրեն Արոնոֆսկիի «Սև կարապը» ֆիլմը:</item>
+        <item>Ի՞նչն էր Մայքլ Ջեքսոնի մոտ լավ ստացվում բացի երգելուց:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers5">
+        <item>Երգել</item>
+        <item>Պարել</item>
+        <item>Նվագել</item>
+        <item>Քայլել</item>
+    </string-array>
+    <string name="didyouknowAnswer5">Պարել</string>
+
+    <string-array name="didyouknowQuestion6">
+        <item>Ո՞ր երաժշտական գործիքն է պատկերված «Ազդանշան չի կարելի»ճանապարհային նշանի վրա:</item>
+        <item>Դա նվագելու համար երեք մատը բավական է:</item>
+        <item>Խճճված խողովակ:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers6">
+        <item>Սաքսոֆոն</item>
+        <item>Կլարնետ</item>
+        <item>Շեփոր</item>
+        <item>Թմբուկ</item>
+    </string-array>
+    <string name="didyouknowAnswer6">Շեփոր</string>
+
+    <string-array name="didyouknowQuestion7">
+        <item>Հյուսիսային Աֆրիկայում բնակվող բերբերական ժողովուրդ։</item>
+        <item>Վոլկս-Վագեն մակնիշի մեքենայի մոդել:</item>
+        <item>«Կոպտ»-ը սխալ պատասխան է:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers7">
+        <item>Իրաքյան Քուրդ </item>
+        <item>Կոպտ</item>
+        <item>Տուարեգ</item>
+        <item>Էսկիմոս</item>
+    </string-array>
+    <string name="didyouknowAnswer7">Տուարեգ</string>
+
+    <string-array name="didyouknowQuestion8">
+        <item>Ո՞ր երկրի անվանումից է առաջացել քիմիա բառը:</item>
+        <item>Երկիր, որ տեղակայված է երկու մայրցամաքների վրա:</item>
+        <item>Բուրգերի երկիրը:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers8">
+        <item>Բաբելոն</item>
+        <item>Լիբիա</item>
+        <item>Եթովպիա</item>
+        <item>Եգիպտոս</item>
+    </string-array>
+    <string name="didyouknowAnswer8">Եգիպտոս</string>
+
+    <string-array name="didyouknowQuestion9">
+        <item>Նշվածներից ո՞ր երկրի ֆուտբոլի առաջնություն չի անցկացվում:</item>
+        <item>Այդ երկրի գերբին պատկերված է առյուծ և ձի:</item>
+        <item>Ո՞ր երկիրն է կառավարվում թագուհու կողմից:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers9">
+        <item>Բուլղարիա</item>
+        <item>Մեծ Բրիտանիա</item>
+        <item>Սինգապուր</item>
+        <item>Չինաստան</item>
+    </string-array>
+    <string name="didyouknowAnswer9">Մեծ Բրիտանիա</string>
+
+    <string-array name="didyouknowQuestion10">
+        <item>Կայծակի հազվագյուտ տեսակ:</item>
+        <item>Գրաֆիկական օբյեկտ համակարգչային գրաֆիկայում:</item>
+        <item>նշված ըմպելիքներից ո՞րն է անգույն:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers10">
+        <item>Պեպսի </item>
+        <item>միրինդա</item>
+        <item>ֆանտա </item>
+        <item>սպրայթ</item>
+    </string-array>
+    <string name="didyouknowAnswer10">սպրայթ</string>
+
+    <string-array name="didyouknowQuestion11">
+        <item>Ո՞ր ակումբի դարպասապահն է եղել երգիչ Խուլիո Իգլեսիասը:</item>
+        <item>Ո՞րն է 20-րդ դարի լավագույն ֆուտբոլային ակումբը ըստ ՖԻՖԱ-ի:</item>
+        <item>Ո՞ր ակումբն է ամենաշատը հաղթել ՈՒԵՖԱ-ի Չեմպիոնների Լիգան:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers11">
+        <item>Բարսելոնա</item>
+        <item>Վալենսիա</item>
+        <item>Ռեալ</item>
+        <item>Մանչեսթեր Յունայթեդ</item>
+    </string-array>
+    <string name="didyouknowAnswer11">Ռեալ</string>
+
+    <string-array name="didyouknowQuestion12">
+        <item>Ի՞նչ են օգտագործում տիեզերագնացները թռիչքի և վայրէջքի ժամանակ:</item>
+        <item>Ի՞նչ է արտադրում այն ընկերությունը, որի կարգախոսն է «դարձնենք կյանքն ավելի լավը երեխաների համար»:</item>
+        <item>Դա առաջին անգամ սկսել է արտադրվել 1961թ-ին Պամպերս ընկերության կողմից:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers12">
+        <item>Տակդիր</item>
+        <item>Ձեռնաշղթա</item>
+        <item>կաթ</item>
+        <item>Ատամի մածուկ</item>
+    </string-array>
+    <string name="didyouknowAnswer12">Տակդիր</string>
+
+    <string-array name="didyouknowQuestion13">
+        <item>Օլիմպիական օղակներից ո՞րն է խորհրդանշում Ասիան:</item>
+        <item>Կենդանական աշխարհում ի՞նչ գույն արյուն չկա:</item>
+        <item>Ի՞նչ գույն կստացվի կարմիր և կանաչ գույների խառնուրդից:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers13">
+        <item>դեղին</item>
+        <item>կարմիր</item>
+        <item>երկնագույն</item>
+        <item>կանաչ</item>
+    </string-array>
+    <string name="didyouknowAnswer13">դեղին</string>
+
+    <string-array name="didyouknowQuestion14">
+        <item>Ո՞ր ամիսը աստծո անունով չէ:</item>
+        <item>«Նինձյա Կրիաները» մուլտֆիլմում ի՞նչ էր նինձյաների ընկեր լրագրող աղջկա անունը:</item>
+        <item>Ո՞ր ամսին են նշում կատակի միջազգային օրը:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers14">
+        <item>Մարտ</item>
+        <item>Ապրիլ</item>
+        <item>Հունիս</item>
+        <item>Հունվար</item>
+    </string-array>
+    <string name="didyouknowAnswer14">Ապրիլ</string>
+
+    <string-array name="didyouknowQuestion15">
+        <item>Ո՞ր մեքենայի անվանումն է թարգմանաբար նշանակում «Ժողովրդական ավտոմեքենա»:</item>
+        <item>Ո՞ր մեքենան չի կոչվել հեղինակի անունով:</item>
+        <item>Ո՞ր ընկերության նշանն է շրջանաձև:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers15">
+        <item>Renault</item>
+        <item>Ford</item>
+        <item>Rolls Royce</item>
+        <item>Volkswagen</item>
+    </string-array>
+    <string name="didyouknowAnswer15">Volkswagen</string>
+
+    <string-array name="didyouknowQuestion16">
+        <item>ԱՄՆ 42-րդ նախագահ Բիլ Քլինթոնը տիրապետում էր այդ գործիքին և երիտասարդ տարիներին նվագում էր հեռուստաշոուներում:</item>
+        <item>Ո՞ր երաժշտական գործիքն է կոչվում ստեղծողի անունով:</item>
+        <item>Նշվածներից ո՞րն է ավելի ջազային:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers16">
+        <item>Կլարնետ</item>
+        <item>Սաքսոֆոն</item>
+        <item>Հոբոյ</item>
+        <item>Ալտ</item>
+    </string-array>
+    <string name="didyouknowAnswer16">Սաքսոֆոն</string>
+
+    <string-array name="didyouknowQuestion17">
+        <item>Այդ բառը թարգմանաբար նշանակում է «մեծ տուն»:</item>
+        <item>Ովքե՞ր էին կրում արհեստական մորուք, որ խորհրդանշում էր իշխանություն և ուժ:</item>
+        <item>Ու՞մ դամբարաններն են եգիպտական բուրգերը:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers17">
+        <item>Փարավոն</item>
+        <item>Սվինքս</item>
+        <item>Մաֆիա</item>
+        <item>Կենգուրու</item>
+    </string-array>
+    <string name="didyouknowAnswer17">Փարավոն</string>
+
+    <string-array name="didyouknowQuestion18">
+        <item> Համաշխարհային արվեստի ո՞ր գլուխգործոցն է որմնանկար:</item>
+        <item>Ո՞րն է նկարել Լեոնարդո Դա Վինչին:</item>
+        <item>Ո՞ր նկարում ավելի շատ մարդ կա:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers18">
+        <item>Հիշողության Հարատևություն</item>
+        <item>Սիքստինյան Տիրամայրը</item>
+        <item>Իններորդ ալիք</item>
+        <item>Խորհրդավոր ընթրիքը</item>
+    </string-array>
+    <string name="didyouknowAnswer18">Սիքստինյան Տիրամայրը</string>
+
+    <string-array name="didyouknowQuestion19">
+        <item>Ո՞ր հայտնի թանգարանի անունն է նշանակում «Գայլերի Անտառ»</item>
+        <item>Ո՞ր թանգարանն է տեղակայված ամրոցում:</item>
+        <item>Աշխարհի ամենաշատ այցելու ունեցող թանգարանը:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers19">
+        <item>Պրադո</item>
+        <item>Էրմիտաժ</item>
+        <item>Լուվր</item>
+        <item>Տեյտ Մոդեռն</item>
+    </string-array>
+    <string name="didyouknowAnswer19">Լուվր</string>
+
+
+    <string-array name="didyouknowQuestion20">
+        <item>Ո՞ր մուլտֆիլմն է ստեղծվել Շեքսպիրի «Համլետ» ստեղծագործության հիման վրա:</item>
+        <item>Ո՞ր մուլտֆիլմում է հնչում «Ակունա Մատատա (առանց հոգսերի)» արտահայտությունը:</item>
+        <item>Ո՞ր մուլտֆիլմում են Վարազը և մանգուստը խնամում և մեծացնում ապագա թագավորին:</item>
+    </string-array>
+    <string-array name="didyouknowAnswers20">
+        <item>Առյուծ արքա</item>
+        <item>Սառցե դարաշրջան</item>
+        <item>Թոմ և Ջերի</item>
+        <item>Հերկուլես</item>
+    </string-array>
+    <string name="didyouknowAnswer20">Առյուծ արքա</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -57,94 +57,689 @@
 
 
     <!--..................................package 2......................................-->
-    <string name="package2UID">king</string>
-    <string name="package2title">King Ming</string>
-    <string name="package2description">same king question several times</string>
-    <integer name="package2questionCount">3</integer>
+    <string name="package2UID">animals</string>
+    <string name="package2title">Животные</string>
+    <string name="package2description">Животные и т.д.</string>
+    <integer name="package2questionCount">11</integer>
 
-    <string-array name="kingQuestion1">
-        <item>KWhich of the following are given the title of Pharaoh?</item>
-        <item>KWho is left his invasions unfinished because of the disease.</item>
-        <item>KWhose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion1">
+        <item>Какие острова называют  «Собачьими островами»?</item>
+        <item>Принадлежат Испании</item>
+        <item>Родина воробьев.</item>
     </string-array>
-    <string-array name="kingAnswers1">
-        <item>kNapoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers1">
+        <item>Гавайские </item>
+        <item>Филиппины</item>
+        <item>Канарские </item>
+        <item>Сэндвичи</item>
     </string-array>
-    <string name="kingAnswer1">Alexander the Great</string>
+    <string name="animalsAnswer1">Канарские </string>
 
-    <string-array name="kingQuestion2">
-        <item>k2Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion2">
+        <item>Что дарит влюбленный пингвин Хьюби своей возлюбленной в качестве свадебного подарка?</item>
+        <item>Что такое порфир?</item>
+        <item>Что из перечисленных  имеет неорганический состав?</item>
     </string-array>
-    <string-array name="kingAnswers2">
-        <item>k2Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers2">
+        <item>Рыба</item>
+        <item>Лед</item>
+        <item>Камень </item>
+        <item>Пингвин</item>
     </string-array>
-    <string name="kingAnswer2">Alexander the Great</string>
+    <string name="animalsAnswer2">Камень</string>
 
-    <string-array name="kingQuestion3">
-        <item>k3Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion3">
+        <item>Какое животное без поворота головы видит все вокруг себя со всех сторон.</item>
+        <item>Хищника видя животное может умереть от страха.</item>
+        <item>Кто из  перечисленных животных  прыгает  в 7 раз выше себя.</item>
     </string-array>
-    <string-array name="kingAnswers3">
-        <item>k3Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers3">
+        <item>Ящерица</item>
+        <item>Жираф</item>
+        <item>Кролик</item>
+        <item>Cерна</item>
     </string-array>
-    <string name="kingAnswer3">Alexander the Great</string>
+    <string name="animalsAnswer3">Кролик</string>
+
+    <string-array name="animalsQuestion4">
+        <item>В монгольских шахматах,  какую фигуру заменяет собака.</item>
+        <item>В начале партии  на доске этой фигуры 2</item>
+        <item>В классических   шахматах  может держать под ударом  до 27  позиций.</item>
+    </string-array>
+    <string-array name="animalsAnswers4">
+        <item>Пешка </item>
+        <item>Ладья</item>
+        <item>Лошадь </item>
+        <item>Королева</item>
+    </string-array>
+    <string name="animalsAnswer4">Королева</string>
+
+    <string-array name="animalsQuestion5">
+        <item>Длина языка какого животного равна длине его тела</item>
+        <item>Из указанных животных, которая ящерица.</item>
+        <item>Какое животное умеет менять окраску</item>
+    </string-array>
+    <string-array name="animalsAnswers5">
+        <item>Крокодил</item>
+        <item>Муравьед</item>
+        <item>Хамелеон</item>
+        <item>Анаконда</item>
+    </string-array>
+    <string name="animalsAnswer5">Хамелеон</string>
+
+    <string-array name="animalsQuestion6">
+        <item>Внешность какого животного имела  древнеегипетская  богиня плодородия Хеккета .</item>
+        <item>Какому животному построили памятник в Париже за услуги перед наукой.</item>
+        <item>Это животное, как правило, не ходит.</item>
+    </string-array>
+    <string-array name="animalsAnswers6">
+        <item>Крыса</item>
+        <item>Собака</item>
+        <item>Кролик</item>
+        <item>Лягушка</item>
+    </string-array>
+    <string name="animalsAnswer6">Лягушка</string>
+
+    <string-array name="animalsQuestion7">
+        <item>Кто помогает крокодилу чистить зубы</item>
+        <item>У кого температура тела выше, чем у человека</item>
+        <item>С каким наполнителем выбрать подушку</item>
+    </string-array>
+    <string-array name="animalsAnswers7">
+        <item>Птица </item>
+        <item>Змея</item>
+        <item>Рак </item>
+        <item>Бегемот</item>
+    </string-array>
+    <string name="animalsAnswer7">Птица</string>
+
+    <string-array name="animalsQuestion8">
+        <item>Назовите единственное хищное  животное, у которого 5 пальцев</item>
+        <item>Кто проводит всю зиму в спячке</item>
+        <item>Кто чаще всего встречается как игрушка</item>
+    </string-array>
+    <string-array name="animalsAnswers8">
+        <item>Лиса </item>
+        <item>Медведь</item>
+        <item>Лев </item>
+        <item>Тигр</item>
+    </string-array>
+    <string name="animalsAnswer8">Медведь</string>
+
+    <string-array name="animalsQuestion9">
+        <item>Алектриомантия  –  это древний способ гадания данным  животным.</item>
+        <item>Какое животное является символом Франции?</item>
+        <item>Какое животное может  заменить будильник?</item>
+    </string-array>
+    <string-array name="animalsAnswers9">
+        <item>Петух </item>
+        <item>Утка</item>
+        <item>Медведь </item>
+        <item>Лев</item>
+    </string-array>
+    <string name="animalsAnswer9">Петух </string>
+
+    <string-array name="animalsQuestion10">
+        <item>Что определяют чешуей рыбы?</item>
+        <item>Что определяют с помощью кругов в разрезе дерева</item>
+        <item>Что прибавляется у человека в день рождения.</item>
+    </string-array>
+    <string-array name="animalsAnswers10">
+        <item>Возраст </item>
+        <item>Рост </item>
+        <item>Здоровье </item>
+        <item>Пол</item>
+    </string-array>
+    <string name="animalsAnswer10">Возраст </string>
+
+    <string-array name="animalsQuestion11">
+        <item>какое животное сажает больше деревьев в течение всего года?</item>
+        <item>Кто из следующих грызуна.</item>
+        <item>Любит лазить по деревьям.</item>
+    </string-array>
+    <string-array name="animalsAnswers11">
+        <item>кролик</item>
+        <item>белка</item>
+        <item>слон</item>
+        <item>моль</item>
+    </string-array>
+    <string name="animalsAnswer11">белка</string>
+
+
 
     <!--..................................package 3......................................-->
-    <string name="package3UID">third</string>
-    <string name="package3title">Third</string>
-    <string name="package3description">same trial question several times</string>
-    <integer name="package3questionCount">3</integer>
+    <string name="package3UID">school</string>
+    <string name="package3title">Школа</string>
+    <string name="package3description">Вы имеете значительная часть этих вопросов в школе</string>
+    <integer name="package3questionCount">20</integer>
 
-    <string-array name="thirdQuestion1">
-        <item>Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion1">
+        <item>Какая столица находится на острове?</item>
+        <item>В  2013 г. британский журнал  Monocle  признал  этот город наиболее удобным для жизни.</item>
+        <item>В каком городе Дании находится статуя  Русалочки</item>
     </string-array>
-    <string-array name="thirdAnswers1">
-        <item>Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="schoolAnswers1">
+        <item>Копенгаген </item>
+        <item>Хельсинки</item>
+        <item>Осло </item>
+        <item>Палермо</item>
     </string-array>
-    <string name="thirdAnswer1">Alexander the Great</string>
+    <string name="schoolAnswer1">Копенгаген </string>
 
-    <string-array name="thirdQuestion2">
-        <item>Wh1ich of the following are given the title of Pharaoh?</item>
-        <item>Who1 is left his invasions unfinished because of the disease?</item>
-        <item>Whos1e teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion2">
+        <item> Кому из перечисленных    принадлежит звание Фараона.</item>
+        <item>Кто по причине болезни оставил  свои походы незавершенными.</item>
+        <item>Учителем кого был греческий философ Аристотель.</item>
     </string-array>
-    <string-array name="thirdAnswers2">
-        <item>Napol1eon</item>
-        <item>Hannib1al</item>
-        <item>Alexand1er the Great</item>
-        <item>Attila1</item>
+    <string-array name="schoolAnswers2">
+        <item>Наполеон </item>
+        <item>Ганнибал</item>
+        <item>Македонский </item>
+        <item>Аттила</item>
     </string-array>
-    <string name="thirdAnswer2">Alexand1er the Great</string>
+    <string name="schoolAnswer2">Македонский </string>
 
-    <string-array name="thirdQuestion3">
-        <item>2Which of the following are given the title of Pharaoh?</item>
-        <item>W2ho is left his invasions unfinished because of the disease.</item>
-        <item>Wh2ose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion3">
+        <item>Самая близкая планета к Земле</item>
+        <item>Богиня любви и красоты в древнегреческой мифологии</item>
+        <item>На этой планете Солнце восходит на западе.</item>
     </string-array>
-    <string-array name="thirdAnswers3">
-        <item>2Napoleon</item>
-        <item>H2annibal</item>
-        <item>Al2exander the Great</item>
-        <item>Att2ila</item>
+    <string-array name="schoolAnswers3">
+        <item>Венера </item>
+        <item>Марс</item>
+        <item>Меркурий </item>
+        <item>Юпитер</item>
     </string-array>
-    <string name="thirdAnswer3">Al2exander the Great</string>
+    <string name="schoolAnswer3">Венера </string>
+
+    <string-array name="schoolQuestion4">
+        <item>В какой стране зародился фашизм</item>
+        <item>Откуда  родом  Америго  Веспуччи, Галилео Галилей, Леонардо да Винчи</item>
+        <item>Страна, которая похожа на каблуках ботинок на карте.</item>
+    </string-array>
+    <string-array name="schoolAnswers4">
+        <item>Италия</item>
+        <item>Германия</item>
+        <item>СССР </item>
+        <item>Турция</item>
+    </string-array>
+    <string name="schoolAnswer4">Италия</string>
+
+    <string-array name="schoolQuestion5">
+        <item>В  какой стране придумали арабские цифры.</item>
+        <item>Впервые побывав  в Америке, Кристофер Колумб  думал, что попал в эту страну</item>
+        <item>Эта страна имеет более 1 миллиарда населения.</item>
+    </string-array>
+    <string-array name="schoolAnswers5">
+        <item>Египет </item>
+        <item>Индия</item>
+        <item>Израиль </item>
+        <item>Армения</item>
+    </string-array>
+    <string name="schoolAnswer5">Индия</string>
+
+    <string-array name="schoolQuestion6">
+        <item>Давление крови какого животного  самое высокое?</item>
+        <item>Кто из перечисленных животных бежит быстрее всех</item>
+        <item>В переводе на английский  группу этих животных  называют tower (башня)</item>
+    </string-array>
+    <string-array name="schoolAnswers6">
+        <item>Слон</item>
+        <item>Жираф</item>
+        <item>Черепаха</item>
+        <item>Кошка</item>
+    </string-array>
+    <string name="schoolAnswer6">Жираф</string>
+
+    <string-array name="schoolQuestion7">
+        <item>Сколько цветов на флаге Ливии.</item>
+        <item>Сколько существует простых  четных чисел.</item>
+        <item>Какое место должен занять спортсмен, чтобы стать чемпионом</item>
+    </string-array>
+    <string-array name="schoolAnswers7">
+        <item>1</item>
+        <item>10</item>
+        <item>2</item>
+        <item>бесконечность</item>
+    </string-array>
+    <string name="schoolAnswer7">1</string>
+
+    <string-array name="schoolQuestion8">
+        <item>Как называется первый шейный позвонок человека, который держит голову</item>
+        <item>В Древнегреческой мифологии  могущественный титан, на плечах которого держалась земля.</item>
+        <item>Одноименное название океана:</item>
+    </string-array>
+    <string-array name="schoolAnswers8">
+        <item>Геракл </item>
+        <item>Аристотель</item>
+        <item>Атлант </item>
+        <item>Уран</item>
+    </string-array>
+    <string name="schoolAnswer8">Атлант </string>
+
+    <string-array name="schoolQuestion9">
+        <item>Основатель экспериментальной физики</item>
+        <item>В жизни кого яблоко не сыграло решающей роли</item>
+        <item>Римская католическая церковь арестовала его, обвинив в том, что он  еретик, за   то произведение, которое доказывало, что Земля вращается вокруг Солнца.</item>
+    </string-array>
+    <string-array name="schoolAnswers9">
+        <item>Ньютон </item>
+        <item>Адам</item>
+        <item>Вильгельм Телль</item>
+        <item>Галилей</item>
+    </string-array>
+    <string name="schoolAnswer9">Галилей</string>
+
+    <string-array name="schoolQuestion10">
+        <item>Капитуляцией какого государства завершилась вторая мировая война.</item>
+        <item>Против какого государства применили ядерное оружие.</item>
+        <item>Территория этого государства состоит из 6852 островов.</item>
+    </string-array>
+    <string-array name="schoolAnswers10">
+        <item>Япония </item>
+        <item>Германия</item>
+        <item>Италия </item>
+        <item>СССР</item>
+    </string-array>
+    <string name="schoolAnswer10">Япония </string>
+
+    <string-array name="schoolQuestion11">
+        <item>Как называется эпоха  4000-3000 гг.  до н.э.</item>
+        <item>Из какого металла изготавливают духовые инструменты.</item>
+        <item>Что является основным компонентом бронзы.</item>
+    </string-array>
+    <string-array name="schoolAnswers11">
+        <item>Железо</item>
+        <item>Медь</item>
+        <item>Алюминий</item>
+        <item>Никель</item>
+    </string-array>
+    <string name="schoolAnswer11">Медь</string>
+
+    <string-array name="schoolQuestion12">
+        <item>Сколько тепловых зон существует</item>
+        <item>Сколько раз нужно сложить бумагу, чтобы получить 32 слоя.</item>
+        <item>Назовите число  населенных материков </item>
+    </string-array>
+    <string-array name="schoolAnswers12">
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+    <string name="schoolAnswer12">5</string>
+
+    <string-array name="schoolQuestion13">
+        <item>Где не бывает дождя?</item>
+        <item>Где самое малое количество населения?</item>
+        <item>Кто больше по территории?</item>
+    </string-array>
+    <string-array name="schoolAnswers13">
+        <item>Антарктида </item>
+        <item>Австралия</item>
+        <item>Пустыня Сахара</item>
+        <item>Гренландия</item>
+    </string-array>
+    <string name="schoolAnswer13">Антарктида </string>
+
+    <string-array name="schoolQuestion14">
+        <item>Какая арифметическая операция должна быть вместо  * , чтобы следующее выражение стало максимальным 0.3 * 0.2?</item>
+        <item>При каком действии результат над  двумя целыми числами может быть рациональным.</item>
+        <item>Какое действие невозможно, если один из  членов ноль. </item>
+    </string-array>
+    <string-array name="schoolAnswers14">
+        <item>Сложение </item>
+        <item>Умножение</item>
+        <item>Вычитание </item>
+        <item>Деление</item>
+    </string-array>
+    <string name="schoolAnswer14">Деление</string>
+
+    <string-array name="schoolQuestion15">
+        <item> В древности верили, что именно на этих животных держится мир.</item>
+        <item>Это животное может три месяца не спать, а во время сна утонуть в воде.</item>
+        <item>Самое большое животное на планете.</item>
+    </string-array>
+    <string-array name="schoolAnswers15">
+        <item>Крокодил </item>
+        <item>Медведь</item>
+        <item>Кит </item>
+        <item>Еж</item>
+    </string-array>
+    <string name="schoolAnswer15">Кит </string>
+
+    <string-array name="schoolQuestion16">
+        <item>Где  была опубликована первая энциклопедия</item>
+        <item>Какое государство подарило США статую свободы</item>
+        <item>Родина балета, велосипеда, кинематографии и женских колготок.</item>
+    </string-array>
+    <string-array name="schoolAnswers16">
+        <item>Франция</item>
+        <item>Великобритания</item>
+        <item>Германия  </item>
+        <item>Италия</item>
+    </string-array>
+    <string name="schoolAnswer16">Франция</string>
+
+    <string-array name="schoolQuestion17">
+        <item>Прежнее название этого города означает грязный</item>
+        <item>Оттуда течет река Сена</item>
+        <item>Эйфелева башня является его символом</item>
+    </string-array>
+    <string-array name="schoolAnswers17">
+        <item>Лондон</item>
+        <item>Париж</item>
+        <item>Берлин</item>
+        <item>Мадрид</item>
+    </string-array>
+    <string name="schoolAnswer17">Париж</string>
+
+    <string-array name="schoolQuestion18">
+        <item>В древние времена он был известен как Понтийское море</item>
+        <item>В переводе это означает негостеприимна</item>
+        <item>Одноименное название цвета</item>
+    </string-array>
+    <string-array name="schoolAnswers18">
+        <item>Каспийский</item>
+        <item>Средиземное</item>
+        <item>Черное</item>
+        <item>Эгейский</item>
+    </string-array>
+    <string name="schoolAnswer18">Черное</string>
+
+    <string-array name="schoolQuestion19">
+        <item>Там так популярны зимние виды спорта, что о новорожденных детях говорят, что они рождаются с лыжами</item>
+        <item>родина Фритьофа Нансена</item>
+        <item>в буквальном переводе означает северный маршрут</item>
+    </string-array>
+    <string-array name="schoolAnswers19">
+        <item>Египет</item>
+        <item>Россия</item>
+        <item>Болгария</item>
+        <item>Норвегия</item>
+    </string-array>
+    <string name="schoolAnswer19">Норвегия</string>
+
+    <string-array name="schoolQuestion20">
+        <item>вместе с этой землей Дания является самой большой страной в Европе</item>
+        <item>буквально означает зеленая земля</item>
+        <item>восточный сосед Канады</item>
+    </string-array>
+    <string-array name="schoolAnswers20">
+        <item>Гренландия</item>
+        <item>Гринвич</item>
+        <item>Уэльс</item>
+        <item>Северный остров</item>
+    </string-array>
+    <string name="schoolAnswer20">Гренландия</string>
+
+
+
+    <!--..................................package 4......................................-->
+    <string name="package4UID">didyouknow</string>
+    <string name="package4title">Вы знали?</string>
+    <string name="package4description"> вы вероятно не знали Факты, о вещах, которые вы знаете</string>
+    <integer name="package4questionCount">20</integer>
+
+    <string-array name="didyouknowQuestion1">
+        <item>В какой профессии используется символ рецепта Rx</item>
+        <item>Кем по профессии  являлся создатель рецепта  пепси- колы.</item>
+        <item>Кто  из перечисленных  может понять выписанный рецепт врача</item>
+    </string-array>
+    <string-array name="didyouknowAnswers1">
+        <item>Косметолог </item>
+        <item>Фармацевт</item>
+        <item>Повар </item>
+        <item>Алхимик</item>
+    </string-array>
+    <string name="didyouknowAnswer1">Фармацевт</string>
+
+    <string-array name="didyouknowQuestion2">
+        <item>Кто из перечисленных в переводе означает человек пустыни.</item>
+        <item>Они в основном живут в Северной Африке</item>
+        <item>Говорят по-арабски</item>
+    </string-array>
+    <string-array name="didyouknowAnswers2">
+        <item>Негр </item>
+        <item>Апачи</item>
+        <item>Араб </item>
+        <item>бедуин</item>
+    </string-array>
+    <string name="didyouknowAnswer2">Араб </string>
+
+    <string-array name="didyouknowQuestion3">
+        <item>На чем Фритьоф Нансен пересек  восточный берег  Гренландии до  западного берега.</item>
+        <item>Они могут быть горы, ходьба и вода.</item>
+        <item>Услуги, которые увеличивают площадь опоры и сделать движение на заснеженной, болотистой и водной поверхности легче.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers3">
+        <item>Санки </item>
+        <item>Лыжи</item>
+        <item>Коньки </item>
+        <item>Вездеход</item>
+    </string-array>
+    <string name="didyouknowAnswer3">Лыжи</string>
+
+    <string-array name="didyouknowQuestion4">
+        <item>Чем занималась Жанна д\'Арк  пред тем как стать полководцем.</item>
+        <item>Чем занимался  Сантьяго, герой книги Пауло Коэльо «Алхимик», перед началом путешествия.</item>
+        <item>Чем занимался пророк Моисей (Ветхий Завет) у священника Иофора.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers4">
+        <item>Пастушество </item>
+        <item>Ювелирство</item>
+        <item>Земледелие </item>
+        <item>Шитье</item>
+    </string-array>
+    <string name="didyouknowAnswer4">Пастушество </string>
+
+    <string-array name="didyouknowQuestion5">
+        <item>Что в переводе означает слово оркестр.</item>
+        <item>О чем фильм Даррена  Аронофски  «Черный Лебедь».</item>
+        <item>Майкла Джексон умел не только хорошо петь, но и … ?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers5">
+        <item>Петь </item>
+        <item>Танцевать</item>
+        <item>Играть </item>
+        <item>Ходить</item>
+    </string-array>
+    <string name="didyouknowAnswer5">Танцевать</string>
+
+    <string-array name="didyouknowQuestion6">
+        <item>Какой музыкальный инструмент изображен на дорожном  знаке  " Подача звукового сигнала запрещена "</item>
+        <item>Чтобы играть на этом инструменте достаточно всего лишь три пальца</item>
+        <item>Облигационный трубки.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers6">
+        <item>Саксофон </item>
+        <item>Кларнет</item>
+        <item>Труба </item>
+        <item>Барабан</item>
+    </string-array>
+    <string name="didyouknowAnswer6">Труба </string>
+
+    <string-array name="didyouknowQuestion7">
+        <item>В Северной Африке проживающий берберский народ.</item>
+        <item>Модель машины  Фольксваген.</item>
+        <item>Ответ на этот вопрос "Копт" неверна.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers7">
+        <item>Иракский курд </item>
+        <item>Копт</item>
+        <item>Туарег </item>
+        <item>Эскимос</item>
+    </string-array>
+    <string name="didyouknowAnswer7">Туарег </string>
+
+    <string-array name="didyouknowQuestion8">
+        <item>От названия какой страны произошло слово химия</item>
+        <item>Какая страна находится на двух континентах</item>
+        <item>Страна пирамид.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers8">
+        <item>Вавилон </item>
+        <item>Ливия </item>
+        <item>Эфиопия </item>
+        <item>Египет</item>
+    </string-array>
+    <string name="didyouknowAnswer8">Египет</string>
+
+    <string-array name="didyouknowQuestion9">
+        <item>Где  из перечисленных стран  не проходит чемпионат мира по футболу.</item>
+        <item>На гербе этой страны изображены лев и лошадь.</item>
+        <item>Какой страной управляет королева?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers9">
+        <item>Болгария </item>
+        <item>Великобритания</item>
+        <item>Сингапур </item>
+        <item>Китай</item>
+    </string-array>
+    <string name="didyouknowAnswer9">Великобритания</string>
+
+    <string-array name="didyouknowQuestion10">
+        <item>Редкая разновидность молнии.</item>
+        <item>Графический объект в компьютерной графике.</item>
+        <item>Какой  из перечисленных напитков  бесцветный.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers10">
+        <item>Пепси </item>
+        <item>Миринда</item>
+        <item>Фанта </item>
+        <item>Спрайт</item>
+    </string-array>
+    <string name="didyouknowAnswer10">Спрайт</string>
+
+    <string-array name="didyouknowQuestion11">
+        <item>Вратарем какого клуба был певец Хулио Иглесиас.</item>
+        <item>Лучший футбольный клуб 20 века по версии Фифа.</item>
+        <item>Kакой клуб больше всех выигрывал в лиге чемпионов УЕФА.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers11">
+        <item>Барселона </item>
+        <item>Валенсия</item>
+        <item>Реал </item>
+        <item>Манчестер Юнайтед</item>
+    </string-array>
+    <string name="didyouknowAnswer11">Реал </string>
+
+    <string-array name="didyouknowQuestion12">
+        <item>Что используют космонавты во время полета и посадки.</item>
+        <item>Что производит та компания, девиз которой «Сделаем мир лучше для детей»</item>
+        <item>С  1961г.  компания  Памперс  впервые стала выпускать: </item>
+    </string-array>
+    <string-array name="didyouknowAnswers12">
+        <item>Подгузник </item>
+        <item>Наручники</item>
+        <item>Молоко </item>
+        <item>Зубная паста</item>
+    </string-array>
+    <string name="didyouknowAnswer12">Подгузник </string>
+
+    <string-array name="didyouknowQuestion13">
+        <item>Из олимпийских кругов, какой  символизирует Азию.</item>
+        <item>Какого цвета крови не существует в животном мире.</item>
+        <item>Какой цвет получается при смешении красного и зеленого.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers13">
+        <item>Желтый </item>
+        <item>Красный</item>
+        <item>Голубой </item>
+        <item>Зеленый</item>
+    </string-array>
+    <string name="didyouknowAnswer13">Желтый </string>
+
+    <string-array name="didyouknowQuestion14">
+        <item> Какой месяц не связан с именем Бога.</item>
+        <item>В мультфильме «Черепашки Ниндзя» как звали  журналистку, подругу  черепашек</item>
+        <item>В каком месяце отмечают День смеха</item>
+    </string-array>
+    <string-array name="didyouknowAnswers14">
+        <item>Март </item>
+        <item>Апрель</item>
+        <item>Июнь</item>
+        <item>Январь</item>
+    </string-array>
+    <string name="didyouknowAnswer14">Апрель</string>
+
+    <string-array name="didyouknowQuestion15">
+        <item>Название какой машины переводится как  «Народная машина»</item>
+        <item>Какая машина не была названа в честь создателя.</item>
+        <item> У какой  компании  знак круглый?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers15">
+        <item>Renault</item>
+        <item>Rolls  Royse</item>
+        <item>Ford</item>
+        <item>Volkswagen</item>
+    </string-array>
+    <string name="didyouknowAnswer15">Volkswagen</string>
+
+    <string-array name="didyouknowQuestion16">
+        <item>42-ой президент США Бил Клинтон владел этим инструментом, а  в юношеские годы играл  на нем в телевизионном шоу.</item>
+        <item>Какой музыкальный инструмент называется именем создателя</item>
+        <item>Из указанных  музыкальных инструментов, который ближе к  джазу</item>
+    </string-array>
+    <string-array name="didyouknowAnswers16">
+        <item>Кларнет </item>
+        <item>Саксофон</item>
+        <item>Гобой</item>
+        <item>Альт</item>
+    </string-array>
+    <string name="didyouknowAnswer16">Саксофон</string>
+
+    <string-array name="didyouknowQuestion17">
+        <item>Это слово переводится как большой дом</item>
+        <item>Они носили искусственную бороду, это символизировало власть и силу.</item>
+        <item>Чьи мавзолеи в Египте</item>
+    </string-array>
+    <string-array name="didyouknowAnswers17">
+        <item>Фараон </item>
+        <item>Сфинкс</item>
+        <item>Мафия </item>
+        <item>Кенгуру</item>
+    </string-array>
+    <string name="didyouknowAnswer17">Фараон </string>
+
+    <string-array name="didyouknowQuestion18">
+        <item>В мировой культуре,  какой шедевр фреска</item>
+        <item> На какой картине больше людей.</item>
+        <item> Какая картина  принадлежит  кисти Леонардо да Винчи</item>
+    </string-array>
+    <string-array name="didyouknowAnswers18">
+        <item>Вечная память</item>
+        <item>Сикстинская Мадонна </item>
+        <item>Девятый вал</item>
+        <item>Тайная вечеря</item>
+    </string-array>
+    <string name="didyouknowAnswer18">Сикстинская Мадонна </string>
+
+    <string-array name="didyouknowQuestion19">
+        <item>Название  какого известного музея означает «Лес волков»</item>
+        <item>Какой музей находится в замке.</item>
+        <item>Музей, имеющий самое большое количество посетителей в мире.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers19">
+        <item>Прадо</item>
+        <item>Эрмитаж</item>
+        <item>Лувр</item>
+        <item>Тейт модерн</item>
+    </string-array>
+    <string name="didyouknowAnswer19">Лувр</string>
+
+    <string-array name="didyouknowQuestion20">
+        <item>Какой мультфильм был создан на основе произведения  Шекспира «Гамлет»</item>
+        <item>В каком мультфильме звучит выражение «Акуна Матата (без забот)»</item>
+        <item>В каком мультфильме кабан и мангуст вырастили и воспитали  будущего  короля</item>
+    </string-array>
+    <string-array name="didyouknowAnswers20">
+        <item>Король Лея</item>
+        <item>Ледниковый период</item>
+        <item>Том и Джерри</item>
+        <item>Геркулес</item>
+    </string-array>
+    <string name="didyouknowAnswer20">Король Лея</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

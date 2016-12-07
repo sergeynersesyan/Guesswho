@@ -70,94 +70,690 @@
 
 
     <!--..................................package 2......................................-->
-    <string name="package2UID">king</string>
-    <string name="package2title">King Ming</string>
-    <string name="package2description">same king question several times</string>
-    <integer name="package2questionCount">3</integer>
+    <string name="package2UID">animals</string>
+    <string name="package2title">Animals</string>
+    <string name="package2description">Animals and so on</string>
+    <integer name="package2questionCount">11</integer>
 
-    <string-array name="kingQuestion1">
-        <item>KWhich of the following are given the title of Pharaoh?</item>
-        <item>KWho is left his invasions unfinished because of the disease.</item>
-        <item>KWhose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion1">
+        <item>The name of which islands below means “Islands of the Dogs”?</item>
+        <item>They belong to Spain.</item>
+        <item>The homeland of sparrows.</item>
     </string-array>
-    <string-array name="kingAnswers1">
-        <item>kNapoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers1">
+        <item>The Hawaiian Islands</item>
+        <item>The Philippine Islands</item>
+        <item>The Canarie islands</item>
+        <item>The Sandwich Islands</item>
     </string-array>
-    <string name="kingAnswer1">Alexander the Great</string>
+    <string name="animalsAnswer1">The Canarie islands</string>
 
-    <string-array name="kingQuestion2">
-        <item>k2Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion2">
+        <item>What does a penguin in love give to the female to propose to her?</item>
+        <item>What is porphyry?</item>
+        <item>Which of the following has an inorganic compound?</item>
     </string-array>
-    <string-array name="kingAnswers2">
-        <item>k2Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers2">
+        <item>Fish</item>
+        <item>Ice</item>
+        <item>Stone</item>
+        <item>Penguin</item>
     </string-array>
-    <string name="kingAnswer2">Alexander the Great</string>
+    <string name="animalsAnswer2">Stone</string>
 
-    <string-array name="kingQuestion3">
-        <item>k3Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="animalsQuestion3">
+        <item>Which animal sees what’s going on behind it without turning its head?</item>
+        <item>Seeing a predator that animal can die of fear.</item>
+        <item>Which of the following animals can jump 7 times higher than its height?</item>
     </string-array>
-    <string-array name="kingAnswers3">
-        <item>k3Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+    <string-array name="animalsAnswers3">
+        <item>Lizard</item>
+        <item>Giraffe</item>
+        <item>Rabbit</item>
+        <item>Chamois</item>
     </string-array>
-    <string name="kingAnswer3">Alexander the Great</string>
+    <string name="animalsAnswer3">Rabbit</string>
+
+    <string-array name="animalsQuestion4">
+        <item>Which piece is replaced by a dog in the Mongolian chess?</item>
+        <item>At the beginning of the match there are 2 of these pieces on the chessboard.</item>
+        <item>In classic chess this piece can place up to 27 fields under threat.</item>
+    </string-array>
+    <string-array name="animalsAnswers4">
+        <item>Pawn</item>
+        <item>rook</item>
+        <item>Knight</item>
+        <item>queen</item>
+    </string-array>
+    <string name="animalsAnswer4">queen</string>
+
+    <string-array name="animalsQuestion5">
+        <item>The length of which animal’s tongue is equal to its body length?</item>
+        <item>Which of the following animals is a lizard?</item>
+        <item>Which animal is able to change its skin colour?</item>
+    </string-array>
+    <string-array name="animalsAnswers5">
+        <item>Crocodile</item>
+        <item>Anteater</item>
+        <item>Chameleon</item>
+        <item>Anaconda</item>
+    </string-array>
+    <string name="animalsAnswer5">Chameleon</string>
+
+    <string-array name="animalsQuestion6">
+        <item>Which animal did the Egyptian goddess of fertility Heqet resemble?</item>
+        <item>Which animal has a statue in France for its service to science?</item>
+        <item>As a rule, that animal does not walk.</item>
+    </string-array>
+    <string-array name="animalsAnswers6">
+        <item>Rat</item>
+        <item>Dog</item>
+        <item>Rabbit</item>
+        <item>Frog</item>
+    </string-array>
+    <string name="animalsAnswer6">Frog</string>
+
+    <string-array name="animalsQuestion7">
+        <item>Who helps the crocodile to clean the teeth?</item>
+        <item>Whose body temperature is higher than the human?</item>
+        <item>Whose body coverage is used in pillows?</item>
+    </string-array>
+    <string-array name="animalsAnswers7">
+        <item>Birds</item>
+        <item>Snakes</item>
+        <item>Crayfish</item>
+        <item>Hippopotamuses </item>
+    </string-array>
+    <string name="animalsAnswer7">Birds</string>
+
+    <string-array name="animalsQuestion8">
+        <item>Which is the only predator that has 5 fingers?</item>
+        <item>Which animal spends the winter sleeping?</item>
+        <item>Which animal is more often a toy?</item>
+    </string-array>
+    <string-array name="animalsAnswers8">
+        <item>Fox</item>
+        <item>Bear</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+    </string-array>
+    <string name="animalsAnswer8">Bear</string>
+
+    <string-array name="animalsQuestion9">
+        <item>Alectryomancy is an old form of divination with the help of one of the following animals.</item>
+        <item>Which animal is the symbol of France?</item>
+        <item>Which animal can substitute the alarm clock?</item>
+    </string-array>
+    <string-array name="animalsAnswers9">
+        <item>Rooster</item>
+        <item>Duck</item>
+        <item>Bear</item>
+        <item>Lion</item>
+    </string-array>
+    <string name="animalsAnswer9">Rooster</string>
+
+    <string-array name="animalsQuestion10">
+        <item>Which of the following can fish scales help to identify?</item>
+        <item>Which of the following can the lines on a tree trunk section identify?</item>
+        <item>Which of the following is increased on one’s birthday?</item>
+    </string-array>
+    <string-array name="animalsAnswers10">
+        <item>Age</item>
+        <item>Height</item>
+        <item>Health</item>
+        <item>Sex</item>
+    </string-array>
+    <string name="animalsAnswer10">Age</string>
+
+    <string-array name="animalsQuestion11">
+        <item>what animal is planting more trees throughout the year</item>
+        <item>Who of the following is rodent.</item>
+        <item>Loves to climb trees.</item>
+    </string-array>
+    <string-array name="animalsAnswers11">
+        <item>rabbit</item>
+        <item>squirrel</item>
+        <item>elephant</item>
+        <item>mole</item>
+    </string-array>
+    <string name="animalsAnswer11">squirrel</string>
+
 
     <!--..................................package 3......................................-->
-    <string name="package3UID">third</string>
-    <string name="package3title">Third</string>
-    <string name="package3description">same trial question several times</string>
-    <integer name="package3questionCount">3</integer>
+    <string name="package3UID">school</string>
+    <string name="package3title">School</string>
+    <string name="package3description">You passed at school the most part of this questions</string>
+    <integer name="package3questionCount">20</integer>
 
-    <string-array name="thirdQuestion1">
-        <item>Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion1">
+        <item>Which capital is situated on an island?</item>
+        <item>In 2013 the British magazine Monocle recognized this city as the most comfortable for living.</item>
+        <item>Which Danish city is the statue of The Little Mermaid located in?</item>
     </string-array>
-    <string-array name="thirdAnswers1">
+    <string-array name="schoolAnswers1">
+        <item>Copenhagen</item>
+        <item>Oslo</item>
+        <item>Palermo</item>
+        <item>Helsinki </item>
+    </string-array>
+    <string name="schoolAnswer1">Copenhagen</string>
+
+    <string-array name="schoolQuestion2">
+        <item>Who of the following was given the title of Pharaoh?</item>
+        <item>Who left his invasions unfinished because of a disease?</item>
+        <item>Whose teacher was the Greek philosopher Aristotle?</item>
+    </string-array>
+    <string-array name="schoolAnswers2">
         <item>Napoleon</item>
         <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+        <item>Alexander the Great </item>
+        <item>Atilla</item>
     </string-array>
-    <string name="thirdAnswer1">Alexander the Great</string>
+    <string name="schoolAnswer2">Alexander the Great</string>
 
-    <string-array name="thirdQuestion2">
-        <item>Wh1ich of the following are given the title of Pharaoh?</item>
-        <item>Who1 is left his invasions unfinished because of the disease?</item>
-        <item>Whos1e teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion3">
+        <item>Which planet is the closest to the Earth?</item>
+        <item>The Goddess of love and beauty in the Roman mythology.</item>
+        <item>The sun rises in the west on that planet.</item>
     </string-array>
-    <string-array name="thirdAnswers2">
-        <item>Napol1eon</item>
-        <item>Hannib1al</item>
-        <item>Alexand1er the Great</item>
-        <item>Attila1</item>
+    <string-array name="schoolAnswers3">
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Mercury </item>
+        <item>Jupiter</item>
     </string-array>
-    <string name="thirdAnswer2">Alexand1er the Great</string>
+    <string name="schoolAnswer3">Venus</string>
 
-    <string-array name="thirdQuestion3">
-        <item>2Which of the following are given the title of Pharaoh?</item>
-        <item>W2ho is left his invasions unfinished because of the disease.</item>
-        <item>Wh2ose teacher was the Greek philosopher Aristotle.</item>
+    <string-array name="schoolQuestion4">
+        <item>Which country did fascism originate in?</item>
+        <item>Where do Amerigo Vespucci, Galileo Galilei and Leonardo da Vinci come from?</item>
+        <item>A country, which resembles a heeled boot on the map.</item>
     </string-array>
-    <string-array name="thirdAnswers3">
-        <item>2Napoleon</item>
-        <item>H2annibal</item>
-        <item>Al2exander the Great</item>
-        <item>Att2ila</item>
+    <string-array name="schoolAnswers4">
+        <item>Italy</item>
+        <item>Germany</item>
+        <item>USSR</item>
+        <item>Turkey</item>
     </string-array>
-    <string name="thirdAnswer3">Al2exander the Great</string>
+    <string name="schoolAnswer4">Italy</string>
+
+    <string-array name="schoolQuestion5">
+        <item>Which country were the Arabic numerals invented in?</item>
+        <item>When Christopher Columbus first set foot on the American Continent he thought it was that country.</item>
+        <item>That country has more than 1 billion inhabitants. </item>
+    </string-array>
+    <string-array name="schoolAnswers5">
+        <item>Egypt</item>
+        <item>India</item>
+        <item>Israel </item>
+        <item>Armenia</item>
+    </string-array>
+    <string name="schoolAnswer5">India</string>
+
+    <string-array name="schoolQuestion6">
+        <item>Which animal has the highest blood pressure?</item>
+        <item>Which of the following animals runs the fastest?</item>
+        <item>The group that animals is called a tower in English.</item>
+    </string-array>
+    <string-array name="schoolAnswers6">
+        <item>Elephant</item>
+        <item>Giraffe</item>
+        <item>Turtle </item>
+        <item>Cat</item>
+    </string-array>
+    <string name="schoolAnswer6">Giraffe</string>
+
+    <string-array name="schoolQuestion7">
+        <item>How many colours does the flag of Libyan Arab Jamahiriya have?</item>
+        <item>How many even prime numbers are there?</item>
+        <item>Which place must a sportsman take to become a champion?</item>
+    </string-array>
+    <string-array name="schoolAnswers7">
+        <item>1</item>
+        <item>10</item>
+        <item>2</item>
+        <item>infinite</item>
+    </string-array>
+    <string name="schoolAnswer7">1</string>
+
+    <string-array name="schoolQuestion8">
+        <item>What is the name of the first cervical vertebra which hold the head?</item>
+        <item>A powerful titan in the Greek mythology who supported the weight of the world on his shoulders.</item>
+        <item>One of the oceans bears the same name.</item>
+    </string-array>
+    <string-array name="schoolAnswers8">
+        <item>Hercule</item>
+        <item>Aristotle</item>
+        <item>Atlas</item>
+        <item>Uran</item>
+    </string-array>
+    <string name="schoolAnswer8">Atlas</string>
+
+    <string-array name="schoolQuestion9">
+        <item>The founder of experimental Physics.</item>
+        <item>Whose life has not been crucially affected by an apple?</item>
+        <item>Catholic Church of Rome arrested him accusing him of being a heretic for his work which proved that the earth revolves around the sun. </item>
+    </string-array>
+    <string-array name="schoolAnswers9">
+        <item>Newton</item>
+        <item>Adam</item>
+        <item>William Tell</item>
+        <item>Galileo </item>
+    </string-array>
+    <string name="schoolAnswer9">Galileo </string>
+
+    <string-array name="schoolQuestion10">
+        <item>The capitulation of which country did World War II end with?</item>
+        <item>Which country was the nuclear weapon used against?</item>
+        <item>The territory of that country consists of 6852 islands.</item>
+    </string-array>
+    <string-array name="schoolAnswers10">
+        <item>Japan</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>USSR</item>
+    </string-array>
+    <string name="schoolAnswer10">Japan</string>
+
+    <string-array name="schoolQuestion11">
+        <item>Which metal is the era BC 40003000 named after?</item>
+        <item>Which metal are wind instruments made of?</item>
+        <item>Which is the main component of bronze?</item>
+    </string-array>
+    <string-array name="schoolAnswers11">
+        <item>Iron</item>
+        <item>Copper</item>
+        <item>Aluminum</item>
+        <item>Nickel </item>
+    </string-array>
+    <string name="schoolAnswer11">Copper</string>
+
+    <string-array name="schoolQuestion12">
+        <item>How many thermal zones are there?</item>
+        <item>How many times should paper be folded to have 32 layers?</item>
+        <item>How many continents are inhabited?</item>
+    </string-array>
+    <string-array name="schoolAnswers12">
+        <item>3</item>
+        <item>7</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+    <string name="schoolAnswer12">5</string>
+
+    <string-array name="schoolQuestion13">
+        <item>Which place has no rain?</item>
+        <item>Which place has less population?</item>
+        <item>Which place has the largest territory?</item>
+    </string-array>
+    <string-array name="schoolAnswers13">
+        <item>Antarctica </item>
+        <item>Australia</item>
+        <item>Sahara Desert </item>
+        <item>Greenland </item>
+    </string-array>
+    <string name="schoolAnswer13">Antarctica</string>
+
+    <string-array name="schoolQuestion14">
+        <item>Which arithmetic operation should substitute * so as 0.3*0.2 gets the greatest value?</item>
+        <item>In which case can the result of two integers be rational?</item>
+        <item>Which arithmetic operation is impossible if one of the components is 0?</item>
+    </string-array>
+    <string-array name="schoolAnswers14">
+        <item>Addition </item>
+        <item>Multiplication</item>
+        <item>Subtraction </item>
+        <item>Division</item>
+    </string-array>
+    <string name="schoolAnswer14">Division</string>
+
+    <string-array name="schoolQuestion15">
+        <item>In ancient times people believed that those animals supported the world on them.</item>
+        <item>That animal can stay awake for 3 months, and while asleep it can be drowned in water.</item>
+        <item>The biggest animal on earth.</item>
+    </string-array>
+    <string-array name="schoolAnswers15">
+        <item>Crocodile</item>
+        <item>Bear</item>
+        <item>Whale</item>
+        <item>Hedgehog </item>
+    </string-array>
+    <string name="schoolAnswer15">Whale</string>
+
+    <string-array name="schoolQuestion16">
+        <item>Where was the first encyclopedia published?</item>
+        <item>Which country gave the Statue of Liberty to the USA?</item>
+        <item>The homeland of ballet, bicycle, cinematography, and female tights.</item>
+    </string-array>
+    <string-array name="schoolAnswers16">
+        <item>France</item>
+        <item>Britain</item>
+        <item>Germany</item>
+        <item>Italy </item>
+    </string-array>
+    <string name="schoolAnswer16">France</string>
+
+    <string-array name="schoolQuestion17">
+        <item>Previous name of the city means dirty</item>
+        <item>From there flows the Seine river</item>
+        <item>Eiffel Tower is the symbol of his</item>
+    </string-array>
+    <string-array name="schoolAnswers17">
+        <item>London</item>
+        <item>Paris</item>
+        <item>Berlin</item>
+        <item>Madrid</item>
+    </string-array>
+    <string name="schoolAnswer17">Paris</string>
+
+    <string-array name="schoolQuestion18">
+        <item>In ancient times it was known as Pontic sea</item>
+        <item>Translated it means inhospitable</item>
+        <item>One of the colors bears the same name.</item>
+    </string-array>
+    <string-array name="schoolAnswers18">
+        <item>Caspian</item>
+        <item>Mediterranean</item>
+        <item>Black</item>
+        <item>Aegean</item>
+    </string-array>
+    <string name="schoolAnswer18">Black</string>
+
+    <string-array name="schoolQuestion19">
+        <item>There is so popular winter sports that newborns say that they are born with skis</item>
+        <item>Fridtjof Nansen homeland</item>
+        <item>The country literally means the northern way</item>
+    </string-array>
+    <string-array name="schoolAnswers19">
+        <item>Egypt</item>
+        <item>Russia</item>
+        <item>Bulgaria</item>
+        <item>Norway</item>
+    </string-array>
+    <string name="schoolAnswer19">Norway</string>
+
+    <string-array name="schoolQuestion20">
+        <item>With this area Denmark is the largest country in Europe</item>
+        <item>literally means green land</item>
+        <item>Canada\'s eastern neighbor</item>
+    </string-array>
+    <string-array name="schoolAnswers20">
+        <item>Greenland</item>
+        <item>Greenwich</item>
+        <item>Wales</item>
+        <item>North Island</item>
+    </string-array>
+    <string name="schoolAnswer20">Greenland</string>
+
+
+
+
+    <!--..................................package 4......................................-->
+    <string name="package4UID">didyouknow</string>
+    <string name="package4title">Did you know?</string>
+    <string name="package4description">Facts you probably didn\'t know, about things that you know</string>
+    <integer name="package4questionCount">20</integer>
+
+    <string-array name="didyouknowQuestion1">
+        <item>In which profession is the recipe ℞ symbol used?</item>
+        <item>What did the inventor of the Pepsi Cola recipe do?</item>
+        <item>Who of the following is able to understand a doctor’s prescription?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers1">
+        <item>Cosmetologist </item>
+        <item>Pharmacist</item>
+        <item>Cook</item>
+        <item>Alchemist </item>
+    </string-array>
+    <string name="didyouknowAnswer1">Pharmacist</string>
+
+    <string-array name="didyouknowQuestion2">
+        <item>Which word is translated as “the man of the desert”?</item>
+        <item>They mostly live in North Africa.</item>
+        <item>They speak Arabic</item>
+    </string-array>
+    <string-array name="didyouknowAnswers2">
+        <item>Negro</item>
+        <item>Hopman</item>
+        <item>Arab</item>
+        <item>Apache</item>
+    </string-array>
+    <string name="didyouknowAnswer2">Arab</string>
+
+    <string-array name="didyouknowQuestion3">
+        <item>What did Fridtjof Nansen use to get from the eastern shore of Greenland to the western? </item>
+        <item>They can be mountain, walking and water. </item>
+        <item>Facilities that increase area of fulcrum and make the movement on snowy, marshy and water surfaces easier.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers3">
+        <item>Sledges</item>
+        <item>Skis</item>
+        <item>Skates</item>
+        <item>Amphibious all-terrain vehicles</item>
+    </string-array>
+    <string name="didyouknowAnswer3">Skis</string>
+
+    <string-array name="didyouknowQuestion4">
+        <item>What did Joan of Arc do before becoming a military leader?</item>
+        <item>What did Santiago, the hero of Paulo Coelho’s “The Alchemist”, do before setting off on a journey?</item>
+        <item>What did Prophet Moses (Old Testament) do for religious leader Yophor?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers4">
+        <item>Shepherding</item>
+        <item>Goldsmithing</item>
+        <item>Plowing and sowing</item>
+        <item>Knitting </item>
+    </string-array>
+    <string name="didyouknowAnswer4">Shepherding</string>
+
+    <string-array name="didyouknowQuestion5">
+        <item>The word “Orchestra” is translated as… </item>
+        <item>What is director Darren Aronofsky’s “Black Swan” about?</item>
+        <item>What was Michael Jackson good at besides singing?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers5">
+        <item>Singing</item>
+        <item>Dancing</item>
+        <item>Playing (a musical instrument)</item>
+        <item>Walking</item>
+    </string-array>
+    <string name="didyouknowAnswer5">Dancing</string>
+
+    <string-array name="didyouknowQuestion6">
+        <item>Which musical instrument is depicted on the road sign “No honking”?</item>
+        <item>Three fingers are enough to play that musical instrument.</item>
+        <item>Twisted tube. </item>
+    </string-array>
+    <string-array name="didyouknowAnswers6">
+        <item>Saxophone</item>
+        <item>Clarinet</item>
+        <item>Trumpet </item>
+        <item>Drum</item>
+    </string-array>
+    <string name="didyouknowAnswer6">Trumpet </string>
+
+    <string-array name="didyouknowQuestion7">
+        <item>Berber people inhabiting North Africa.</item>
+        <item>A model of a Volkswagen car. </item>
+        <item>The answer “Copt” is incorrect.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers7">
+        <item>Iraqi Kurd </item>
+        <item>Copt</item>
+        <item>Tuareg </item>
+        <item>Eskimo</item>
+    </string-array>
+    <string name="didyouknowAnswer7">Tuareg </string>
+
+    <string-array name="didyouknowQuestion8">
+        <item>Which country’s name did the word “chemistry” originate from?</item>
+        <item>A country situated on two continents. </item>
+        <item>The country of pyramids. </item>
+    </string-array>
+    <string-array name="didyouknowAnswers8">
+        <item>Babel</item>
+        <item>Libya </item>
+        <item>Ethiopia </item>
+        <item>Egypt</item>
+    </string-array>
+    <string name="didyouknowAnswer8">Egypt</string>
+
+    <string-array name="didyouknowQuestion9">
+        <item>Which of the following countries does not have a football championship?</item>
+        <item>A lion and a horse are depicted on that county’s coat of arms.</item>
+        <item>Which country is governed by a queen?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers9">
+        <item>Bulgaria</item>
+        <item>Great Britain</item>
+        <item>Singapore </item>
+        <item>China</item>
+    </string-array>
+    <string name="didyouknowAnswer9">Great Britain</string>
+
+    <string-array name="didyouknowQuestion10">
+        <item>A rare type of lightning.</item>
+        <item>A graphical object in computer graphics.</item>
+        <item>Which of the following drinks is colourless?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers10">
+        <item>Pepsi</item>
+        <item>Mirinda</item>
+        <item>Fanta</item>
+        <item>Sprite </item>
+    </string-array>
+    <string name="didyouknowAnswer10">Sprite </string>
+
+    <string-array name="didyouknowQuestion11">
+        <item>A goalkeeper of which football club did singer Julio Iglesias use to be?</item>
+        <item>Which is the best football club of the 20th century according to FIFA?</item>
+        <item>Which football team has won UEFA Champions League most?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers11">
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Real</item>
+        <item>Manchester United</item>
+    </string-array>
+    <string name="didyouknowAnswer11">Real</string>
+
+    <string-array name="didyouknowQuestion12">
+        <item>What do astronauts use during takeoff and landing?</item>
+        <item>What does the company with the motto “Making life better for children” produce?</item>
+        <item>It was first produced in 1961 by the company Pampers. </item>
+    </string-array>
+    <string-array name="didyouknowAnswers12">
+        <item>Nappies</item>
+        <item>Handcuffs</item>
+        <item>Milk</item>
+        <item>Tooth paste</item>
+    </string-array>
+    <string name="didyouknowAnswer12">Nappies</string>
+
+    <string-array name="didyouknowQuestion13">
+        <item>Which of the Olympic circles represents Asia?</item>
+        <item>Which colour blood does not exist in the fauna?</item>
+        <item>Which colour will be the result of blending red and green?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers13">
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Blue	</item>
+        <item>Green</item>
+    </string-array>
+    <string name="didyouknowAnswer13">Yellow</string>
+
+    <string-array name="didyouknowQuestion14">
+        <item>Which month is not named after a god?</item>
+        <item>Which of the following is the name of the ninja turtles’ journalist friend in the animated movie “Ninja Turtles”?</item>
+        <item>Which month is All Fools\' Day celebrated in?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers14">
+        <item>March</item>
+        <item>April</item>
+        <item>June</item>
+        <item>January</item>
+    </string-array>
+    <string name="didyouknowAnswer14">April</string>
+
+    <string-array name="didyouknowQuestion15">
+        <item>The name of which car is translated as “People\'s Automobile”?</item>
+        <item>Which car has not been named after its inventor?</item>
+        <item>Which company has a round car sign?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers15">
+        <item>Renault</item>
+        <item>Ford</item>
+        <item>Rolls Royce </item>
+        <item>Volkswagen</item>
+    </string-array>
+    <string name="didyouknowAnswer15">Volkswagen</string>
+
+    <string-array name="didyouknowQuestion16">
+        <item>US 42nd President Bill Clinton could play that musical instrument and used to play it in TV shows in his youth.</item>
+        <item>Which musical instrument is named after its inventor?</item>
+        <item>Which of the following is a more jazz instrument?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers16">
+        <item>Clarinet</item>
+        <item>Saxophone</item>
+        <item>Oboe</item>
+        <item>Viola</item>
+    </string-array>
+    <string name="didyouknowAnswer16">Saxophone</string>
+
+    <string-array name="didyouknowQuestion17">
+        <item>That word is translated as “a big house”.</item>
+        <item>Who used to wear a beard which symbolized authority and power?</item>
+        <item>Whose tombs are Egyptian Pyramids?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers17">
+        <item>Pharaoh</item>
+        <item>Sphinx </item>
+        <item>Mafia</item>
+        <item>Kangaroo</item>
+    </string-array>
+    <string name="didyouknowAnswer17">Pharaoh</string>
+
+    <string-array name="didyouknowQuestion18">
+        <item>Which masterpiece of world art is a mural?</item>
+        <item>Which of the following was painted by Leonardo da Vinci?</item>
+        <item>Which of the following has more people?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers18">
+        <item>Persistence of Memory</item>
+        <item>Sistine Madonna</item>
+        <item>The Ninth Wave</item>
+        <item>The Last Supper</item>
+    </string-array>
+    <string name="didyouknowAnswer18">Sistine Madonna</string>
+
+    <string-array name="didyouknowQuestion19">
+        <item>The name of which famous museum means “forest of wolves”?</item>
+        <item>Which museum is situated in a castle?</item>
+        <item>The museum which has the most visitors in the world.</item>
+    </string-array>
+    <string-array name="didyouknowAnswers19">
+        <item>Prado</item>
+        <item>Hermitage</item>
+        <item>Louvre</item>
+        <item>Tate Modern</item>
+    </string-array>
+    <string name="didyouknowAnswer19">Louvre</string>
+
+    <string-array name="didyouknowQuestion20">
+        <item>Which animated movie is based on Shakespeare’s Hamlet?</item>
+        <item>Which animated movie can you come across the expression “Hakuna Matata” (No Worries) in?</item>
+        <item>Which animated movie do a boar and a mongoose take care and raise the future king in?</item>
+    </string-array>
+    <string-array name="didyouknowAnswers20">
+        <item>The Lion King	</item>
+        <item>Ice Age </item>
+        <item>Tom and Jerry</item>
+        <item>Hercules </item>
+    </string-array>
+    <string name="didyouknowAnswer20">The Lion King	</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
