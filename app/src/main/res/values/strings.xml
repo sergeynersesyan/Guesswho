@@ -1,23 +1,22 @@
 <resources>
-    <string name="app_name">Guess who</string>
+    <string name="app_name">Guess What</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="play">PLAY</string>
     <string name="about">About</string>
+    <string name="next">Next</string>
     <string name="title_activity_package_list_activity">package_list_activity</string>
     <string name="not_sure_text">Not Sure Yet</string>
     <string name="language">Language</string>
-    <string name="did_not_use">You did not use the following questions</string>
+    <string name="did_not_use">You did not use the following question</string>
+    <string name="did_not_use_plural">You did not use the following questions</string>
     <string name="congrats">Congratulations!</string>
     <string name="passed_text">You have passed this package</string>
     <string name="earned_coins">Earned Coins: </string>
     <string name="soon">New packages soon</string>
     <string name="soon_description">new questions will be available after few days</string>
-
-
-
-
+    <string name="unlock_text">Do you want unlock for %1$d coins?"</string>
 
 
     <string name="device_id_huawei">B7CC1787FBBB2325F801958021030C48</string>
@@ -25,55 +24,81 @@
 
     <!--..................................package 1......................................-->
     <string name="package1UID">trial</string>
-    <string name="package1title">Trial</string>
-    <string name="package1description">same trial question several times</string>
-    <integer name="package1questionCount">3</integer>
+    <string name="package1title">First pack</string>
+    <string name="package1description">simple questions. Answering you\'ll understand the principle of this game</string>
+    <integer name="package1questionCount">5</integer>
 
     <string-array name="trialQuestion1">
-        <item>Which of the following are given the title of Pharaoh?</item>
-        <item>Who is left his invasions unfinished because of the disease.</item>
-        <item>Whose teacher was the Greek philosopher Aristotle.</item>
+        <item>How much sub-question has each question in this game?</item>
+        <item>Which number breaks arithmetic progression - 2, 3, 6, 8 ?</item>
+        <item>Roman numeral III</item>
     </string-array>
     <string-array name="trialAnswers1">
-        <item>Napoleon</item>
-        <item>Hannibal</item>
-        <item>Alexander the Great</item>
-        <item>Attila</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>6</item>
     </string-array>
-    <string name="trialAnswer1">Alexander the Great</string>
+    <string name="trialAnswer1">3</string>
 
     <string-array name="trialQuestion2">
-        <item>Wh1ich of the following are given the title of Pharaoh?</item>
-        <item>Who1 is left his invasions unfinished because of the disease?</item>
-        <item>Whos1e teacher was the Greek philosopher Aristotle.</item>
+        <item>How many points you earn, if you give the correct answer to the first sub-question (without the use of the 2 nd, 3 rd)?</item>
+        <item>How many faces has a cube?</item>
+        <item>How many months in half year?</item>
     </string-array>
     <string-array name="trialAnswers2">
-        <item>Napol1eon</item>
-        <item>Hannib1al</item>
-        <item>Alexand1er the Great</item>
-        <item>Attila1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>10</item>
+        <item>12</item>
     </string-array>
-    <string name="trialAnswer2">Alexand1er the Great</string>
+    <string name="trialAnswer2">6</string>
 
     <string-array name="trialQuestion3">
-        <item>2Which of the following are given the title of Pharaoh?</item>
-        <item>W2ho is left his invasions unfinished because of the disease.</item>
-        <item>Wh2ose teacher was the Greek philosopher Aristotle.</item>
+        <item>How much reducing the cost of question by clicking on the button "Not sure yet"?</item>
+        <item>How many eyes does a hedgehog?</item>
+        <item>How many laps does the hour hand on the day?</item>
     </string-array>
     <string-array name="trialAnswers3">
-        <item>2Napoleon</item>
-        <item>H2annibal</item>
-        <item>Al2exander the Great</item>
-        <item>Att2ila</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
-    <string name="trialAnswer3">Al2exander the Great</string>
+    <string name="trialAnswer3">2</string>
+
+    <string-array name="trialQuestion4">
+        <item>How much reducing the cost of question at the wrong answer?</item>
+        <item>1+1*1*2+1=?</item>
+        <item>At least how many Mondays in June?</item>
+    </string-array>
+    <string-array name="trialAnswers4">
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="trialAnswer4">4</string>
+
+    <string-array name="trialQuestion5">
+        <item>You can use the collected points to unlock the doors</item>
+        <item>If you love this game, please rate us in Play Store</item>
+        <item>Play and learn!</item>
+    </string-array>
+    <string-array name="trialAnswers5">
+        <item>OK</item>
+        <item>OK</item>
+        <item>OK</item>
+        <item>OK</item>
+    </string-array>
+    <string name="trialAnswer5">OK</string>
 
 
     <!--..................................package 2......................................-->
     <string name="package2UID">animals</string>
     <string name="package2title">Animals</string>
     <string name="package2description">Animals and so on</string>
-    <integer name="package2questionCount">11</integer>
+    <integer name="package2questionCount">20</integer>
 
     <string-array name="animalsQuestion1">
         <item>The name of which islands below means “Islands of the Dogs”?</item>
@@ -218,6 +243,123 @@
     </string-array>
     <string name="animalsAnswer11">squirrel</string>
 
+    <string-array name="animalsQuestion12">
+        <item>China established the death penalty for killing that animal.</item>
+        <item>Predatory animal that feeds on plants.</item>
+        <item>His skin is not single-colored.</item>
+    </string-array>
+    <string-array name="animalsAnswers12">
+        <item>Whale</item>
+        <item>Elephant</item>
+        <item>Panda </item>
+        <item>Rhinoceros</item>
+    </string-array>
+    <string name="animalsAnswer12">Panda </string>
+
+    <string-array name="animalsQuestion13">
+        <item>Тhey laugh when tickled.</item>
+        <item>These animals two times greater than humans on earth.</item>
+        <item>Who will know first that the ship is sinking?</item>
+    </string-array>
+    <string-array name="animalsAnswers13">
+        <item>Rat </item>
+        <item>Parrot</item>
+        <item>Duck </item>
+        <item>Dog</item>
+    </string-array>
+    <string name="animalsAnswer13">Rat </string>
+
+    <string-array name="animalsQuestion14">
+        <item>Norway knighted that animal. </item>
+        <item>Lives also in Africa.</item>
+        <item>It is bird.</item>
+    </string-array>
+    <string-array name="animalsAnswers14">
+        <item>Panda </item>
+        <item>Kangaroo</item>
+        <item>Penguin </item>
+        <item>Cat</item>
+    </string-array>
+    <string name="animalsAnswer14">Penguin </string>
+
+    <string-array name="animalsQuestion15">
+        <item>During World War II, Americans tried to train that animal to drop bombs.</item>
+        <item>The only mammal that can fly.</item>
+        <item>What image of the animal has Batman?</item>
+    </string-array>
+    <string-array name="animalsAnswers15">
+        <item>Bat </item>
+        <item>Raven</item>
+        <item>Dove </item>
+        <item>Platypus</item>
+    </string-array>
+    <string name="animalsAnswer15">Bat </string>
+
+    <string-array name="animalsQuestion16">
+        <item>What could replace fingerprint for dogs?</item>
+        <item>Of these, there are lower temperatures than in other mentioned places in the body (humans).</item>
+        <item>That body part of elephant longer than tail.</item>
+    </string-array>
+    <string-array name="animalsAnswers16">
+        <item>Nose </item>
+        <item>Tongue</item>
+        <item>Tail </item>
+        <item>Lips</item>
+    </string-array>
+    <string name="animalsAnswer16">Nose </string>
+
+    <string-array name="animalsQuestion17">
+        <item>They never sleep.</item>
+        <item>They don’t have lungs.</item>
+        <item>They work hard.</item>
+    </string-array>
+    <string-array name="animalsAnswers17">
+        <item>Bat</item>
+        <item>Mouse</item>
+        <item>Bunny </item>
+        <item>Ant</item>
+    </string-array>
+    <string name="animalsAnswer17">Bunny </string>
+
+    <string-array name="animalsQuestion18">
+        <item>Which group of animals are called in English "Parliament"?</item>
+        <item>His eyes are fixed.</item>
+        <item>night-bird.</item>
+    </string-array>
+    <string-array name="animalsAnswers18">
+        <item>Owl </item>
+        <item>Chameleon</item>
+        <item>Lion </item>
+        <item>Cow</item>
+    </string-array>
+    <string name="animalsAnswer18">Owl </string>
+
+    <string-array name="animalsQuestion19">
+        <item> It gives off around 300 litre methane gas in a single day.</item>
+        <item>The meat of that animal is sold in the store.</item>
+        <item>The meat of that animal is sold in the store.</item>
+    </string-array>
+    <string-array name="animalsAnswers19">
+        <item>Cow </item>
+        <item>Elephant</item>
+        <item>Skunk </item>
+        <item>Anaconda</item>
+    </string-array>
+    <string name="animalsAnswer19">Cow </string>
+
+    <string-array name="animalsQuestion20">
+        <item>Which animal has 32 muscles in each ear?</item>
+        <item>Animal, who is mayor of Talkeetna, Alaska, since July 1997.</item>
+        <item>Whose ears are smaller?</item>
+    </string-array>
+    <string-array name="animalsAnswers20">
+        <item>Bunny </item>
+        <item>Donkey</item>
+        <item>Cat </item>
+        <item>Deer</item>
+    </string-array>
+    <string name="animalsAnswer20">Cat </string>
+
 
     <!--..................................package 3......................................-->
     <string name="package3UID">school</string>
@@ -356,7 +498,7 @@
     <string name="schoolAnswer10">Japan</string>
 
     <string-array name="schoolQuestion11">
-        <item>Which metal is the era BC 40003000 named after?</item>
+        <item>Which metal is the era BC 4000-3000 named after?</item>
         <item>Which metal are wind instruments made of?</item>
         <item>Which is the main component of bronze?</item>
     </string-array>
@@ -434,9 +576,9 @@
     <string name="schoolAnswer16">France</string>
 
     <string-array name="schoolQuestion17">
-        <item>Previous name of the city means dirty</item>
+        <item>Previous name of that city means dirty</item>
         <item>From there flows the Seine river</item>
-        <item>Eiffel Tower is the symbol of his</item>
+        <item>Eiffel Tower is the symbol of that city</item>
     </string-array>
     <string-array name="schoolAnswers17">
         <item>London</item>
@@ -447,8 +589,8 @@
     <string name="schoolAnswer17">Paris</string>
 
     <string-array name="schoolQuestion18">
-        <item>In ancient times it was known as Pontic sea</item>
-        <item>Translated it means inhospitable</item>
+        <item>In ancient times it was known as Pontic (inhospitable) sea</item>
+        <item>Between Europe and Asia</item>
         <item>One of the colors bears the same name.</item>
     </string-array>
     <string-array name="schoolAnswers18">
@@ -460,9 +602,9 @@
     <string name="schoolAnswer18">Black</string>
 
     <string-array name="schoolQuestion19">
-        <item>There is so popular winter sports that newborns say that they are born with skis</item>
+        <item>Winter sports are so popular there, that about newborn children say that they are born with skis</item>
         <item>Fridtjof Nansen homeland</item>
-        <item>The country literally means the northern way</item>
+        <item>The country name literally means the northern way</item>
     </string-array>
     <string-array name="schoolAnswers19">
         <item>Egypt</item>
@@ -474,7 +616,7 @@
 
     <string-array name="schoolQuestion20">
         <item>With this area Denmark is the largest country in Europe</item>
-        <item>literally means green land</item>
+        <item>Literally means green land</item>
         <item>Canada\'s eastern neighbor</item>
     </string-array>
     <string-array name="schoolAnswers20">
@@ -486,8 +628,6 @@
     <string name="schoolAnswer20">Greenland</string>
 
 
-
-
     <!--..................................package 4......................................-->
     <string name="package4UID">didyouknow</string>
     <string name="package4title">Did you know?</string>
@@ -495,7 +635,7 @@
     <integer name="package4questionCount">20</integer>
 
     <string-array name="didyouknowQuestion1">
-        <item>In which profession is the recipe ℞ symbol used?</item>
+        <item>In which profession is the recipe ℞ (Rx) symbol used?</item>
         <item>What did the inventor of the Pepsi Cola recipe do?</item>
         <item>Who of the following is able to understand a doctor’s prescription?</item>
     </string-array>
@@ -658,7 +798,7 @@
     <string-array name="didyouknowAnswers13">
         <item>Yellow</item>
         <item>Red</item>
-        <item>Blue	</item>
+        <item>Blue</item>
         <item>Green</item>
     </string-array>
     <string name="didyouknowAnswer13">Yellow</string>
@@ -726,7 +866,7 @@
         <item>The Ninth Wave</item>
         <item>The Last Supper</item>
     </string-array>
-    <string name="didyouknowAnswer18">Sistine Madonna</string>
+    <string name="didyouknowAnswer18">The Last Supper</string>
 
     <string-array name="didyouknowQuestion19">
         <item>The name of which famous museum means “forest of wolves”?</item>
@@ -752,10 +892,9 @@
         <item>Tom and Jerry</item>
         <item>Hercules </item>
     </string-array>
-    <string name="didyouknowAnswer20">The Lion King	</string>
+    <string name="didyouknowAnswer20">The Lion King</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

@@ -9,6 +9,7 @@ public class AppConstants {
     public static final int QUESTION_COST = 6;
     public static final int NOT_SURE_COST = 2;
     public static final int ERROR_COST = 4;
+    public static final int COINS_IN_START = 100;
 
     //Extras and Args
     public static final String PACKAGE_EXTRA = "extraQuestions";

@@ -88,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/text_distance_margin"
-                android:text="@string/did_not_use"
+                android:text="@string/did_not_use_plural"
                 android:textColor="@color/color_question_text"
                 android:textSize="12sp"
                 android:gravity="center"

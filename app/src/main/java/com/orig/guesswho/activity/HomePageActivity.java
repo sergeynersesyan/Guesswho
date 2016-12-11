@@ -29,6 +29,7 @@ public class HomePageActivity extends AppCompatActivity {
         Utils.setLocale(PreferenceController.getInstance(getApplicationContext()).getLanguage(), this);
         playButton = findViewById(R.id.play_button_linearLayout);
         settingsButton = findViewById(R.id.settings_button_linearLayout);
+        aboutButton = findViewById(R.id.about_button_linearLayout);
         headerText = (TextView)findViewById(R.id.header_text);
         Typeface typeFace= Typeface.createFromAsset(getAssets(), "fonts/aladin.ttf");
         headerText.setTypeface(typeFace);
@@ -46,6 +47,14 @@ public class HomePageActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(HomePageActivity.this, SettingsActivity.class);
                 startActivityForResult(intent, AppConstants.REQ_CODE_LANGUAGE);
+            }
+        });
+
+        aboutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomePageActivity.this, AboutActivity.class);
+                startActivity(intent);
             }
         });
     }

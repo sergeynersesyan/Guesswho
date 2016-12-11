@@ -176,6 +176,8 @@ public class QuestionActivity extends AppCompatActivity {
             textView.setTextSize(answerTextSize - 4);
         } else if (charCount > 9) {
             textView.setTextSize(answerTextSize - 2);
+        } else {
+            textView.setTextSize(answerTextSize);
         }
     }
 
@@ -198,7 +200,7 @@ public class QuestionActivity extends AppCompatActivity {
         for (TextView a : answer) {
             a.setOnClickListener(null);
         }
-        notSureButton.setText("NEXT");
+        notSureButton.setText(getString(R.string.next));
         finished = true;
         notSureButton.setOnClickListener(new View.OnClickListener() {
             @Override

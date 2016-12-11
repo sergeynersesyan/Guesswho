@@ -2,6 +2,7 @@ package com.orig.guesswho.block;
 
 import android.content.Context;
 
+import com.orig.guesswho.AppConstants;
 import com.orig.guesswho.QuestionHelper;
 
 import java.io.Serializable;
@@ -40,6 +41,6 @@ public class Package implements Serializable{
             newQuestion = QuestionHelper.getInstance().getQuestion(packageUID, i, context);
             questions.add(newQuestion);
         }
-        price = 3;//questionCount*AppConstants.QUESTION_COST;
+        price = questionCount* AppConstants.QUESTION_COST;
     }
 }

@@ -15,7 +15,6 @@ import com.orig.guesswho.Utils;
 
 public class SettingsActivity extends AppCompatActivity {
 
-    private TextView headerText;
     private RadioButton radioEN, radioRU, radioHY;
     boolean languageChanged;
 
@@ -24,7 +23,7 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        headerText = (TextView)findViewById(R.id.header_text);
+        TextView headerText = (TextView) findViewById(R.id.header_text);
         Typeface typeFace= Typeface.createFromAsset(getAssets(), "fonts/aladin.ttf");
         headerText.setTypeface(typeFace);
         radioEN = (RadioButton) findViewById(R.id.radio_en);

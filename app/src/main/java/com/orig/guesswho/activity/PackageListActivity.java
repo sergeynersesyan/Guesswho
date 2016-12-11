@@ -103,14 +103,14 @@ public class PackageListActivity extends AppCompatActivity {
         mAdView.setAdListener(new AdListener() {
         });
         AdRequest request = new AdRequest.Builder()
-                .addTestDevice(getString(R.string.device_id_huawei))  // An example device ID
+//                .addTestDevice(getString(R.string.device_id_huawei))  // An example device ID
                 .build();
         mAdView.loadAd(request);
     }
 
     private void initInterstitialAd() {
         mInterstitial = new InterstitialAd(this);
-        mInterstitial.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitial.setAdUnitId("ca-app-pub-2649177375880705/3166834679");
         mInterstitial.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
@@ -137,7 +137,7 @@ public class PackageListActivity extends AppCompatActivity {
         if (mInterstitial.isLoaded()) {
             mInterstitial.show();
         } else {
-            Toast.makeText(PackageListActivity.this, "Ad is not loaded yet", Toast.LENGTH_SHORT).show();
+            Toast.makeText(PackageListActivity.this, "No ad available right now", Toast.LENGTH_SHORT).show();
         }
     }
 

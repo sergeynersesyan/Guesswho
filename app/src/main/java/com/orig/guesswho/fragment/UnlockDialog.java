@@ -42,7 +42,7 @@ public class UnlockDialog extends DialogFragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         yesButton = (Button) view.findViewById(R.id.yes_button);
-        noButton = (Button) view.findViewById(R.id.no_button);
+//        noButton = (Button) view.findViewById(R.id.no_button);
         addCoinsButton = (Button) view.findViewById(R.id.add_coins_button);
         messageText = (TextView) view.findViewById(R.id.dialog_message);
     }
@@ -57,6 +57,7 @@ public class UnlockDialog extends DialogFragment {
         final PreferenceController prefController = PreferenceController.getInstance(getContext());
         totalCoins = prefController.getTotalCoins();
         getDialog().setTitle("Price:" + " " + aPackage.price);
+        messageText.setText(String.format(getString(R.string.unlock_text), aPackage.price));
 
         yesButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,14 +72,6 @@ public class UnlockDialog extends DialogFragment {
                     Toast.makeText(getContext(), "You have no enough coins", Toast.LENGTH_SHORT).show();
                 }
 
-            }
-        });
-
-
-        noButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().remove(UnlockDialog.this).commit();
             }
         });
 

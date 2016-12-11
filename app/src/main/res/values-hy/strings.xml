@@ -1,66 +1,101 @@
 <resources>
-    <string name="app_name">Guess who</string>
+    <string name="app_name">Guess what</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="play">Խաղալ</string>
     <string name="about">Մանրամասներ</string>
+    <string name="next">Հաջորդը</string>
     <string name="action_settings">Կարգավորում</string>
     <string name="title_activity_package_list_activity">package_list_activity</string>
     <string name="not_sure_text">Վստահ չեմ</string>
     <string name="language">Լեզուն</string>
+    <string name="did_not_use">Դուք չօգտագործեցիք հետևյալ հարցը</string>
+    <string name="did_not_use_plural">Դուք չօգտագործեցիք հետևյալ հարցերը</string>
+    <string name="congrats">Շնորհավորում ենք!</string>
+    <string name="passed_text">Դուք պատասխանեցիք բոլոր հարցերին</string>
+    <string name="earned_coins">Վաստակած միավորներ: </string>
+    <string name="soon">New packages soon</string>
+    <string name="soon_description">Մի քանի օրից կավելացվեն նոր հարցեր</string>
+    <string name="device_id_huawei">B7CC1787FBBB2325F801958021030C48</string>
+    <string name="unlock_text">Ցանկանու՞մ եք բացել դուռը %1$d միավորի դիմաց:</string>
 
 
     <!--..................................package 1......................................-->
     <string name="package1UID">trial</string>
     <string name="package1title">Trial</string>
-    <string name="package1description">same trial question several times</string>
-    <integer name="package1questionCount">3</integer>
+    <string name="package1description">Պարզ հարցեր, որոնց պատասխանելով դուք կհասկանաք խաղը</string>
+    <integer name="package1questionCount">5</integer>
 
     <string-array name="trialQuestion1">
-        <item>Նշվածներից ում են տվել Փարավոնի կոչում</item>
-        <item>Ով է կիսատ թողել իր արշավանքները հիվանդության պատճառով</item>
-        <item>Ում ուսուցիչն էր հույն փիլիսոփա Արիստոտելը</item>
+        <item>Քանի՞ ենթահարց է պարունակում այս խաղի յուրաքանչյուր հարցը</item>
+        <item>Ո՞ր թիվն է խախտում հետևյալ թվաբանական պրոգրեսսիան՝  2, 3, 6, 8</item>
+        <item>Ո՞ր թվի հռոմեական գրելաձևն է III</item>
     </string-array>
     <string-array name="trialAnswers1">
-        <item>Նեպոլեոն</item>
-        <item>Հանիբալ</item>
-        <item>Մակեդոնացի</item>
-        <item>Աթիլլա</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>6</item>
     </string-array>
-    <string name="trialAnswer1">Մակեդոնացի</string>
+    <string name="trialAnswer1">3</string>
 
     <string-array name="trialQuestion2">
-        <item>Որ մայրաքաղաքն է գտնվում կղզու վրա?</item>
-        <item>2013թ-ին Բրիտանական Monocle պարբերականը ճանաչել է այս քաղաքը որպես բնակվելու համար ամենահարմար քաղաք:</item>
-        <item>Դանիայի որ քաղաքում է գտնվում ջրահարսի արձանը?</item>
+        <item>Քանի՞ միավոր դուք կվաստակեք, եթե ճիշտ պատասխանեք առաջին ենթահարցին (առանց օգտվելու 2-րդ, 3-րդ ենթահարցերից)</item>
+        <item>Քանի՞ նիստ ունի խորանարդը</item>
+        <item>Քանի՞ ամիս ունի կես տարին</item>
     </string-array>
     <string-array name="trialAnswers2">
-        <item>Կոպենհագեն</item>
-        <item>Պալերմո</item>
-        <item>Օսլո</item>
-        <item>Հելսինկի</item>
+        <item>3</item>
+        <item>6</item>
+        <item>10</item>
+        <item>12</item>
     </string-array>
-    <string name="trialAnswer2">Կոպենհագեն</string>
+    <string name="trialAnswer2">6</string>
 
     <string-array name="trialQuestion3">
-        <item>Որ մասնագիտության մեջ է օգտագոտծվում Բաղադրատոմսի ℞ սիմվոլը?</item>
-        <item>Մասնագիտությամբ ով էր պեպսի-կոլայի բաղադրատոմսի հեղինակը?</item>
-        <item>Նշվածներից ով է ի վիճակի հասկանալ բժկի դուրս գրածը?</item>
+        <item>Քանի՞ միավորով է նվազում հարցի արժեքը, երբ դուք սեղմում եք «Վստահ չեմ» կոճակը</item>
+        <item>Քանի՞ աչք ունի ոզնին</item>
+        <item>Քանի՞ պտույտ է կատարում ժամացույցի փոքր սլաքը օրվա ընթացքում</item>
     </string-array>
     <string-array name="trialAnswers3">
-        <item>Կոսմետոլոգ</item>
-        <item>Դեղագործ</item>
-        <item>Խոհարար</item>
-        <item>Ալքիմիկ</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
-    <string name="trialAnswer3">Դեղագործ</string>
+    <string name="trialAnswer3">2</string>
 
+    <string-array name="trialQuestion4">
+        <item>Քանի՞ միավորով է նվազում հարցի արժեքը, երբ դուք տալիս եք սխալ պատասխան</item>
+        <item>1+1*1*2+1=?</item>
+        <item>Ամենաքիչը քանի՞ երկուշաբթի ունի հունիս ամիսը</item>
+    </string-array>
+    <string-array name="trialAnswers4">
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="trialAnswer4">4</string>
+
+    <string-array name="trialQuestion5">
+        <item>Ձեր կուտակած միավորները դուք կարող եք օգտագործել խաղում դռներ բացելու համար</item>
+        <item>Եթե հավանեք խաղը, գնահատեք մեզ Play Store-ում</item>
+        <item>Բացահայտեք և սովորեք՝ խաղալով այս խաղը</item>
+    </string-array>
+    <string-array name="trialAnswers5">
+        <item>Լավ</item>
+        <item>Լավ</item>
+        <item>Լավ</item>
+        <item>Լավ</item>
+    </string-array>
+    <string name="trialAnswer5">Լավ</string>
 
     <!--..................................package 2......................................-->
     <string name="package2UID">animals</string>
-    <string name="package2title">Կենդանիներ</string>
+    <string name="package2title">Animals</string>
     <string name="package2description">Կենդանիներ եւ այլն</string>
-    <integer name="package2questionCount">11</integer>
+    <integer name="package2questionCount">20</integer>
 
     <string-array name="animalsQuestion1">
         <item>Ո՞ր կղզիների անվանումն է նշանակում «Շների կղզիներ»:</item>
@@ -205,9 +240,127 @@
     </string-array>
     <string name="animalsAnswer11">սկյուռ</string>
 
+    <string-array name="animalsQuestion12">
+        <item>Այդ կենդանուն սպանելու համար չինաստանում սահմանված է մահապատիժ:</item>
+        <item>Ո՞ր գիշատիչ կենդանին է սնվում բույսերով:</item>
+        <item>Ո՞ր կենդանին միագույն չէ:</item>
+    </string-array>
+    <string-array name="animalsAnswers12">
+        <item>Փիղ </item>
+        <item>կետ</item>
+        <item>Պանդա </item>
+        <item>ռնգեղջյուր </item>
+    </string-array>
+    <string name="animalsAnswer12">Պանդա </string>
+
+    <string-array name="animalsQuestion13">
+        <item>Ո՞ր կենդանիներն են ծիծաղում երբ նրանց խուտուտ են տալիս:</item>
+        <item>Երկրի վրա այդ կենդանիները մարդկանցից 2 անգամ շատ են:</item>
+        <item>Ո՞վ է առաջինը իմանում, որ նավը խորտակվում է:</item>
+    </string-array>
+    <string-array name="animalsAnswers13">
+        <item>Առնետ</item>
+        <item>Թութակ</item>
+        <item>Շուն</item>
+        <item>Բադ</item>
+    </string-array>
+    <string name="animalsAnswer13">Առնետ</string>
+
+    <string-array name="animalsQuestion14">
+        <item>Ի՞նչ կենդանի է Նորվեգիայի ասպետ Նիլս Ուլաֆը</item>
+        <item>Որ կենդանին է ապրում նաև Աֆրիկայում</item>
+        <item>Ո՞րն է թռչուն</item>
+    </string-array>
+    <string-array name="animalsAnswers14">
+        <item>Պանդա</item>
+        <item>Կենգուրու</item>
+        <item>Պինգվին</item>
+        <item>Կատու</item>
+    </string-array>
+    <string name="animalsAnswer14">Պինգվին</string>
+
+    <string-array name="animalsQuestion15">
+        <item>Երկրորդ համաշխարհայինի ժամանակ ԱՄՆ-ում փորձում էին վարժեցնել այդ կենդանիներին՝ ռումբեր նետելու համար:</item>
+        <item>Միակ կաթնասունը, որ կարողանում է թռչել:</item>
+        <item>Ի՞նչ կենդանու կերպարանքով է հանդես գալիս Բեթմենը:</item>
+    </string-array>
+    <string-array name="animalsAnswers15">
+        <item>Չղջիկ</item>
+        <item>Ագռավ</item>
+        <item>Աղավնի</item>
+        <item>Բադակտուց</item>
+    </string-array>
+    <string name="animalsAnswer15">Չղջիկ</string>
+
+    <string-array name="animalsQuestion16">
+        <item> Շան մոտ ի՞նչը կարող է փոխարինել մատնահետքին</item>
+        <item>Նշվածներից ո՞րի ջերմաստիճանն է մյուսների համեմատ ավելի ցածր (մարդու մոտ):</item>
+        <item>Փղի մոտ այն պոչից երկար է:</item>
+    </string-array>
+    <string-array name="animalsAnswers16">
+        <item>Քիթ</item>
+        <item>Լեզու</item>
+        <item>Պոչ</item>
+        <item>Շուրթեր</item>
+    </string-array>
+    <string name="animalsAnswer16">Քիթ</string>
+
+    <string-array name="animalsQuestion17">
+        <item> Նրանք չեն քնում</item>
+        <item>Նրանք թոքեր չունեն</item>
+        <item>Նրանք շատ են աշխատում</item>
+    </string-array>
+    <string-array name="animalsAnswers17">
+        <item>Չղջիկ</item>
+        <item>Մուկ</item>
+        <item>Մրջյուն </item>
+        <item>Նապաստակ</item>
+    </string-array>
+    <string name="animalsAnswer17">Մրջյուն </string>
+
+    <string-array name="animalsQuestion18">
+        <item>Ո՞ր կենդանիների խմբին են անգլերեն անվանում «Պարլամենտ»:</item>
+        <item>Ո՞ր կենդանու աչքերն են անշարժ:</item>
+        <item>Ո՞ր կենդանու աչքերն են անշարժ:</item>
+    </string-array>
+    <string-array name="animalsAnswers18">
+        <item>Բու</item>
+        <item>Քամելեոն</item>
+        <item>Կով</item>
+        <item>Առյուծ</item>
+    </string-array>
+    <string name="animalsAnswer18">Բու</string>
+
+    <string-array name="animalsQuestion19">
+        <item>Այդ կենդանին օրական բաց է թողնում օրական 300լ մեթան:</item>
+        <item>Ո՞ր կենդանու միսն են վաճառում խանությում:</item>
+        <item>Ոչ միայն միսը, նաև կաթը:</item>
+    </string-array>
+    <string-array name="animalsAnswers19">
+        <item>Կով</item>
+        <item>Փիղ</item>
+        <item>Սկունս</item>
+        <item>Անակոնդա</item>
+    </string-array>
+    <string name="animalsAnswer19">Կով</string>
+
+    <string-array name="animalsQuestion20">
+        <item>Ո՞ր կենդանին ունի 32 մկան յուրաքանչյուր ականջին:</item>
+        <item>Ի՞նչ կենդանի է  Ամերիկայի Միացյալ Նահանգների Տալկիտնա քաղաքի պատվավոր քաղաքապետ Ստաբսը:</item>
+        <item>Ո՞ւմ ականջներն են ավելի փոքր:</item>
+    </string-array>
+    <string-array name="animalsAnswers20">
+        <item>Նապաստակ</item>
+        <item>Ավանակ</item>
+        <item>Կատու</item>
+        <item>Եղնիկ</item>
+    </string-array>
+    <string name="animalsAnswer20">Կատու</string>
+
+
     <!--..................................package 3......................................-->
     <string name="package3UID">school</string>
-    <string name="package3title">Դպրոց</string>
+    <string name="package3title">School</string>
     <string name="package3description">Դուք դպրոցում անցել եք այս հարցերի զգալի մասը</string>
     <integer name="package3questionCount">20</integer>
 
@@ -433,8 +586,8 @@
     <string name="schoolAnswer17">Փարիզ</string>
 
     <string-array name="schoolQuestion18">
-        <item>Հին աշխարհում այն հայտնի էր որպես  Պոնտիական ծով</item>
-        <item>Թարգմանաբար այն նշանակում է անհյուրընկալ</item>
+        <item>Հին աշխարհում այն հայտնի էր որպես Պոնտիական (անհյուրընկալ) ծով</item>
+        <item>Եվրոպայի և Ասիայի միջև</item>
         <item>Համանուն է գույներից մեկի հետ</item>
     </string-array>
     <string-array name="schoolAnswers18">
@@ -446,9 +599,9 @@
     <string name="schoolAnswer18">Սեվ</string>
 
     <string-array name="schoolQuestion19">
-        <item>Այնտեղ այնքան է տարածված ձմեռային մարզաձևերը,որ նորածինների մասին ասում են,որ նրանք ծնվում են դահուկներով</item>
+        <item>Այնտեղ այնքան են տարածված ձմեռային մարզաձևերը, որ նորածինների մասին ասում են, որ նրանք ծնվում են դահուկներով</item>
         <item>Ֆրիտյոֆ Նանսենի հայրենիքը</item>
-        <item>Այդ երկիրը բառացի նշանակում է հյուսիսային ճանապարհ</item>
+        <item>Այդ երկրի անվանումը բառացի նշանակում է հյուսիսային ճանապարհ</item>
     </string-array>
     <string-array name="schoolAnswers19">
         <item>Եգիպտոս</item>
@@ -460,7 +613,7 @@
 
     <string-array name="schoolQuestion20">
         <item>Այդ տարածքի հետ միասին Դանիան համարվում է Եվրոպայի ամենամեծ երկիրը</item>
-        <item>բառացի նշանակում է կանաչ երկիր</item>
+        <item>Բառացի նշանակում է կանաչ երկիր</item>
         <item>Կանադայի արևելյան հարևանը</item>
     </string-array>
     <string-array name="schoolAnswers20">
@@ -476,12 +629,12 @@
 
     <!--..................................package 4......................................-->
     <string name="package4UID">didyouknow</string>
-    <string name="package4title">Իսկ դուք գիտեք?</string>
-    <string name="package4description">Դուք հավանաբար չգիտեք այս փաստերը այն ամենի մասին ինչի մասին գիտեք</string>
+    <string name="package4title">Did you know?</string>
+    <string name="package4description">Փաստեր, որոնք հավանաբար չգիտեք, ձեզ ծանոթ բաների մասին</string>
     <integer name="package4questionCount">20</integer>
 
     <string-array name="didyouknowQuestion1">
-        <item>Ո՞ր մասնագիտության մեջ է օգտագոտծվում Բաղադրատոմսի ℞ սիմվոլը: </item>
+        <item>Ո՞ր մասնագիտության մեջ է օգտագոտծվում Բաղադրատոմսի ℞ (Rx) սիմվոլը: </item>
         <item>Մասնագիտությամբ ո՞վ էր պեպսի-կոլայի բաղադրատոմսի հեղինակը:</item>
         <item>Նշվածներից ո՞վ ավելի լավ կհասկանա բժշկի ձեռագիրը:</item>
     </string-array>
@@ -546,7 +699,7 @@
     <string name="didyouknowAnswer5">Պարել</string>
 
     <string-array name="didyouknowQuestion6">
-        <item>Ո՞ր երաժշտական գործիքն է պատկերված «Ազդանշան չի կարելի»ճանապարհային նշանի վրա:</item>
+        <item>Ո՞ր երաժշտական գործիքն է պատկերված «Ազդանշան չի կարելի» ճանապարհային նշանի վրա:</item>
         <item>Դա նվագելու համար երեք մատը բավական է:</item>
         <item>Խճճված խողովակ:</item>
     </string-array>
@@ -712,7 +865,7 @@
         <item>Իններորդ ալիք</item>
         <item>Խորհրդավոր ընթրիքը</item>
     </string-array>
-    <string name="didyouknowAnswer18">Սիքստինյան Տիրամայրը</string>
+    <string name="didyouknowAnswer18">Խորհրդավոր ընթրիքը</string>
 
     <string-array name="didyouknowQuestion19">
         <item>Ո՞ր հայտնի թանգարանի անունն է նշանակում «Գայլերի Անտառ»</item>
@@ -744,5 +897,4 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

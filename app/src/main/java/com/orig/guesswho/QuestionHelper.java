@@ -86,6 +86,12 @@ public class QuestionHelper {
         questionStringIDs.put("trialQuestion3", R.array.trialQuestion3);
         questionStringIDs.put("trialAnswers3", R.array.trialAnswers3);
         questionStringIDs.put("trialAnswer3", R.string.trialAnswer3);
+        questionStringIDs.put("trialQuestion4", R.array.trialQuestion4);
+        questionStringIDs.put("trialAnswers4", R.array.trialAnswers4);
+        questionStringIDs.put("trialAnswer4", R.string.trialAnswer4);
+        questionStringIDs.put("trialQuestion5", R.array.trialQuestion5);
+        questionStringIDs.put("trialAnswers5", R.array.trialAnswers5);
+        questionStringIDs.put("trialAnswer5", R.string.trialAnswer5);
 
         packageResourceIDs.put("package2UID", R.string.package2UID);
         packageResourceIDs.put("package2title", R.string.package2title);
@@ -124,6 +130,35 @@ public class QuestionHelper {
         questionStringIDs.put("animalsQuestion11", R.array.animalsQuestion11);
         questionStringIDs.put("animalsAnswers11", R.array.animalsAnswers11);
         questionStringIDs.put("animalsAnswer11", R.string.animalsAnswer11);
+        questionStringIDs.put("animalsQuestion12", R.array.animalsQuestion12);
+        questionStringIDs.put("animalsAnswers12", R.array.animalsAnswers12);
+        questionStringIDs.put("animalsAnswer12", R.string.animalsAnswer12);
+        questionStringIDs.put("animalsQuestion13", R.array.animalsQuestion13);
+        questionStringIDs.put("animalsAnswers13", R.array.animalsAnswers13);
+        questionStringIDs.put("animalsAnswer13", R.string.animalsAnswer13);
+        questionStringIDs.put("animalsQuestion14", R.array.animalsQuestion14);
+        questionStringIDs.put("animalsAnswers14", R.array.animalsAnswers14);
+        questionStringIDs.put("animalsAnswer14", R.string.animalsAnswer14);
+        questionStringIDs.put("animalsQuestion15", R.array.animalsQuestion15);
+        questionStringIDs.put("animalsAnswers15", R.array.animalsAnswers15);
+        questionStringIDs.put("animalsAnswer15", R.string.animalsAnswer15);
+        questionStringIDs.put("animalsQuestion16", R.array.animalsQuestion16);
+        questionStringIDs.put("animalsAnswers16", R.array.animalsAnswers16);
+        questionStringIDs.put("animalsAnswer16", R.string.animalsAnswer16);
+        questionStringIDs.put("animalsQuestion17", R.array.animalsQuestion17);
+        questionStringIDs.put("animalsAnswers17", R.array.animalsAnswers17);
+        questionStringIDs.put("animalsAnswer17", R.string.animalsAnswer17);
+        questionStringIDs.put("animalsQuestion18", R.array.animalsQuestion18);
+        questionStringIDs.put("animalsAnswers18", R.array.animalsAnswers18);
+        questionStringIDs.put("animalsAnswer18", R.string.animalsAnswer18);
+        questionStringIDs.put("animalsQuestion19", R.array.animalsQuestion19);
+        questionStringIDs.put("animalsAnswers19", R.array.animalsAnswers19);
+        questionStringIDs.put("animalsAnswer19", R.string.animalsAnswer19);
+        questionStringIDs.put("animalsQuestion20", R.array.animalsQuestion20);
+        questionStringIDs.put("animalsAnswers20", R.array.animalsAnswers20);
+        questionStringIDs.put("animalsAnswer20", R.string.animalsAnswer20);
+
+
 
 
 

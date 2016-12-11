@@ -41,7 +41,7 @@ public class PreferenceController {
     }
 
     public int getTotalCoins() {
-        return sPref.getInt(AppConstants.PREF_TOTAL_COINS, 0);
+        return sPref.getInt(AppConstants.PREF_TOTAL_COINS, AppConstants.COINS_IN_START);
     }
 
     public void setTotalCoins(int newValue) {
